@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>North Phoenix Pain Relief Center</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="stylesheets/application.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="javascripts/jquery-1.7.min.js"></script>
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="_xprecise/xprecise.min.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <div class="inner">
+          <a href="index.html" class="logo"></a>
+          <nav>
+            <ul>
+              <li><a href="about.html">Про TED</a></li>
+              <li><a href="treatments.html">Події</a></li>
+              <li><a href="become_a_patient.html">Приєднуйся!</a></li>
+              <li><a href="">Ми</a></li>
+              <li><a href="">Блог</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header><!-- #header-->
+      <div id="container">
+        <h2>Найближча подiя</h2>
+        <div class="timer">
+          <h1><span>TEDxKyiv 2013.</span> Таланти. Освiта. Развиток.</h1>
+          <p id="remaining_time"></p>
+          <script type="text/javascript">
+            function remaining_timeIn(){
+              var days=" днів "
+              var now = new Date();
+              var remaining_time = new Date("dec,20,2013,00:00:00");
+              var totalRemains = (remaining_time.getTime()-now.getTime());
+              if (totalRemains>1){
+                var RemainsSec=(parseInt(totalRemains/1000));
+                var RemainsFullDays=(parseInt(RemainsSec/(24*60*60)));
+                if (
+                RemainsFullDays==2 ||
+                RemainsFullDays==3 ||
+                RemainsFullDays==4 ||
+                RemainsFullDays==22 ||
+                RemainsFullDays==23 ||
+                RemainsFullDays==24 ||
+                RemainsFullDays==32 ||
+                RemainsFullDays==33 ||
+                RemainsFullDays==34
+                ) {
+                  days=" днi "
+                }
+                if (
+                RemainsFullDays==1 ||
+                RemainsFullDays==21 ||
+                RemainsFullDays==31
+                ) {
+                  days=" день "
+                }
+                var secInLastDay=RemainsSec-RemainsFullDays*24*3600;
+                var RemainsFullHours=(parseInt(secInLastDay/3600));
+                if (RemainsFullHours<10){RemainsFullHours="0"+RemainsFullHours};
+                var secInLastHour=secInLastDay-RemainsFullHours*3600;
+                var RemainsMinutes=(parseInt(secInLastHour/60));
+                if (RemainsMinutes<10){RemainsMinutes="0"+RemainsMinutes};
+                var lastSec=secInLastHour-RemainsMinutes*60;
+                if (lastSec<10){lastSec="0"+lastSec};
+                document.getElementById('remaining_time').innerHTML = "<p class='remaining_time'>"+RemainsFullDays+"<span>"+days+"</span>"+RemainsFullHours+":"+RemainsMinutes+":"+lastSec+"</p>";
+                setTimeout("remaining_timeIn()",10);
+              }
+              else {document.getElementById("remaining_time").innerHTML = "Конференцiя розпочалася!";}
+            }
+            remaining_timeIn();
+          </script>
+        </div>
+        <aside>
+
+        </aside>
+      </div><!-- #container-->
+      <div id="hfooter"></div>
+    </div><!-- #wrapper -->
+    <footer id="footer">
+      <div class="inner">
+        <div class="rights">
+          <p>Copyright ©2012 TEDxKyiv</p>
+          <p>Ця незалежна подія TEDx працює за ліцензією TED.<br/>Всі права захищені. <a href="">Права та конфіденційність.</a></p>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="">TEDxVinnytsia</a></li>
+            <li><a href="">TEDxOdessa</a></li>
+            <li><a href="">TEDxKharkiv</a></li>
+            <li><a href="">TEDxDonetsk</a></li>
+            <li><a href="" class="lang ua active"></a></li>
+            <li><a href="" class="lang uk"></a></li>
+          </ul>
+        </div>
+        <div class="social">
+          <p>Шукайте нас:</p>
+          <ul>
+            <li><a href="" class="ml"></a></li>
+            <li><a href="" class="fl"></a></li>
+            <li><a href="" class="tw"></a></li>
+            <li><a href="" class="fb"></a></li>
+            <li><a href="" class="yt"></a></li>
+            <li><a href="" class="rc"></a></li>
+          </ul>
+          <span>Developed by</span>
+          <a href="" class="babich"></a>
+          <a href="" class="pieoneers"></a>
+        </div>
+      </div>
+    </footer><!-- #footer -->
+  </body>
+</html>
