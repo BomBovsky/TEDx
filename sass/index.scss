@@ -31,20 +31,32 @@
       }
     }
   }
+  .timer {
+    height: 279px;
+  }
+  .about {
+    margin-bottom: 74px;
+  }
   .reporters {
+    z-index: 100;
+    padding-bottom: 85px;
+
+    .point_nav {
+      
+    }
     ul {
       li {
         display: inline-block;
-        padding: 10px 20px 10px 10px;
+        padding: 10px;
         width: 120px;
         height: 150px;
-        margin: 0 5px 0 8px;
+        margin: 0 11px;
 
         &:first-child {
-          margin: 0 5px 0 0;
+          margin: 0 11px 0 0;
         }
         &:last-child {
-          margin: 0 0 0 8px;
+          margin: 0 0 0 11px;
         }
 
         &:hover {
@@ -78,7 +90,7 @@
           }
         }
         .reporter_name {
-          font-size: 10.5pt;
+          font-size: 10pt;
           text-transform: uppercase;
           position: absolute;
           bottom: 0;
@@ -106,6 +118,7 @@
     p {
       font-size: 10.5pt;
       color: $gray;
+      line-height: 16pt;
     }
   }
   aside {
