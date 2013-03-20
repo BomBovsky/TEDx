@@ -1,15 +1,7 @@
-#container {
-  h2 {
-    text-transform: uppercase;
-    border-bottom: 1px solid rgba($gray,0.4);
-    color: $gray_d;
-    line-height: 21pt;
+#container.i{
+  min-height: 1800px;
 
-    &:first-child {
-      margin-bottom: 26px;
-    }
-  }
-  .timer {
+  .timer, article {
     width: 640px;
 
     h1 {
@@ -39,10 +31,161 @@
       }
     }
   }
+  .reporters {
+    ul {
+      li {
+        display: inline-block;
+        padding: 10px 20px 10px 10px;
+        width: 120px;
+        height: 150px;
+        margin: 0 5px 0 8px;
+
+        &:first-child {
+          margin: 0 5px 0 0;
+        }
+        &:last-child {
+          margin: 0 0 0 8px;
+        }
+
+        &:hover {
+          a {
+            visibility: visible;
+          }
+        }
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        .theme {
+          color: white;
+          text-decoration: none;
+          visibility: hidden;
+          background-color: rgba(red,0.8);
+          text-align: center;
+          height: 100px;
+          display: block;
+          font-size: 10pt;
+          font-weight: bold;
+          padding: 10px;
+
+           span {
+            text-transform: uppercase;
+            font-size: 7.5pt;
+            display: block;
+            margin-bottom: 10px;
+          }
+        }
+        .reporter_name {
+          font-size: 10.5pt;
+          text-transform: uppercase;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+  .news {
+    img {
+      float: left;
+      margin-right: 20px;
+    }
+    h3 {
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    span {
+      font-size: 10pt;
+      color: #999;
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+    p {
+      font-size: 10.5pt;
+      color: $gray;
+    }
+  }
   aside {
-    width: 334px;
-    right: 0;
+    width: 270px;
+    right: 40px;
     top: 0;
     position: absolute;
+
+    ul:first-child {
+      margin: 60px 0 54px 58px;
+
+      li {
+        margin-bottom: 10px;
+
+        a {
+          color: white;
+          display: block;
+          width: 166px;
+          background-color: rgba($gray,0.4);
+          padding: 15px;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+        &:first-child {
+          a {
+            background-color: red;
+          }
+        }
+      }
+    }
+    ul:nth-child(2) {
+      margin-bottom: 364px;
+
+      li {
+        margin-bottom: 23px;
+
+        a {
+          display: block;
+          background-image: url(../images/sprite_icon.png);
+          background-repeat: no-repeat;
+          padding-left: 85px;
+          text-decoration: none;
+          text-transform: uppercase;
+          height: 60px;
+          color: $gray_d;
+          font-size: 13.5pt;
+
+          span {
+            color: red;
+            text-transform: none;
+            font-size: 11pt;
+            line-height: 21pt;
+            display: block;
+          }
+          &.partners {
+            background-position: 0 0;
+          }
+          &.jobs {
+            background-position: 0 -83px;
+          }
+          &.reporter {
+            background-position: 0 -166px;
+          }
+        }
+      }
+    }
+    .play, .appstore {
+      display: block;
+      margin: 0 auto 15px;
+    }
+    .play {
+      width: 153px;
+      height: 49px;
+      background-image: url(../images/logo_play.png);
+    }
+    .appstore {
+      width: 133px;
+      height: 46px;
+      background-image: url(../images/logo_appstore.png);
+    }
   }
 }

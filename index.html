@@ -25,58 +25,81 @@
           </nav>
         </div>
       </header><!-- #header-->
-      <div id="container">
+      <div id="container" class="i">
         <h2>Найближча подiя</h2>
         <div class="timer">
           <h1><span>TEDxKyiv 2013.</span> Таланти. Освiта. Развиток.</h1>
           <p id="remaining_time"></p>
-          <script type="text/javascript">
-            function remaining_timeIn(){
-              var days=" днів "
-              var now = new Date();
-              var remaining_time = new Date("dec,20,2013,00:00:00");
-              var totalRemains = (remaining_time.getTime()-now.getTime());
-              if (totalRemains>1){
-                var RemainsSec=(parseInt(totalRemains/1000));
-                var RemainsFullDays=(parseInt(RemainsSec/(24*60*60)));
-                if (
-                RemainsFullDays==2 ||
-                RemainsFullDays==3 ||
-                RemainsFullDays==4 ||
-                RemainsFullDays==22 ||
-                RemainsFullDays==23 ||
-                RemainsFullDays==24 ||
-                RemainsFullDays==32 ||
-                RemainsFullDays==33 ||
-                RemainsFullDays==34
-                ) {
-                  days=" днi "
-                }
-                if (
-                RemainsFullDays==1 ||
-                RemainsFullDays==21 ||
-                RemainsFullDays==31
-                ) {
-                  days=" день "
-                }
-                var secInLastDay=RemainsSec-RemainsFullDays*24*3600;
-                var RemainsFullHours=(parseInt(secInLastDay/3600));
-                if (RemainsFullHours<10){RemainsFullHours="0"+RemainsFullHours};
-                var secInLastHour=secInLastDay-RemainsFullHours*3600;
-                var RemainsMinutes=(parseInt(secInLastHour/60));
-                if (RemainsMinutes<10){RemainsMinutes="0"+RemainsMinutes};
-                var lastSec=secInLastHour-RemainsMinutes*60;
-                if (lastSec<10){lastSec="0"+lastSec};
-                document.getElementById('remaining_time').innerHTML = "<p class='remaining_time'>"+RemainsFullDays+"<span>"+days+"</span>"+RemainsFullHours+":"+RemainsMinutes+":"+lastSec+"</p>";
-                setTimeout("remaining_timeIn()",10);
-              }
-              else {document.getElementById("remaining_time").innerHTML = "Конференцiя розпочалася!";}
-            }
-            remaining_timeIn();
-          </script>
+          <script type="text/javascript" src="javascripts/timer.js"></script>
         </div>
+        <article class="about">
+          <h2>Про <span>TEDx</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullam corper suscipit lobortis nisi ut aliquip ex ea commodo consequat. Duis te feugi facilisi. Duis autem dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit au gue duis dolore te feugat nulla facilisi.</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullam corper suscipit lobortis nisi ut aliquip ex ea commodo consequat. Duis te feugi facilisi. Duis autem dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit au gue duis dolore te feugat nulla facilisi.</p>
+        </article>
+        <div class="reporters">
+          <ul>
+            <li>
+              <img src="images/reporter_1.jpg">
+              <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+              <p class="reporter_name">Свiтлана Голубкiна</p>
+            </li>
+            <li>
+              <img src="images/reporter_1.jpg">
+              <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+              <p class="reporter_name">Свiтлана Голубкiна</p>
+            </li>
+            <li>
+              <img src="images/reporter_1.jpg">
+              <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+              <p class="reporter_name">Свiтлана Голубкiна</p>
+            </li>
+            <li>
+              <img src="images/reporter_1.jpg">
+              <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+              <p class="reporter_name">Свiтлана Голубкiна</p>
+            </li>
+            <li>
+              <img src="images/reporter_1.jpg">
+              <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+              <p class="reporter_name">Свiтлана Голубкiна</p>
+            </li>
+          </ul>
+        </div>
+        <article class="news">
+          <h2>Останнi новини</h2>
+          <ul>
+            <li>
+              <img src="images/news_1.jpg">
+              <h3>fdxgjsfgjsg</h3>
+              <span class="date">fghsjs</span>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullam corper suscipit lobortis nisi ut aliquip ex ea commodo consequat. Duis te feugi facilisi. Duis autem dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit au gue duis dolore te feugat nulla facilisi.</p>
+            </li>
+          </ul>
+        </article>
         <aside>
-
+          <div>
+            <ul>
+              <li><a href="">Придбати квиток</a></li>
+              <li><a href="">Про подiю</a></li>
+              <li><a href="">Прес - релiз</a></li>
+              <li><a href="">Акредитацiя</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Приєднуйся!</h2>
+            <ul>
+              <li><a class="partners" href=""><span>Пропозицiя</span>для партнерiв</a></li>
+              <li><a class="jobs" href=""><span>Вакансії</span>для волонтерiв</a></li>
+              <li><a class="reporter" href=""><span>Запропонуйте</span>доповiдача</a></li>
+            </ul>
+          </div>
+          <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Ftedxkyiv&amp;width=270&amp;height=558&amp;show_faces=true&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:270px; height:558px;" allowTransparency="true"></iframe>
+          <div>
+            <h2>Завантажуйте додаток <span>TEDx</span></h2>
+            <a class="play" href=""></a>
+            <a class="appstore" href=""></a>
+          </div>
         </aside>
       </div><!-- #container-->
       <div id="hfooter"></div>

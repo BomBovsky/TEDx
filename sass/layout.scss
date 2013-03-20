@@ -103,6 +103,25 @@ html {
         padding: 0 40px;
         margin: 0 auto;
       }
+      h2 {
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba($gray,0.4);
+        color: $gray_d;
+        line-height: 21pt;
+        margin-bottom: 20px;
+
+        span {
+          color: red;
+          text-transform: none;
+        }
+      }
+      article {
+        p {
+          font-size: 12pt;
+          line-height: 18pt;
+          margin-bottom: 24px;
+        }
+      }
       #hfooter {
         clear: both;
         height: 180px;
