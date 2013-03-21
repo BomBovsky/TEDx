@@ -1,5 +1,5 @@
 #container.i{
-  min-height: 1800px;
+  min-height: 1640px;
 
   .timer, article {
     width: 640px;
@@ -8,7 +8,8 @@
       font-size: 21pt;
       text-transform: uppercase;
       text-align: center;
-      margin-bottom: 25px;
+      margin-bottom: 33px;
+      top: 7px;
 
       span {
         color: red;
@@ -24,82 +25,140 @@
       opacity: 0.4;
       letter-spacing: 8px;
       text-align: center;
+      margin-bottom: 10px;
 
       span {
         font-size: 14pt;
         letter-spacing: 1px;
       }
     }
+    .subject {
+      text-align: center;
+      color: $gray;
+      text-transform: uppercase;
+      font-size: 10.5pt;
+    }
+    #remaining_time {
+      font-size: 75pt;
+      font-family: Bebas_Neue_Cyrillic;
+      color: $gray;
+      opacity: 0.4;
+      letter-spacing: 8px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
   }
   .timer {
     height: 279px;
   }
   .about {
-    margin-bottom: 74px;
+    margin-bottom: 82px;
+  }
+  .navi {
+    margin: 0 auto 46px;
+    width: 56px;
+    height: 12px;
+
+    a {
+      width:            12px;
+      height:           12px;
+      float:            left;
+      display:          block;
+      background:   url(../images/points.png) 0 0 no-repeat;
+      margin: 0 5px;
+
+      &.active {
+        cursor:default;
+        background-position: -21px 0px !important;
+        background-color: transparent !important;
+      }
+      &:first-child,{
+        margin: 0 5px 0 0;
+      }
+      &:last-child,{
+        margin: 0 0 0 5px;
+      }
+    }
   }
   .reporters {
     z-index: 100;
-    padding-bottom: 85px;
+    padding-bottom: 27px;
 
-    .point_nav {
-      
-    }
-    ul {
-      li {
-        display: inline-block;
-        padding: 10px;
-        width: 120px;
-        height: 150px;
-        margin: 0 11px;
+    .scrollable {
+      position:     relative;
+      overflow:   hidden;
+      width:        970px;
+      height:       170px;
+      margin:      0 auto;
 
-        &:first-child {
-          margin: 0 11px 0 0;
-        }
-        &:last-child {
-          margin: 0 0 0 11px;
-        }
+      .items {
+        width:       20000em;
+        position:    absolute;
 
-        &:hover {
-          a {
-            visibility: visible;
+        ul {
+          position:     relative;
+          float:         left;
+
+          li {
+            display: inline-block;
+            padding: 10px;
+            width: 120px;
+            height: 150px;
+            margin: 0 11px;
+
+            &:first-child {
+              margin: 0 11px 0 0;
+            }
+            &:last-child {
+              margin: 0 0 0 11px;
+            }
+
+            &:hover {
+              a {
+                visibility: visible;
+              }
+            }
+
+            img {
+              position: absolute;
+              top: 0;
+              left: 0;
+            }
+            .theme {
+              color: white;
+              text-decoration: none;
+              visibility: hidden;
+              background-color: rgba(red,0.8);
+              text-align: center;
+              height: 100px;
+              display: block;
+              font-size: 10pt;
+              font-weight: bold;
+              padding: 10px;
+
+               span {
+                text-transform: uppercase;
+                font-size: 7.5pt;
+                display: block;
+                margin-bottom: 10px;
+              }
+            }
+            .reporter_name {
+              font-size: 10pt;
+              text-transform: uppercase;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+            }
           }
-        }
-
-        img {
-          position: absolute;
-          top: 0;
-          left: 0;
-        }
-        .theme {
-          color: white;
-          text-decoration: none;
-          visibility: hidden;
-          background-color: rgba(red,0.8);
-          text-align: center;
-          height: 100px;
-          display: block;
-          font-size: 10pt;
-          font-weight: bold;
-          padding: 10px;
-
-           span {
-            text-transform: uppercase;
-            font-size: 7.5pt;
-            display: block;
-            margin-bottom: 10px;
-          }
-        }
-        .reporter_name {
-          font-size: 10pt;
-          text-transform: uppercase;
-          position: absolute;
-          bottom: 0;
-          left: 0;
         }
       }
     }
   }
   .news {
+    li {
+      margin-bottom: 60px;
+    }
     img {
       float: left;
       margin-right: 20px;
@@ -118,17 +177,17 @@
     p {
       font-size: 10.5pt;
       color: $gray;
-      line-height: 16pt;
+      line-height: 15pt;
     }
   }
   aside {
-    width: 270px;
+    width: 264px;
     right: 40px;
     top: 0;
     position: absolute;
 
     ul:first-child {
-      margin: 60px 0 54px 58px;
+      margin: 59px 0 63px 52px;
 
       li {
         margin-bottom: 10px;
@@ -138,7 +197,7 @@
           display: block;
           width: 166px;
           background-color: rgba($gray,0.4);
-          padding: 15px;
+          padding: 14px 15px;
           text-align: center;
           text-decoration: none;
           text-transform: uppercase;
