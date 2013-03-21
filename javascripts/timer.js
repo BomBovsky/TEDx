@@ -1,7 +1,7 @@
 function remaining_timeIn(){
   var days=" днів "
   var now = new Date();
-  var remaining_time = new Date("dec,20,2012,00:00:00");
+  var remaining_time = new Date("jun,20,2013,00:00:00");
   var totalRemains = (remaining_time.getTime()-now.getTime());
   if (totalRemains>1){
     var RemainsSec=(parseInt(totalRemains/1000));
@@ -37,6 +37,6 @@ function remaining_timeIn(){
     document.getElementById('remaining_time').innerHTML = "<p class='remaining_time'>"+RemainsFullDays+"<span>"+days+"</span>"+RemainsFullHours+":"+RemainsMinutes+":"+lastSec+"</p><p class='subject'>До початку конференції</p>";
     setTimeout("remaining_timeIn()",10);
   }
-  else {document.getElementById("remaining_time").innerHTML = "Конференцiя розпочалася!";}
+  else {document.getElementById('remaining_time').innerHTML = "<p class='it_has_begun'>Конференцiя розпочалася!</p>";}
 }
 remaining_timeIn();
