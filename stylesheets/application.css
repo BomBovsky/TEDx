@@ -108,7 +108,7 @@ html body input {
 /* line 42, ../sass/layout.scss */
 html body #wrapper {
   width: 1054px;
-  margin: 0 auto;
+  margin: 0 auto 180px;
   min-height: 100%;
   height: 100%;
   color: #666666;
@@ -198,19 +198,14 @@ html body #wrapper article p {
   line-height: 18pt;
   margin-bottom: 24px;
 }
-/* line 130, ../sass/layout.scss */
-html body #wrapper #hfooter {
-  clear: both;
-  height: 180px;
-}
-/* line 135, ../sass/layout.scss */
+/* line 131, ../sass/layout.scss */
 html body #footer {
   width: 1054px;
   margin: -180px auto 0;
   height: 180px;
   position: relative;
 }
-/* line 141, ../sass/layout.scss */
+/* line 137, ../sass/layout.scss */
 html body #footer .inner {
   width: 974px;
   top: 35px;
@@ -220,48 +215,48 @@ html body #footer .inner {
   color: #666666;
   font-size: 10pt;
 }
-/* line 150, ../sass/layout.scss */
+/* line 146, ../sass/layout.scss */
 html body #footer .inner p {
   margin-bottom: 21px;
   line-height: 12pt;
 }
-/* line 155, ../sass/layout.scss */
+/* line 151, ../sass/layout.scss */
 html body #footer .inner .rights, html body #footer .inner .links, html body #footer .inner .social {
   float: left;
 }
-/* line 158, ../sass/layout.scss */
+/* line 154, ../sass/layout.scss */
 html body #footer .inner .rights {
   margin-right: 90px;
 }
-/* line 161, ../sass/layout.scss */
+/* line 157, ../sass/layout.scss */
 html body #footer .inner .rights a {
   color: red;
 }
-/* line 165, ../sass/layout.scss */
+/* line 161, ../sass/layout.scss */
 html body #footer .inner .links {
   width: 250px;
   margin-right: 50px;
 }
-/* line 169, ../sass/layout.scss */
+/* line 165, ../sass/layout.scss */
 html body #footer .inner .links ul {
   top: 3px;
 }
-/* line 172, ../sass/layout.scss */
+/* line 168, ../sass/layout.scss */
 html body #footer .inner .links ul li {
   display: inline-block;
   width: 123px;
   margin-bottom: 11px;
 }
-/* line 177, ../sass/layout.scss */
+/* line 173, ../sass/layout.scss */
 html body #footer .inner .links ul li a {
   color: #666666;
 }
-/* line 181, ../sass/layout.scss */
+/* line 177, ../sass/layout.scss */
 html body #footer .inner .links ul li:nth-child(5), html body #footer .inner .links ul li:last-child {
   width: 32px;
   top: 7px;
 }
-/* line 185, ../sass/layout.scss */
+/* line 181, ../sass/layout.scss */
 html body #footer .inner .links ul li:nth-child(5) .lang, html body #footer .inner .links ul li:last-child .lang {
   display: block;
   background-image: url(../images/sprite_flag.png);
@@ -270,63 +265,63 @@ html body #footer .inner .links ul li:nth-child(5) .lang, html body #footer .inn
   height: 18px;
   opacity: 0.5;
 }
-/* line 193, ../sass/layout.scss */
+/* line 189, ../sass/layout.scss */
 html body #footer .inner .links ul li:nth-child(5) .lang.ua, html body #footer .inner .links ul li:last-child .lang.ua {
   background-position: 0 0;
 }
-/* line 196, ../sass/layout.scss */
+/* line 192, ../sass/layout.scss */
 html body #footer .inner .links ul li:nth-child(5) .lang.uk, html body #footer .inner .links ul li:last-child .lang.uk {
   background-position: -32px 0;
 }
-/* line 199, ../sass/layout.scss */
+/* line 195, ../sass/layout.scss */
 html body #footer .inner .links ul li:nth-child(5) .lang.active, html body #footer .inner .links ul li:nth-child(5) .lang:hover, html body #footer .inner .links ul li:last-child .lang.active, html body #footer .inner .links ul li:last-child .lang:hover {
   opacity: 1 !important;
 }
-/* line 209, ../sass/layout.scss */
+/* line 205, ../sass/layout.scss */
 html body #footer .inner .social p {
   margin-bottom: 5px;
 }
-/* line 212, ../sass/layout.scss */
+/* line 208, ../sass/layout.scss */
 html body #footer .inner .social ul {
   margin-bottom: 10px;
 }
-/* line 215, ../sass/layout.scss */
+/* line 211, ../sass/layout.scss */
 html body #footer .inner .social ul li {
   display: inline-block;
   margin-right: 5px;
 }
-/* line 219, ../sass/layout.scss */
+/* line 215, ../sass/layout.scss */
 html body #footer .inner .social ul li a {
   display: block;
   width: 28px;
   height: 28px;
   background-image: url(../images/sprite_social.png);
 }
-/* line 225, ../sass/layout.scss */
+/* line 221, ../sass/layout.scss */
 html body #footer .inner .social ul li a.ml {
   background-position: 0 0;
 }
-/* line 228, ../sass/layout.scss */
+/* line 224, ../sass/layout.scss */
 html body #footer .inner .social ul li a.fl {
   background-position: -37px 0;
 }
-/* line 231, ../sass/layout.scss */
+/* line 227, ../sass/layout.scss */
 html body #footer .inner .social ul li a.tw {
   background-position: -74px 0;
 }
-/* line 234, ../sass/layout.scss */
+/* line 230, ../sass/layout.scss */
 html body #footer .inner .social ul li a.fb {
   background-position: -111px 0;
 }
-/* line 237, ../sass/layout.scss */
+/* line 233, ../sass/layout.scss */
 html body #footer .inner .social ul li a.yt {
   background-position: -148px 0;
 }
-/* line 240, ../sass/layout.scss */
+/* line 236, ../sass/layout.scss */
 html body #footer .inner .social ul li a.rc {
   background-position: -185px 0;
 }
-/* line 246, ../sass/layout.scss */
+/* line 242, ../sass/layout.scss */
 html body #footer .inner .social span {
   color: #666666;
   opacity: 0.4;
@@ -334,7 +329,7 @@ html body #footer .inner .social span {
   font-size: 8pt;
   margin-bottom: 7px;
 }
-/* line 253, ../sass/layout.scss */
+/* line 249, ../sass/layout.scss */
 html body #footer .inner .social .babich {
   display: inline-block;
   width: 97px;
@@ -342,7 +337,7 @@ html body #footer .inner .social .babich {
   background: url(../images/logo_d.babych.png) no-repeat;
   margin-right: 24px;
 }
-/* line 260, ../sass/layout.scss */
+/* line 256, ../sass/layout.scss */
 html body #footer .inner .social .pieoneers {
   display: inline-block;
   width: 100px;
