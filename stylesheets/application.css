@@ -614,17 +614,21 @@ html body #footer .inner .social .pieoneers {
   background-position: 0 -166px;
 }
 /* line 250, ../sass/index.scss */
+#container.i aside iframe {
+  margin-bottom: 20px;
+}
+/* line 253, ../sass/index.scss */
 #container.i aside .play, #container.i aside .appstore {
   display: block;
   margin: 0 auto 15px;
 }
-/* line 254, ../sass/index.scss */
+/* line 257, ../sass/index.scss */
 #container.i aside .play {
   width: 153px;
   height: 49px;
   background-image: url(../images/logo_play.png);
 }
-/* line 259, ../sass/index.scss */
+/* line 262, ../sass/index.scss */
 #container.i aside .appstore {
   width: 133px;
   height: 46px;
