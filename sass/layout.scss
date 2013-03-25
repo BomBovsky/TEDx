@@ -66,35 +66,68 @@ html {
             display: inline-block;
             position: absolute;
             cursor: default;
-            top: 50px;
-            margin-left: 136px;
+            top: 52px;
+            margin-left: 120px;
 
             ul {
               li {
-                margin: 0 29px;
-                padding-right: 10px;
-                background: url(../images/dropdown_arrow.png) no-repeat 100% 50%;
+                margin: 0 19px;               
                 display: inline-block;
+                vertical-align: top;
+                z-index: 100;
+                width: auto;
 
                 &:first-child {
                   margin-left: 0;
                 }
                 &:last-child {
                   margin-right: 0;
-                  padding-right: 0;
-                  background: none;
+
+                  a, a:hover {
+                    background-image: none;
+                  }
                 }
                 a {
                   color: $gray;
                   text-decoration: none;
                   text-transform: uppercase;
-
-                  &:hover {
-                    text-decoration: underline;
+                  padding: 14px 15px;
+                  background: url(../images/dropdown_arrow_g.png) no-repeat 100% 50%;                  
+                }
+                &:hover {
+                  a {
+                    background-color: red;
+                    color: white;
+                    background-image: url(../images/dropdown_arrow_w.png)
                   }
                 }
               }
             }
+          }
+          nav ul ul {
+            display: none;
+            position: absolute;          
+            margin-top: 15px;
+            background: red !important;
+
+            li {    
+              margin: 0 0 15px 0;
+              display: block;
+              min-width: 180px;
+              a {
+                color: rgba(white,0.5) !important;
+                background: red !important;
+                padding: 0 15px;
+              }
+              &:hover {
+                a {
+                  color: white !important;
+                }
+              }    
+            }
+          }
+          nav ul li:hover > ul {
+            display: block;
           }
         }
       }
@@ -126,6 +159,39 @@ html {
           margin-bottom: 24px;
         }
       }
+      .news {
+        li {
+          margin-bottom: 60px;
+        }
+        img {
+          float: left;
+          margin-right: 20px;
+        }
+        h3 {
+          margin-bottom: 5px;
+          a {
+            color: $gray_d;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+
+            &:hover {
+              color: red;
+            }
+          }
+        }
+        span {
+          font-size: 10pt;
+          color: #999;
+          margin-bottom: 20px;
+          display: inline-block;
+        }
+        p {
+          font-size: 10.5pt;
+          color: $gray;
+          line-height: 15pt;
+        }
+      }
     }
     #footer {
       width: 1054px;
@@ -155,6 +221,11 @@ html {
 
           a {
             color: red;
+
+            &:hover {
+              color: rgba(red,0.5);
+              text-decoration: underline;
+            }
           }
         }
         .links {
@@ -171,6 +242,11 @@ html {
 
               a {
                 color: $gray;
+
+                &:hover {
+                  color: rgba($gray,0.4);
+                  text-decoration: underline;
+                }
               }
 
               &:nth-child(5), &:last-child {
@@ -216,6 +292,7 @@ html {
                 width: 28px;
                 height: 28px;
                 background-image: url(../images/sprite_social.png);
+                background-color: rgba($gray,0.4);
 
                 &.ml {
                   background-position: 0 0;
@@ -235,6 +312,9 @@ html {
                 &.rc {
                   background-position: -185px 0;
                 }
+                &:hover {
+                  background-color: red;
+                }
               }
             }
           }
@@ -251,6 +331,10 @@ html {
             height: 32px;
             background: url(../images/logo_d.babych.png) no-repeat;
             margin-right: 24px;
+
+            &:hover {
+              background-position: 0 -32px;
+            }
           }
           .pieoneers {
             display: inline-block;
