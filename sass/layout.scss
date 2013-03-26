@@ -145,7 +145,69 @@ html {
         padding: 0 40px;
         margin: 0 auto;
       }
-      h2 {
+      .address {
+        font-size: 9pt;
+        color: rgba($gray,0.5);
+        margin: -10px 0 18px;
+        a {
+          color: $gray;
+
+          &:hover {
+            color: red;
+          }
+        }
+      }
+      .banner {
+        width: 974px;
+        height: 313px;
+        margin-bottom: 25px;
+
+        h1 {
+          background-color: white;
+          display: inline-block;
+          top: 20px;
+          left: 20px;
+          padding: 10px;
+        }
+      }
+      .place {
+        color: $gray;
+        background: rgba(white,0.9);
+        width: 115px;
+        padding: 25px;
+        position: absolute;
+        p {
+          width: auto;
+          font-size: 10pt;
+          font-weight: bold;
+          text-align: center;
+          display: block;
+          margin: 0;
+          .date {
+            padding: 5px 10px;
+            background: red;       
+            color: white;
+            display: block;
+            margin: 0 auto 20px;
+            font-weight: normal;
+            white-space: nowrap;
+          }
+        }
+      }
+      h1 {
+        font-size: 21pt;
+        text-transform: uppercase;
+        color: $gray_d;
+        margin-bottom: 10px;
+
+          span {
+          color: red;
+          font-size: 18pt;
+          font-weight: bold;
+          text-transform: none;
+        }
+      }
+      h2, h3 {
         text-transform: uppercase;
         border-bottom: 1px solid rgba($gray,0.4);
         color: $gray_d;
@@ -161,7 +223,13 @@ html {
           text-transform: none;
         }
       }
+      h3 {
+        font-weight: bold;
+        border: none;
+        font-size: 13.5pt;
+      }
       article {
+        width: 640px;
         p {
           font-size: 12pt;
           line-height: 18pt;
@@ -176,7 +244,7 @@ html {
           float: left;
           margin-right: 20px;
         }
-        h3 {
+        h4 {
           margin-bottom: 5px;
           a {
             color: $gray_d;
@@ -199,6 +267,104 @@ html {
           font-size: 10.5pt;
           color: $gray;
           line-height: 15pt;
+        }
+      }
+      aside {
+        width: 264px;
+        right: 40px;
+        top: 0;
+        position: absolute;
+
+        ul:first-child {
+          li {
+            margin-bottom: 10px;
+
+            a {
+              color: white;
+              display: block;
+              width: 166px;
+              background-color: rgba($gray,0.8);
+              padding: 14px 15px;
+              text-align: center;
+              text-decoration: none;
+              text-transform: uppercase;
+
+              &:hover {
+                opacity: 0.5;
+              }
+            }
+            &:first-child {
+              a {
+                background-color: red;
+              }
+            }
+          }
+        }
+        ul.add {
+          li {
+            margin-bottom: 23px;
+
+            .icon_bg {
+              height: 60px;
+              width: 60px;
+              position: absolute;
+              background-color: rgba($gray,0.8);
+            }
+
+            a {
+              display: block;
+              background-image: url(../images/sprite_icon.png);
+              background-repeat: no-repeat;
+              padding-left: 85px;
+              text-decoration: none;
+              text-transform: uppercase;
+              height: 60px;
+              color: $gray_d;
+              font-size: 13.5pt;
+
+              span {
+                color: red;
+                text-transform: none;
+                font-size: 11pt;
+                line-height: 21pt;
+                display: block;
+              }
+              &.partners {
+                background-position: 0 0;
+              }
+              &.jobs {
+                background-position: 0 -83px;
+              }
+              &.reporter {
+                background-position: 0 -166px;
+              }
+            }
+            &:hover {
+              .icon_bg {
+                background-color: rgba($gray,0.5);
+              }
+              a {
+                color: rgba($gray,0.5);
+              }
+            }
+          }
+        }
+        iframe {
+          margin-bottom: 20px;
+        }
+        .play, .appstore {
+          display: block;
+          margin: 0 auto 15px;
+        }
+        .play {
+          width: 153px;
+          height: 49px;
+          background-image: url(../images/logo_play.png);
+        }
+        .appstore {
+          width: 133px;
+          height: 46px;
+          background-image: url(../images/logo_appstore.png);
         }
       }
     }

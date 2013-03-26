@@ -1,0 +1,72 @@
+/* line 1, ../sass/scrollable.scss */
+.scrollable {
+  position: relative;
+  overflow: hidden;
+  width: 970px;
+  height: 170px;
+  margin: 0 auto;
+}
+/* line 8, ../sass/scrollable.scss */
+.scrollable .items {
+  width: 20000em;
+  position: absolute;
+}
+/* line 12, ../sass/scrollable.scss */
+.scrollable .items ul {
+  position: relative;
+  float: left;
+}
+/* line 16, ../sass/scrollable.scss */
+.scrollable .items ul li {
+  display: inline-block;
+  padding: 10px;
+  width: 120px;
+  height: 150px;
+  margin: 0 11px;
+}
+/* line 23, ../sass/scrollable.scss */
+.scrollable .items ul li:first-child {
+  margin: 0 11px 0 0;
+}
+/* line 26, ../sass/scrollable.scss */
+.scrollable .items ul li:last-child {
+  margin: 0 0 0 11px;
+}
+/* line 31, ../sass/scrollable.scss */
+.scrollable .items ul li:hover a {
+  visibility: visible;
+}
+/* line 36, ../sass/scrollable.scss */
+.scrollable .items ul li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 41, ../sass/scrollable.scss */
+.scrollable .items ul li .theme {
+  color: white;
+  text-decoration: none;
+  visibility: hidden;
+  background-color: rgba(255, 0, 0, 0.8);
+  text-align: center;
+  height: 100px;
+  display: block;
+  font-size: 10pt;
+  font-weight: bold;
+  padding: 10px;
+}
+/* line 53, ../sass/scrollable.scss */
+.scrollable .items ul li .theme span {
+  text-transform: uppercase;
+  font-size: 7.5pt;
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 60, ../sass/scrollable.scss */
+.scrollable .items ul li .reporter_name {
+  font-size: 10pt;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

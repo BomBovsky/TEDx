@@ -1,0 +1,42 @@
+#container.e {
+  .banner{
+    background: url(../images/banner_events.jpg) 50% 50%;
+  }
+  .events {
+    font-size: 10.5pt;
+    img {
+      display: block;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 10.5pt;
+      line-height: 15pt;
+      width: 430px;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .materials {
+      span {
+        font-weight: bold;
+        padding-right: 30px;
+        a {
+          color: red;
+        }
+      }
+    }
+    .place {
+      border: 3px solid $gray;
+      display: inline-block;
+      vertical-align: top;
+      right: 0;
+    }
+  }
+  aside {
+    ul:first-child {
+      margin: 90px 0 110px 52px;
+    }
+    ul.add {
+      margin-bottom: 80px;
+    }
+  }
+}

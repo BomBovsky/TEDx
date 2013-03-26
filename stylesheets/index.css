@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$gray".
-        on line 24 of c:/Users/deepinsideofnowhere/Projects/tedx/sass/index.scss
+        on line 15 of c:/Users/deepinsideofnowhere/projects/tedx/sass/index.scss
 
 Backtrace:
-c:/Users/deepinsideofnowhere/Projects/tedx/sass/index.scss:24
+c:/Users/deepinsideofnowhere/projects/tedx/sass/index.scss:15
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/script/variable.rb:49:in `_perform'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/script/node.rb:40:in `perform'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
@@ -94,4 +94,4 @@ c:/Ruby200-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 24 of c:/Users/deepinsideofnowhere/Projects/tedx/sass/index.scss"; }
+  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 15 of c:/Users/deepinsideofnowhere/projects/tedx/sass/index.scss"; }

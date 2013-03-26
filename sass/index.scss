@@ -1,22 +1,13 @@
 #container.i{
   min-height: 1700px;
 
-  .timer, article {
+  .timer {
     width: 640px;
 
     h1 {
-      font-size: 21pt;
-      text-transform: uppercase;
       text-align: center;
-      margin-bottom: 33px;
+      margin-bottom: 33px !important;
       top: 7px;
-
-      span {
-        color: red;
-        font-size: 18pt;
-        font-weight: bold;
-        text-transform: none;
-      }
     }
     .remaining_time {
       font-size: 96pt;
@@ -84,178 +75,13 @@
   .reporters {
     z-index: 100;
     padding-bottom: 27px;
-
-    .scrollable {
-      position:     relative;
-      overflow:   hidden;
-      width:        970px;
-      height:       170px;
-      margin:      0 auto;
-
-      .items {
-        width:       20000em;
-        position:    absolute;
-
-        ul {
-          position:     relative;
-          float:         left;
-
-          li {
-            display: inline-block;
-            padding: 10px;
-            width: 120px;
-            height: 150px;
-            margin: 0 11px;
-
-            &:first-child {
-              margin: 0 11px 0 0;
-            }
-            &:last-child {
-              margin: 0 0 0 11px;
-            }
-
-            &:hover {
-              a {
-                visibility: visible;
-              }
-            }
-
-            img {
-              position: absolute;
-              top: 0;
-              left: 0;
-            }
-            .theme {
-              color: white;
-              text-decoration: none;
-              visibility: hidden;
-              background-color: rgba(red,0.8);
-              text-align: center;
-              height: 100px;
-              display: block;
-              font-size: 10pt;
-              font-weight: bold;
-              padding: 10px;
-
-               span {
-                text-transform: uppercase;
-                font-size: 7.5pt;
-                display: block;
-                margin-bottom: 10px;
-              }
-            }
-            .reporter_name {
-              font-size: 10pt;
-              text-transform: uppercase;
-              position: absolute;
-              bottom: 0;
-              left: 0;
-            }
-          }
-        }
-      }
-    }
   }
   aside {
-    width: 264px;
-    right: 40px;
-    top: 0;
-    position: absolute;
-
     ul:first-child {
       margin: 59px 0 63px 52px;
-
-      li {
-        margin-bottom: 10px;
-
-        a {
-          color: white;
-          display: block;
-          width: 166px;
-          background-color: rgba($gray,0.8);
-          padding: 14px 15px;
-          text-align: center;
-          text-decoration: none;
-          text-transform: uppercase;
-
-          &:hover {
-            opacity: 0.5;
-          }
-        }
-        &:first-child {
-          a {
-            background-color: red;
-          }
-        }
-      }
     }
-    ul:nth-child(2) {
+    ul.add {
       margin-bottom: 358px;
-
-      li {
-        margin-bottom: 23px;
-
-        .icon_bg {
-          height: 60px;
-          width: 60px;
-          position: absolute;
-          background-color: rgba($gray,0.8);
-        }
-
-        a {
-          display: block;
-          background-image: url(../images/sprite_icon.png);
-          background-repeat: no-repeat;
-          padding-left: 85px;
-          text-decoration: none;
-          text-transform: uppercase;
-          height: 60px;
-          color: $gray_d;
-          font-size: 13.5pt;
-
-          span {
-            color: red;
-            text-transform: none;
-            font-size: 11pt;
-            line-height: 21pt;
-            display: block;
-          }
-          &.partners {
-            background-position: 0 0;
-          }
-          &.jobs {
-            background-position: 0 -83px;
-          }
-          &.reporter {
-            background-position: 0 -166px;
-          }
-        }
-        &:hover {
-          .icon_bg {
-            background-color: rgba($gray,0.5);
-          }
-          a {
-            color: rgba($gray,0.5);
-          }
-        }
-      }
-    }
-    iframe {
-      margin-bottom: 20px;
-    }
-    .play, .appstore {
-      display: block;
-      margin: 0 auto 15px;
-    }
-    .play {
-      width: 153px;
-      height: 49px;
-      background-image: url(../images/logo_play.png);
-    }
-    .appstore {
-      width: 133px;
-      height: 46px;
-      background-image: url(../images/logo_appstore.png);
     }
   }
 }
