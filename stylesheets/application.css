@@ -196,7 +196,7 @@ html body #wrapper #header .inner nav ul ul {
 html body #wrapper #header .inner nav ul ul li {
   margin: 0 0 15px 0;
   display: block;
-  min-width: 180px;
+  white-space: nowrap;
 }
 /* line 124, ../sass/layout.scss */
 html body #wrapper #header .inner nav ul ul li a {

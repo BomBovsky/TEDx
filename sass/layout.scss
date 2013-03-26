@@ -120,7 +120,7 @@ html {
             li {
               margin: 0 0 15px 0;
               display: block;
-              min-width: 180px;
+              white-space: nowrap;
               a {
                 color: rgba(white,0.5) !important;
                 background: red !important;
