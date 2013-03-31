@@ -1,0 +1,38 @@
+#container.a{
+  margin-bottom: 80px !important;
+  .banner{
+    background: url(../images/banner_about.jpg) 50% 50%;
+    height: 261px !important;
+  }
+  .content {
+    width: 760px;
+    left: 214px;
+
+    article {
+
+      .inner {
+        display: inline-block;
+        width: 495px;
+        
+        p {
+          font-size: 11pt !important;
+        }
+
+        span {
+          color: red;
+        }
+        strong {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  aside {
+    ul:first-child {
+      margin: 59px 0 63px 52px;
+    }
+    ul.add {
+      margin-bottom: 358px;
+    }
+  }
+}

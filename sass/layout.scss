@@ -41,7 +41,7 @@ html {
     }
     #wrapper {
       width: 1054px;
-      margin: 0 auto 180px;
+      margin: 0 auto;
       min-height: 100%;
       color: $gray;
 
@@ -69,6 +69,13 @@ html {
             top: 52px;
             margin-left: 120px;
 
+            a.active, a.active:hover {
+              color: white;
+              background: url(../images/dropdown_arrow_w.png) no-repeat 100% 50% !important; 
+            }
+            ul.active, ul.active li a, a.active, a.active:hover {
+              background-color: $gray_d !important;
+            }
             ul {
               li {
                 margin: 0 19px;
@@ -202,8 +209,6 @@ html {
 
           span {
           color: red;
-          font-size: 18pt;
-          font-weight: bold;
           text-transform: none;
         }
       }
@@ -366,6 +371,10 @@ html {
           height: 46px;
           background-image: url(../images/logo_appstore.png);
         }
+      }
+      #hfooter {
+        height: 180px;
+        clear: both;
       }
     }
     /*footer*/

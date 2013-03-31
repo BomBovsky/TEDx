@@ -1,0 +1,39 @@
+/* line 1, ../sass/about.scss */
+#container.a {
+  margin-bottom: 80px !important;
+}
+/* line 3, ../sass/about.scss */
+#container.a .banner {
+  background: url(../images/banner_about.jpg) 50% 50%;
+  height: 261px !important;
+}
+/* line 7, ../sass/about.scss */
+#container.a .content {
+  width: 760px;
+  left: 214px;
+}
+/* line 13, ../sass/about.scss */
+#container.a .content article .inner {
+  display: inline-block;
+  width: 495px;
+}
+/* line 17, ../sass/about.scss */
+#container.a .content article .inner p {
+  font-size: 11pt !important;
+}
+/* line 21, ../sass/about.scss */
+#container.a .content article .inner span {
+  color: red;
+}
+/* line 24, ../sass/about.scss */
+#container.a .content article .inner strong {
+  font-weight: bold;
+}
+/* line 31, ../sass/about.scss */
+#container.a aside ul:first-child {
+  margin: 59px 0 63px 52px;
+}
+/* line 34, ../sass/about.scss */
+#container.a aside ul.add {
+  margin-bottom: 358px;
+}
