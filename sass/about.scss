@@ -8,31 +8,297 @@
     width: 760px;
     left: 214px;
 
-    article {
+    .underline {
+      line-height: 30pt;
+      border-bottom: 2px solid rgba($gray, 0.5);
+    }
+    .no_underline {
+      border: none;
+    }
 
+    article {
+      width: auto !important;
+      margin-bottom: 20px;
+
+      &.what_is {
+        p {
+          font-size: 12pt !important;
+        }        
+      }
+
+      p {
+        font-size: 10.5pt !important;
+      }
       .inner {
         display: inline-block;
         width: 495px;
+        margin-right: 28px;
         
-        p {
-          font-size: 11pt !important;
-        }
 
         span {
           color: red;
         }
-        strong {
+        
+      }
+      .frame {
+        border: 4px solid $gray;
+        display: inline-block;
+        width: 188px;
+        vertical-align: top;
+        margin-top: 56px;
+        text-align: center;
+        padding: 0 16px;
+
+        &.left {
+          text-align: left;
+        }
+
+        p {
+          margin-top: 20px;
+
+          span {
+            display: inline;
+            color: red;
+            margin: 0;
+          }
+        }
+
+        span {
+          display: block;
+          text-align: left;
           font-weight: bold;
+          margin-bottom: 7px;
+          margin-left: 43px;
+
+          &:first-letter {
+            color: red;
+          }
+        }
+        ul {
+          li {
+            padding: 25px 0;
+            font-size: 11pt;
+            line-height: 15pt;
+            background: url(../images/separator.png) no-repeat 50% 100%;
+
+            &:last-child {
+              background: none;
+            }
+
+            span {
+              display: inline;
+              color: red;
+              margin: 0;
+            }
+          }
         }
       }
     }
-  }
-  aside {
-    ul:first-child {
-      margin: 59px 0 63px 52px;
+    .history {
+      .first_ted {
+        margin-bottom: 20px;
+        .cd, .mac {
+          width: 160px;
+          height: 50px;
+          padding: 105px 10px 0;
+          display: inline-block;
+          vertical-align: top;
+
+          p {
+            border-top: 1px solid $gray;
+            font-style: italic;
+            color: $gray;
+            text-align: center;
+            padding-top: 12px;
+            line-height: 14pt;
+          }
+        }
+        .about_first_ted {
+          display: inline-block;
+          width: 330px;
+          margin: 15px 30px;
+          line-height: 17pt;
+        }
+        .cd {
+          background: url(../images/cd.png) no-repeat 50% 12px;
+        }
+        .mac {
+          background: url(../images/mac.png) no-repeat 50% 0;
+        }
+      }
+      .chronology {
+        h2 {
+          margin-bottom: 27px;
+        }
+        .scrollable {
+          width: 100%;
+          height: 380px;
+
+          ul {
+            position:     relative;
+            float:         left;
+            margin-right: 40px;
+
+            li {
+              padding: 0;
+              width: 230px;
+              margin: 0 15px;
+              vertical-align: top;
+              height: 100%  !important;
+
+              &:first-child {
+                margin: 0 15px 0 0;
+              }
+              &:last-child {
+                margin: 0 0 0 15px;
+              }
+
+              .year {
+                font-family: Bebas_Neue_Cyrillic;
+                color: $gray;
+                opacity: 0.4;
+                font-size: 57pt;
+                margin-bottom: 25px;
+              }
+              h6 {
+                font-size: 13pt;
+                font-weight: bold;
+                margin-bottom: 19px;
+              }
+              p {
+                line-height: 17pt;
+              }
+              span {
+                color: red;
+              }
+              .about_smb {
+                color: $gray !important;
+                font-size: 10.5pt !important;
+                line-height: 14pt;
+              }
+              img {
+                position: relative;
+                float: left;
+                margin-right: 10px;
+              }
+            }
+          } 
+        } 
+      }
     }
-    ul.add {
-      margin-bottom: 358px;
+    .notability {
+      margin-bottom: 20px;
+
+      .scrollable {
+        width: 100%;
+        height: 210px;
+
+        ul {
+          position:     relative;
+          float:         left;
+          margin-right: 30px;
+
+          li {
+            padding: 0;
+            width: 160px;
+            height: 180px;
+            margin: 0 16px;
+            vertical-align: top;
+
+            &:first-child {
+              margin: 0 16px 0 0;
+            }
+            &:last-child {
+              margin: 0 0 0 16px;
+            }
+            img {
+              position: relative;
+            }
+            p {
+              display: block;
+              position: relative;
+              text-transform: uppercase;
+              font-size: 11pt;
+              padding: 10px 0;
+
+              span {
+                font-size: 9pt;
+                display: block;
+                text-transform: none;
+                margin-top: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .reporters {
+      margin-bottom: 20px;
+      .scrollable {
+        width: 100%;
+        height: 170px;
+
+        ul {
+          margin-right: 12px;
+
+          li {
+            margin: 0 5px;
+
+            &:first-child {
+              margin: 0 5px 0 0;
+            }
+            &:last-child {
+              margin: 0 0 0 5px;
+            }
+
+            p {
+              margin-bottom: 0;
+              white-space: nowrap;
+            }
+          }
+        }
+
+      }
+    }
+    .side {
+      text-align: center;
+      width: 230px;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 13.5pt !important;
+      font-weight: bold;
+    }
+  }
+  aside.about_nav {
+    position: absolute;
+    left: 40px;
+    top: 360px;
+
+    span {
+      color: red;
+      text-transform: none;
+    }
+
+    dl {
+      margin-bottom: 20px;
+
+      dt {
+        color: $gray_d;
+        text-transform: uppercase;
+        margin: 0 0 20px 10px;
+      }
+      dd {
+        padding-left: 20px;
+        line-height: 26pt;
+        a {
+          color: $gray;
+          text-decoration: none;
+          font-size: 11pt;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
     }
   }
 }

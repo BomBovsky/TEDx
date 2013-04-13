@@ -1,6 +1,6 @@
 .scrollable {
   position:     relative;
-  overflow:   hidden;
+  overflow:     hidden;
   width:        970px;
   height:       170px;
   margin:      0 auto;
@@ -19,6 +19,7 @@
         width: 120px;
         height: 150px;
         margin: 0 11px;
+        vertical-align: top;
 
         &:first-child {
           margin: 0 11px 0 0;
@@ -65,6 +66,31 @@
           left: 0;
         }
       }
+    }
+  }
+}
+.navi {
+  margin: 0 auto 46px;
+  width: 56px;
+  height: 12px;
+
+  a {
+    width:            12px;
+    height:           12px;
+    float:            left;
+    display:          block;
+    background: rgba($gray,0.5);
+    margin: 0 5px;
+
+    &.active {
+      cursor:default;
+      background-color: $gray;
+    }
+    &:first-child,{
+      margin: 0 5px 0 0;
+    }
+    &:last-child,{
+      margin: 0 0 0 5px;
     }
   }
 }

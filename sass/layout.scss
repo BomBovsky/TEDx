@@ -39,6 +39,12 @@ html {
     input {
       vertical-align: middle;
     }
+    i {
+      font-style: italic;
+    }
+    strong {
+      font-weight: bold;
+    }
     #wrapper {
       width: 1054px;
       margin: 0 auto;
@@ -239,6 +245,13 @@ html {
           font-size: 12pt;
           line-height: 18pt;
           margin-bottom: 24px;
+
+          span {
+            color: red;
+              a {
+                color: red;
+              }
+          }
         }
       }
       .news {
