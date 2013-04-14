@@ -1,47 +1,6 @@
 #container.i{
   min-height: 1700px;
 
-  .timer {
-    width: 640px;
-    height: 279px;
-
-    h1 {
-      text-align: center;
-      margin-bottom: 33px !important;
-      top: 7px;
-    }
-    .remaining_time {
-      font-size: 96pt;
-      font-family: Bebas_Neue_Cyrillic;
-      color: $gray;
-      opacity: 0.4;
-      letter-spacing: 8px;
-      text-align: center;
-      margin-bottom: 10px;
-
-      span {
-        font-size: 14pt;
-        letter-spacing: 1px;
-      }
-    }
-    .subject {
-      text-align: center;
-      color: $gray;
-      text-transform: uppercase;
-      font-size: 10.5pt;
-      font-family: Arial, Helvetica, sans-serif !important;
-      font-weight: 400;
-    }
-    .it_has_begun {
-      font-size: 75pt;
-      font-family: Bebas_Neue_Cyrillic;
-      color: $gray;
-      opacity: 0.4;
-      letter-spacing: 8px;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-  }
   .about {
     margin-bottom: 60px;
   }
