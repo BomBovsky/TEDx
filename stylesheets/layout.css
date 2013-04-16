@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$gray".
-        on line 50 of c:/Users/deepinsideofnowhere/projects/tedx/sass/layout.scss
+        on line 50 of c:/Users/deepinsideofnowhere/Projects/tedx/sass/layout.scss
 
 Backtrace:
-c:/Users/deepinsideofnowhere/projects/tedx/sass/layout.scss:50
+c:/Users/deepinsideofnowhere/Projects/tedx/sass/layout.scss:50
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/script/variable.rb:49:in `_perform'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/script/node.rb:40:in `perform'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/script/funcall.rb:93:in `block in _perform'
@@ -102,4 +102,4 @@ c:/Ruby200-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 50 of c:/Users/deepinsideofnowhere/projects/tedx/sass/layout.scss"; }
+  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 50 of c:/Users/deepinsideofnowhere/Projects/tedx/sass/layout.scss"; }

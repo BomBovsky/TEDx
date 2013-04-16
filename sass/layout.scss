@@ -50,7 +50,8 @@ html {
       border-bottom: 2px solid rgba($gray, 0.5);
     }
     .no_underline {
-      border: none;
+      border: none !important;
+      margin-bottom: 5px !important;
     }
     #wrapper {
       width: 1054px;
