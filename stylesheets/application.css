@@ -1050,7 +1050,7 @@ html body #footer .inner .social .pieoneers {
   width: 230px;
   margin: 0 15px;
   vertical-align: top;
-  height: 100% !important;
+  height: 100%  !important;
 }
 /* line 141, ../sass/about.scss */
 #container.a .content .history .chronology .scrollable ul li:first-child {
@@ -1305,22 +1305,149 @@ html body #footer .inner .social .pieoneers {
   margin-bottom: 0;
   white-space: nowrap;
 }
-/* line 77, ../sass/future_event.scss */
+/* line 75, ../sass/future_event.scss */
+#container.f .content article ul.speech_description {
+  margin: 40px 0;
+}
+/* line 78, ../sass/future_event.scss */
+#container.f .content article ul.speech_description li {
+  display: none;
+}
+/* line 81, ../sass/future_event.scss */
+#container.f .content article ul.speech_description li.show {
+  display: block;
+}
+/* line 85, ../sass/future_event.scss */
+#container.f .content article ul.speech_description li .close {
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin: 0 auto 40px;
+  background: url(../images/close.png) no-repeat 50% 50%;
+}
+/* line 92, ../sass/future_event.scss */
+#container.f .content article ul.speech_description li .close:hover {
+  opacity: 0.5;
+}
+/* line 96, ../sass/future_event.scss */
+#container.f .content article ul.speech_description li h3 {
+  font-size: 13.5pt;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 102, ../sass/future_event.scss */
+#container.f .content article ul.speech_description li h3 span {
+  font-size: 10.5pt;
+  color: #666666;
+  text-align: center;
+  text-transform: none;
+  font-weight: normal;
+  display: block;
+}
+/* line 111, ../sass/future_event.scss */
+#container.f .content article ul.speech_description li .theme {
+  display: block;
+  font-size: 9pt;
+  text-align: center;
+  color: rgba(102, 102, 102, 0.5);
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+/* line 119, ../sass/future_event.scss */
+#container.f .content article ul.speech_description li h2 {
+  border: none;
+  color: #454545;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18pt;
+  font-weight: bold;
+}
+/* line 127, ../sass/future_event.scss */
+#container.f .content article ul.speech_description li p {
+  width: 620px;
+  text-align: center;
+  margin: 0 auto 33px;
+  line-height: 15pt;
+}
+/* line 133, ../sass/future_event.scss */
+#container.f .content article ul.speech_description li .contact_info {
+  font-weight: bold;
+  color: #454545;
+}
+/* line 139, ../sass/future_event.scss */
+#container.f .content article:last-child {
+  margin-bottom: 100px;
+}
+/* line 145, ../sass/future_event.scss */
+#container.f .events li {
+  display: inline-block;
+  width: 240px;
+  vertical-align: top;
+}
+/* line 150, ../sass/future_event.scss */
+#container.f .events li .year {
+  font-family: Bebas_Neue_Cyrillic;
+  color: #666666;
+  opacity: 0.5;
+  font-size: 34pt;
+  margin-bottom: 10px;
+}
+/* line 157, ../sass/future_event.scss */
+#container.f .events li .year span {
+  display: block;
+  text-align: center;
+  width: 68px;
+  top: -10px;
+}
+/* line 164, ../sass/future_event.scss */
+#container.f .events li .event_name {
+  font-weight: bold;
+  font-size: 11pt;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: block;
+  color: #454545;
+  line-height: 15pt;
+}
+/* line 173, ../sass/future_event.scss */
+#container.f .events li .event_name span {
+  color: red;
+}
+/* line 177, ../sass/future_event.scss */
+#container.f .events li .event_name:hover {
+  text-decoration: underline;
+}
+/* line 181, ../sass/future_event.scss */
+#container.f .events li .date {
+  background: rgba(102, 102, 102, 0.5);
+  display: inline-block;
+  color: white;
+  font-size: 9pt;
+  padding: 8px 12px;
+  margin-bottom: 40px;
+}
+/* line 190, ../sass/future_event.scss */
+#container.f .events li.active .year {
+  color: red;
+  opacity: 1;
+}
+/* line 197, ../sass/future_event.scss */
 #container.f aside.event_nav {
   position: absolute;
   left: 40px !important;
   top: 365px;
 }
-/* line 82, ../sass/future_event.scss */
+/* line 202, ../sass/future_event.scss */
 #container.f aside.event_nav span {
   color: red;
   text-transform: none;
 }
-/* line 87, ../sass/future_event.scss */
+/* line 207, ../sass/future_event.scss */
 #container.f aside.event_nav dl {
   font-size: 13.5pt;
 }
-/* line 90, ../sass/future_event.scss */
+/* line 210, ../sass/future_event.scss */
 #container.f aside.event_nav dl dt {
   color: #454545;
   text-transform: uppercase;
@@ -1330,18 +1457,18 @@ html body #footer .inner .social .pieoneers {
   color: white;
   display: inline-block;
 }
-/* line 99, ../sass/future_event.scss */
+/* line 219, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd {
   padding-left: 25px;
   line-height: 26pt;
   text-transform: uppercase;
 }
-/* line 103, ../sass/future_event.scss */
+/* line 223, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a {
   color: #666666;
   text-decoration: none;
 }
-/* line 106, ../sass/future_event.scss */
+/* line 226, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a:hover {
   text-decoration: underline;
 }

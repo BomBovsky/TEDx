@@ -72,6 +72,126 @@
           }
         }
       }
+      ul.speech_description {
+        margin: 40px 0;
+
+        li {
+          display: none;
+
+          &.show {
+            display: block;
+          }
+
+          .close {
+            display: block;
+            width: 26px;
+            height: 26px;
+            margin: 0 auto 40px;
+            background: url(../images/close.png) no-repeat 50% 50%;
+
+            &:hover {
+              opacity: 0.5;
+            }
+          }
+          h3 {
+            font-size: 13.5pt;
+            color: red;
+            text-align: center;
+            text-transform: uppercase;
+
+            span {
+              font-size: 10.5pt;
+              color: $gray;
+              text-align: center;
+              text-transform: none;
+              font-weight: normal;
+              display: block;
+            }
+          }
+          .theme {
+            display: block;
+            font-size: 9pt;
+            text-align: center;
+            color: rgba($gray, 0.5);
+            text-transform: uppercase;
+            margin-bottom: 13px;
+          }
+          h2 {
+            border: none;
+            color: $gray_d;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 18pt;
+            font-weight: bold;
+          }
+          p {
+            width: 620px;
+            text-align: center;
+            margin: 0 auto 33px;
+            line-height: 15pt;
+          }
+          .contact_info {
+            font-weight: bold;
+            color: $gray_d;
+          }
+        }
+      }
+      &:last-child {
+        margin-bottom: 100px;
+      }
+    }
+  }
+  .events {
+    li {
+      display: inline-block;
+      width: 240px;
+      vertical-align: top;
+
+      .year {
+        font-family: Bebas_Neue_Cyrillic;
+        color: $gray;
+        opacity: 0.5;
+        font-size: 34pt;
+        margin-bottom: 10px;
+
+        span {
+          display: block;
+          text-align: center;
+          width: 68px;
+          top: -10px;
+        }
+      }
+      .event_name {
+        font-weight: bold;
+        font-size: 11pt;
+        margin-bottom: 10px;
+        text-decoration: none;
+        display: block;
+        color: $gray_d;
+        line-height: 15pt;
+
+        span {
+          color: red;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .date {
+        background: rgba($gray, 0.5);
+        display: inline-block;
+        color: white;
+        font-size: 9pt;
+        padding: 8px 12px;
+        margin-bottom: 40px;
+      }
+      &.active {
+        .year {
+          color: red;
+          opacity: 1;
+        }
+      }
     }
   }
   aside.event_nav {
