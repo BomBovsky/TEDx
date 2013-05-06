@@ -1,4 +1,5 @@
 /* line 2, ../sass/last_event.scss */
 #container.l .banner {
-  background: url(../images/last_events.jpg) 50% 50%;
+  background: url(../images/banner_last_event.jpg) 50% 50% !important;
+  height: 271px !important;
 }
