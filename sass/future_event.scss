@@ -10,6 +10,70 @@
       margin-bottom: -50px;
     }
   }
+  ul.speech_description, .members_description {
+    margin: 40px 0;
+
+    li {
+      display: none;
+
+      &.show {
+        display: block;
+      }
+
+      .close {
+        display: block;
+        width: 26px;
+        height: 26px;
+        margin: 0 auto 40px;
+        background: url(../images/close.png) no-repeat 50% 50%;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+      h3 {
+        font-size: 13.5pt;
+        color: red;
+        text-align: center;
+        text-transform: uppercase;
+
+        span {
+          font-size: 10.5pt;
+          color: $gray;
+          text-align: center;
+          text-transform: none;
+          font-weight: normal;
+          display: block;
+        }
+      }
+      .theme {
+        display: block;
+        font-size: 9pt;
+        text-align: center;
+        color: rgba($gray, 0.5);
+        text-transform: uppercase;
+        margin-bottom: 13px;
+      }
+      h2 {
+        border: none;
+        color: $gray_d;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 18pt;
+        font-weight: bold;
+      }
+      p {
+        width: 620px;
+        text-align: center;
+        margin: 0 auto 33px;
+        line-height: 15pt;
+      }
+      .contact_info {
+        font-weight: bold;
+        color: $gray_d;
+      }
+    }
+  }
   .content {
     width: 750px;
     left: 214px;
@@ -69,70 +133,6 @@
                 white-space: nowrap;
               }
             }
-          }
-        }
-      }
-      ul.speech_description {
-        margin: 40px 0;
-
-        li {
-          display: none;
-
-          &.show {
-            display: block;
-          }
-
-          .close {
-            display: block;
-            width: 26px;
-            height: 26px;
-            margin: 0 auto 40px;
-            background: url(../images/close.png) no-repeat 50% 50%;
-
-            &:hover {
-              opacity: 0.5;
-            }
-          }
-          h3 {
-            font-size: 13.5pt;
-            color: red;
-            text-align: center;
-            text-transform: uppercase;
-
-            span {
-              font-size: 10.5pt;
-              color: $gray;
-              text-align: center;
-              text-transform: none;
-              font-weight: normal;
-              display: block;
-            }
-          }
-          .theme {
-            display: block;
-            font-size: 9pt;
-            text-align: center;
-            color: rgba($gray, 0.5);
-            text-transform: uppercase;
-            margin-bottom: 13px;
-          }
-          h2 {
-            border: none;
-            color: $gray_d;
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 18pt;
-            font-weight: bold;
-          }
-          p {
-            width: 620px;
-            text-align: center;
-            margin: 0 auto 33px;
-            line-height: 15pt;
-          }
-          .contact_info {
-            font-weight: bold;
-            color: $gray_d;
           }
         }
       }

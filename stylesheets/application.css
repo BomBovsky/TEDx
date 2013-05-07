@@ -1234,110 +1234,38 @@ html body #footer .inner .social .pieoneers {
   margin-bottom: -50px;
 }
 /* line 13, ../sass/future_event.scss */
-#container.f .content {
-  width: 750px;
-  left: 214px;
-}
-/* line 17, ../sass/future_event.scss */
-#container.f .content article {
-  width: 100%;
-}
-/* line 19, ../sass/future_event.scss */
-#container.f .content article p {
-  font-size: 10.5pt;
-}
-/* line 23, ../sass/future_event.scss */
-#container.f .content article .text_list {
-  margin: -14px 0 24px;
-}
-/* line 25, ../sass/future_event.scss */
-#container.f .content article .text_list li {
-  text-indent: -20px;
-  margin: 0 0 10px 20px;
-  font-size: 10.5pt;
-  line-height: 18pt;
-}
-/* line 32, ../sass/future_event.scss */
-#container.f .content article h4 {
-  font-size: 11pt;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-/* line 37, ../sass/future_event.scss */
-#container.f .content article h4 span {
-  color: red;
-}
-/* line 41, ../sass/future_event.scss */
-#container.f .content article .time {
-  padding-left: 20px;
-  background: url(../images/clock.png) no-repeat 0 50%;
-  color: #666666;
-  font-size: 10.5pt;
-  margin-bottom: 10px;
-}
-/* line 48, ../sass/future_event.scss */
-#container.f .content article .reporters {
-  margin-bottom: 20px;
-}
-/* line 50, ../sass/future_event.scss */
-#container.f .content article .reporters .scrollable {
-  width: 100%;
-  height: 170px;
-}
-/* line 54, ../sass/future_event.scss */
-#container.f .content article .reporters .scrollable ul {
-  margin-right: 12px;
-}
-/* line 57, ../sass/future_event.scss */
-#container.f .content article .reporters .scrollable ul li {
-  margin: 0 5px;
-}
-/* line 60, ../sass/future_event.scss */
-#container.f .content article .reporters .scrollable ul li:first-child {
-  margin: 0 5px 0 0;
-}
-/* line 63, ../sass/future_event.scss */
-#container.f .content article .reporters .scrollable ul li:last-child {
-  margin: 0 0 0 5px;
-}
-/* line 67, ../sass/future_event.scss */
-#container.f .content article .reporters .scrollable ul li p {
-  margin-bottom: 0;
-  white-space: nowrap;
-}
-/* line 75, ../sass/future_event.scss */
-#container.f .content article ul.speech_description {
+#container.f ul.speech_description, #container.f .members_description {
   margin: 40px 0;
 }
-/* line 78, ../sass/future_event.scss */
-#container.f .content article ul.speech_description li {
+/* line 16, ../sass/future_event.scss */
+#container.f ul.speech_description li, #container.f .members_description li {
   display: none;
 }
-/* line 81, ../sass/future_event.scss */
-#container.f .content article ul.speech_description li.show {
+/* line 19, ../sass/future_event.scss */
+#container.f ul.speech_description li.show, #container.f .members_description li.show {
   display: block;
 }
-/* line 85, ../sass/future_event.scss */
-#container.f .content article ul.speech_description li .close {
+/* line 23, ../sass/future_event.scss */
+#container.f ul.speech_description li .close, #container.f .members_description li .close {
   display: block;
   width: 26px;
   height: 26px;
   margin: 0 auto 40px;
   background: url(../images/close.png) no-repeat 50% 50%;
 }
-/* line 92, ../sass/future_event.scss */
-#container.f .content article ul.speech_description li .close:hover {
+/* line 30, ../sass/future_event.scss */
+#container.f ul.speech_description li .close:hover, #container.f .members_description li .close:hover {
   opacity: 0.5;
 }
-/* line 96, ../sass/future_event.scss */
-#container.f .content article ul.speech_description li h3 {
+/* line 34, ../sass/future_event.scss */
+#container.f ul.speech_description li h3, #container.f .members_description li h3 {
   font-size: 13.5pt;
   color: red;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 102, ../sass/future_event.scss */
-#container.f .content article ul.speech_description li h3 span {
+/* line 40, ../sass/future_event.scss */
+#container.f ul.speech_description li h3 span, #container.f .members_description li h3 span {
   font-size: 10.5pt;
   color: #666666;
   text-align: center;
@@ -1345,8 +1273,8 @@ html body #footer .inner .social .pieoneers {
   font-weight: normal;
   display: block;
 }
-/* line 111, ../sass/future_event.scss */
-#container.f .content article ul.speech_description li .theme {
+/* line 49, ../sass/future_event.scss */
+#container.f ul.speech_description li .theme, #container.f .members_description li .theme {
   display: block;
   font-size: 9pt;
   text-align: center;
@@ -1354,8 +1282,8 @@ html body #footer .inner .social .pieoneers {
   text-transform: uppercase;
   margin-bottom: 13px;
 }
-/* line 119, ../sass/future_event.scss */
-#container.f .content article ul.speech_description li h2 {
+/* line 57, ../sass/future_event.scss */
+#container.f ul.speech_description li h2, #container.f .members_description li h2 {
   border: none;
   color: #454545;
   text-transform: uppercase;
@@ -1363,17 +1291,89 @@ html body #footer .inner .social .pieoneers {
   font-size: 18pt;
   font-weight: bold;
 }
-/* line 127, ../sass/future_event.scss */
-#container.f .content article ul.speech_description li p {
+/* line 65, ../sass/future_event.scss */
+#container.f ul.speech_description li p, #container.f .members_description li p {
   width: 620px;
   text-align: center;
   margin: 0 auto 33px;
   line-height: 15pt;
 }
-/* line 133, ../sass/future_event.scss */
-#container.f .content article ul.speech_description li .contact_info {
+/* line 71, ../sass/future_event.scss */
+#container.f ul.speech_description li .contact_info, #container.f .members_description li .contact_info {
   font-weight: bold;
   color: #454545;
+}
+/* line 77, ../sass/future_event.scss */
+#container.f .content {
+  width: 750px;
+  left: 214px;
+}
+/* line 81, ../sass/future_event.scss */
+#container.f .content article {
+  width: 100%;
+}
+/* line 83, ../sass/future_event.scss */
+#container.f .content article p {
+  font-size: 10.5pt;
+}
+/* line 87, ../sass/future_event.scss */
+#container.f .content article .text_list {
+  margin: -14px 0 24px;
+}
+/* line 89, ../sass/future_event.scss */
+#container.f .content article .text_list li {
+  text-indent: -20px;
+  margin: 0 0 10px 20px;
+  font-size: 10.5pt;
+  line-height: 18pt;
+}
+/* line 96, ../sass/future_event.scss */
+#container.f .content article h4 {
+  font-size: 11pt;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+/* line 101, ../sass/future_event.scss */
+#container.f .content article h4 span {
+  color: red;
+}
+/* line 105, ../sass/future_event.scss */
+#container.f .content article .time {
+  padding-left: 20px;
+  background: url(../images/clock.png) no-repeat 0 50%;
+  color: #666666;
+  font-size: 10.5pt;
+  margin-bottom: 10px;
+}
+/* line 112, ../sass/future_event.scss */
+#container.f .content article .reporters {
+  margin-bottom: 20px;
+}
+/* line 114, ../sass/future_event.scss */
+#container.f .content article .reporters .scrollable {
+  width: 100%;
+  height: 170px;
+}
+/* line 118, ../sass/future_event.scss */
+#container.f .content article .reporters .scrollable ul {
+  margin-right: 12px;
+}
+/* line 121, ../sass/future_event.scss */
+#container.f .content article .reporters .scrollable ul li {
+  margin: 0 5px;
+}
+/* line 124, ../sass/future_event.scss */
+#container.f .content article .reporters .scrollable ul li:first-child {
+  margin: 0 5px 0 0;
+}
+/* line 127, ../sass/future_event.scss */
+#container.f .content article .reporters .scrollable ul li:last-child {
+  margin: 0 0 0 5px;
+}
+/* line 131, ../sass/future_event.scss */
+#container.f .content article .reporters .scrollable ul li p {
+  margin-bottom: 0;
+  white-space: nowrap;
 }
 /* line 139, ../sass/future_event.scss */
 #container.f .content article:last-child {
@@ -1477,4 +1477,48 @@ html body #footer .inner .social .pieoneers {
 #container.l .banner {
   background: url(../images/banner_last_event.jpg) 50% 50% !important;
   height: 271px !important;
+}
+
+/* line 2, ../sass/command.scss */
+#container.c ul.members {
+  margin-top: 40px;
+}
+/* line 5, ../sass/command.scss */
+#container.c ul.members li {
+  display: inline-block;
+  width: 170px;
+  margin: 0 13px;
+}
+/* line 10, ../sass/command.scss */
+#container.c ul.members li:first-child {
+  margin-left: 0;
+}
+/* line 13, ../sass/command.scss */
+#container.c ul.members li:last-child {
+  margin-right: 0;
+}
+/* line 18, ../sass/command.scss */
+#container.c ul.members li img {
+  display: block;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+/* line 23, ../sass/command.scss */
+#container.c ul.members li img:hover {
+  opacity: 0.8;
+}
+/* line 28, ../sass/command.scss */
+#container.c ul.members li p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #454545;
+  font-size: 12pt;
+  line-height: 15pt;
+}
+/* line 36, ../sass/command.scss */
+#container.c ul.members li p span {
+  display: block;
+  text-align: center;
+  text-transform: none;
+  font-size: 10pt;
 }
