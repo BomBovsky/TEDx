@@ -294,12 +294,8 @@ html {
           font-size: 12pt;
           line-height: 18pt;
           margin-bottom: 24px;
-
-          span {
+          a {
             color: red;
-              a {
-                color: red;
-              }
           }
         }
       }
@@ -402,7 +398,7 @@ html {
               &.jobs {
                 background-position: 0 -83px;
               }
-              &.reporter {
+              &.speaker {
                 background-position: 0 -166px;
               }
             }
@@ -496,7 +492,7 @@ html {
                 }
               }
 
-              &:nth-child(5), &:last-child {
+              &:nth-child(5), &:nth-child(6) {
                 width: 32px;
                 top: 7px;
 

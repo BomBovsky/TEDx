@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$gray_d".
-        on line 31 of c:/Users/Insano/projects/tedx/sass/command.scss
+        on line 31 of C:/Users/Insano/Projects/TEDx/sass/command.scss
 
 Backtrace:
-c:/Users/Insano/projects/tedx/sass/command.scss:31
+C:/Users/Insano/Projects/TEDx/sass/command.scss:31
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/variable.rb:49:in `_perform'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/node.rb:40:in `perform'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
@@ -75,22 +75,7 @@ c:/ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:i
 c:/ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-c:/ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
@@ -104,4 +89,4 @@ c:/Ruby200/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray_d\".\A         on line 31 of c:/Users/Insano/projects/tedx/sass/command.scss"; }
+  content: "Syntax error: Undefined variable: \"$gray_d\".\A         on line 31 of C:/Users/Insano/Projects/TEDx/sass/command.scss"; }

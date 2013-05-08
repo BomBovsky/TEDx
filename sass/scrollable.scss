@@ -1,17 +1,9 @@
-.scrollable {
-  position:     relative;
-  overflow:     hidden;
-  width:        970px;
-  height:       170px;
-  margin:      0 auto;
+#slides, #slides_1, #slides_2, #slides_3, #slides_4 {
 
-  .items {
-    width:       20000em;
-    position:    absolute;
+  .slidesjs-container {
+    margin-bottom: 10px;
 
     ul {
-      position:     relative;
-      float:         left;
 
       li {
         display: inline-block;
@@ -21,11 +13,11 @@
         margin: 0 11px;
         vertical-align: top;
 
-        &:first-child {
-          margin: 0 11px 0 0;
+        &:first-child,{
+          margin-left: 0;
         }
-        &:last-child {
-          margin: 0 0 0 11px;
+        &:last-child,{
+          margin-right: 0;
         }
 
         &:hover {
@@ -58,7 +50,7 @@
             margin-bottom: 10px;
           }
         }
-        .reporter_name {
+        .speaker_name {
           font-size: 10pt;
           text-transform: uppercase;
           position: absolute;
@@ -68,29 +60,41 @@
       }
     }
   }
-}
-.navi {
-  margin: 0 auto 46px;
-  width: 56px;
-  height: 12px;
+  .slidesjs-pagination {
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
 
-  a {
-    width:            12px;
-    height:           12px;
-    float:            left;
-    display:          block;
-    background: rgba($gray,0.5);
-    margin: 0 5px;
+    li {
+      width:12px;
+      height: 12px;
+      margin: 0 5px;
+      padding: 0;
+      display: inline-block;
 
-    &.active {
-      cursor:default;
-      background-color: $gray;
+      &:first-child,{
+        margin-left: 0;
+      }
+      &:last-child,{
+        margin-right: 0;
+      }
+
+      a {
+        width:            12px;
+        height:           12px;
+        float:            left;
+        display:          block;
+        background: rgba($gray,0.5);
+        color: transparent;
+
+        &.active {
+          cursor:default;
+          background-color: $gray;
+        }
+      }
     }
-    &:first-child,{
-      margin: 0 5px 0 0;
-    }
-    &:last-child,{
-      margin: 0 0 0 5px;
-    }
+  }
+  .slidesjs-navigation {
+    display: none;
   }
 }
