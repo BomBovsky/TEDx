@@ -1,0 +1,45 @@
+#container.c {
+  ul.members {
+    margin-top: 40px;
+
+    li {
+      display: inline-block;
+      width: 170px;
+      margin: 0 13px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      
+
+      img {
+        display: block;
+        margin-bottom: 15px;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      p {
+        text-align: center;
+        text-transform: uppercase;
+        color: $gray_d;
+        font-size: 12pt;
+        line-height: 15pt;
+
+
+        span {
+          display: block;
+          text-align: center;
+          text-transform: none;
+          font-size: 10pt;
+        }
+      }
+    }
+  }
+}

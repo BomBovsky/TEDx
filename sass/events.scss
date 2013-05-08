@@ -1,0 +1,66 @@
+#container.e {
+  margin-bottom: 80px !important;
+  .banner{
+    background: url(../images/banner_events.jpg) 50% 50%;
+  }
+  article {
+
+    .events {
+      li {
+        margin-bottom: 65px;
+        font-size: 10.5pt;
+
+        img {
+          display: block;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 10.5pt;
+          line-height: 15pt;
+          width: 430px;
+          display: inline-block;
+          margin-bottom: 20px;
+        }
+        .materials {
+          span {
+            font-weight: bold;
+            padding-right: 30px;
+            a {
+              color: red;
+            }
+          }
+        }
+        .place {
+          border: 3px solid $gray;
+          display: inline-block;
+          vertical-align: top;
+          right: 0;
+          width: auto;
+          max-width: 160px;
+
+          p {
+            width: auto;
+            margin: 0;
+          }
+        }
+      }   
+    }
+  }
+  aside {
+    ul:first-child {
+      margin: 90px 0 110px 52px;
+    }
+    ul.add {
+      margin-bottom: 80px;
+    }
+    ul.partners {
+      width: 100%;
+      li {
+        display: inline-block;
+        width: 122px;
+        height: 72px;
+        margin: 0 8px 13px 0;
+      }
+    }
+  }
+}

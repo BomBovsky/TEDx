@@ -1,0 +1,19 @@
+#container.i{
+  min-height: 1700px;
+
+  .about {
+    margin-bottom: 60px;
+  }
+  .speakers {
+    z-index: 100;
+    padding-bottom: 27px;
+  }
+  aside {
+    ul:first-child {
+      margin: 59px 0 63px 52px;
+    }
+    ul.add {
+      margin-bottom: 358px;
+    }
+  }
+}

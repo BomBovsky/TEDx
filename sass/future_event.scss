@@ -1,0 +1,233 @@
+#container.f {
+  .head_aside {
+    right: 40px;
+    top: 0;
+    .place {
+      background: #ececec;
+      width: 146px;
+      position: relative;
+      left: 52px;
+      margin-bottom: -50px;
+    }
+  }
+  ul.speech_description, .members_description {
+    margin: 40px 0;
+
+    li {
+      display: none;
+
+      &.show {
+        display: block;
+      }
+
+      .close {
+        display: block;
+        width: 26px;
+        height: 26px;
+        margin: 0 auto 40px;
+        background: url(../images/close.png) no-repeat 50% 50%;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+      h3 {
+        font-size: 13.5pt;
+        color: red;
+        text-align: center;
+        text-transform: uppercase;
+
+        span {
+          font-size: 10.5pt;
+          color: $gray;
+          text-align: center;
+          text-transform: none;
+          font-weight: normal;
+          display: block;
+        }
+      }
+      .theme {
+        display: block;
+        font-size: 9pt;
+        text-align: center;
+        color: rgba($gray, 0.5);
+        text-transform: uppercase;
+        margin-bottom: 13px;
+      }
+      h2 {
+        border: none;
+        color: $gray_d;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 18pt;
+        font-weight: bold;
+      }
+      p {
+        width: 620px;
+        text-align: center;
+        margin: 0 auto 33px;
+        line-height: 15pt;
+      }
+      .contact_info {
+        font-weight: bold;
+        color: $gray_d;
+      }
+    }
+  }
+  .content {
+    width: 750px;
+    left: 214px;
+  
+    article {
+      width: 100%;
+      p {
+        font-size: 10.5pt;
+      }
+
+      .text_list {
+        margin: -14px 0 24px;
+        li {
+          text-indent: -20px;
+          margin: 0 0 10px 20px;
+          font-size: 10.5pt;
+          line-height: 18pt;
+        }
+      }
+      h4 {
+        font-size: 11pt;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+
+        span {
+          color: red;
+        }
+      }
+      .time {
+        padding-left: 20px;
+        background: url(../images/clock.png) no-repeat 0 50%;
+        color: $gray;
+        font-size: 10.5pt;
+        margin-bottom: 10px;
+      }
+      .speakers {
+        margin-bottom: 20px;
+        #slides_1, #slides_2 {
+          width: 100%;
+          height: 170px;
+
+          ul {
+            margin-right: 12px;
+
+            li {
+              margin: 0 5px;
+
+              &:first-child {
+                margin: 0 5px 0 0;
+              }
+              &:last-child {
+                margin: 0 0 0 5px;
+              }
+
+              p {
+                margin-bottom: 0;
+                white-space: nowrap;
+              }
+            }
+          }
+        }
+      }
+      &:last-child {
+        margin-bottom: 100px;
+      }
+    }
+  }
+  .events {
+    li {
+      display: inline-block;
+      width: 240px;
+      vertical-align: top;
+
+      .year {
+        font-family: Bebas_Neue_Cyrillic;
+        color: $gray;
+        opacity: 0.5;
+        font-size: 34pt;
+        margin-bottom: 10px;
+
+        span {
+          display: block;
+          text-align: center;
+          width: 68px;
+          top: -10px;
+        }
+      }
+      .event_name {
+        font-weight: bold;
+        font-size: 11pt;
+        margin-bottom: 10px;
+        text-decoration: none;
+        display: block;
+        color: $gray_d;
+        line-height: 15pt;
+
+        span {
+          color: red;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .date {
+        background: rgba($gray, 0.5);
+        display: inline-block;
+        color: white;
+        font-size: 9pt;
+        padding: 8px 12px;
+        margin-bottom: 40px;
+      }
+      &.active {
+        .year {
+          color: red;
+          opacity: 1;
+        }
+      }
+    }
+  }
+  aside.event_nav {
+    position: absolute;
+    left: 40px !important;
+    top: 365px;
+
+    span {
+      color: red;
+      text-transform: none;
+    }
+
+    dl {
+      font-size: 13.5pt;
+
+      dt {
+        color: $gray_d;
+        text-transform: uppercase;
+        margin: 0 0 10px 10px;
+        padding: 15px;
+        background: rgba($gray, 0.8);
+        color: white;
+        display: inline-block;
+      }
+      dd {
+        padding-left: 25px;
+        line-height: 26pt;
+        text-transform: uppercase;
+        a {
+          color: $gray;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

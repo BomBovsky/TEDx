@@ -1,0 +1,21 @@
+/* line 1, ../sass/index.scss */
+#container.i {
+  min-height: 1700px;
+}
+/* line 4, ../sass/index.scss */
+#container.i .about {
+  margin-bottom: 60px;
+}
+/* line 7, ../sass/index.scss */
+#container.i .speakers {
+  z-index: 100;
+  padding-bottom: 27px;
+}
+/* line 12, ../sass/index.scss */
+#container.i aside ul:first-child {
+  margin: 59px 0 63px 52px;
+}
+/* line 15, ../sass/index.scss */
+#container.i aside ul.add {
+  margin-bottom: 358px;
+}
