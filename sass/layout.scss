@@ -166,9 +166,19 @@ html {
         padding: 0 40px;
         margin: 0 auto;
       }
+      .timer_link {
+        text-decoration: none;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+      }
       .timer {
-        width: 640px;
+        width: 750px;
         height: 279px;
+        position: relative;
+        z-index: 100;
 
         h1 {
           text-align: center;
@@ -281,6 +291,10 @@ html {
         span:nth-child(2) {
           color: $gray_d;
           text-transform: none;
+        }
+        a {
+          text-decoration: none;
+          color: inherit;
         }
       }
       h3 {

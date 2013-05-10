@@ -2,15 +2,72 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>TEDxKiyv</title>
+    <title>TEDxKyiv - конференція про унікальні ідеї та інновації</title>
     <link href="stylesheets/application.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="javascripts/jquery-1.7.min.js"></script>
-    <script type="text/javascript" src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.slides.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.scrollTo-min.js"></script>
     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script src="_xprecise/xprecise.min.js"></script>
+    <!--<script src="_xprecise/xprecise.min.js"></script>-->
     <script type="text/javascript">
       $(function(){
-        $('.scrollable').scrollable().navigator();
+        $('#slides_1').slidesjs({
+          width: 760,
+          height: 210,
+          pagination: {
+            active: true
+          }
+        });
+        $('#slides_2').slidesjs({
+          width: 750,
+          height: 360,
+          pagination: {
+            active: true
+          }
+        });
+        $('#slides_3').slidesjs({
+          width: 750,
+          height: 170,
+          pagination: {
+            active: true
+          }
+        });
+
+        var sidemenuTop = $('#sidemenu').offset().top;
+
+        $(window).scroll(function(){
+          if( $(window).scrollTop() > sidemenuTop ) {
+            $('#sidemenu').css({position: 'fixed', top: '6px'});
+          } else {
+            $('#sidemenu').css({position: 'static', top: '6px'});
+          }
+        });
+
+        $("#term_link").click(function (){
+          $('html, body').animate({
+          scrollTop: $("#term_anchor").offset().top
+          }, 2000);
+        });
+        $("#history_link").click(function (){
+          $('html, body').animate({
+          scrollTop: $("#history_anchor").offset().top
+          }, 2000);
+        });
+        $("#features_link").click(function (){
+          $('html, body').animate({
+          scrollTop: $("#features_anchor").offset().top
+          }, 2000);
+        });
+        $("#interest_link").click(function (){
+          $('html, body').animate({
+          scrollTop: $("#interest_anchor").offset().top
+          }, 2000);
+        });
+        $("#intro_link").click(function (){
+          $('html, body').animate({
+          scrollTop: $("#intro_anchor").offset().top
+          }, 2000);
+        });
       });
     </script>
   </head>
@@ -21,10 +78,10 @@
           <a href="index.html" class="logo"></a>
           <nav>
             <ul>
-              <li><a class="active">Про TED</a>
-                <ul class="active">
+              <li><a href="about.html">Про TED</a>
+                <ul>
                   <li><a href="">Що таке TED?</a></li>
-                  <li><a href="">Нас говорять</a></li>
+                  <li><a href="">Про нас говорять</a></li>
                 </ul>
               </li>
               <li><a href="events.html">Події</a>
@@ -35,7 +92,7 @@
                   <li><a href="">Відео</a></li>
                 </ul>
               </li>
-              <li><a href="">Приєднуйся!</a>
+              <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEd3Ql93eUhMSDJ4bmw2eVdTdUNaRXc6MQ" target="_blank">Приєднуйся!</a>
                 <ul>
                   <li><a href="">Для спікерів</a></li>
                   <li><a href="">Для партнерів</a></li>
@@ -62,7 +119,7 @@
         <div class="content">
           <article>
             <div class="inner">
-              <a name="term"></a>
+              <a id="term_anchor"></a>
               <h2>Определение <span>TED</span></h2>
               <p><span><strong>TED</strong></span> - это ежегодная конференция, проводимая в США, об уникальных проектах и инновациях, которые несут в себе идеи изменения и развитие общества.</p>
               <p>Девиз конференции «<strong>Ideas worth spreading</strong>» (дословно, «<strong>Идеи, достойные распространения</strong>») отражает миссию конференции – нести в массы идеи, способные изменить мир к лучшему.</p>
@@ -79,66 +136,63 @@
           </article>
           <div>
             <div class="notability">
-              <div class="scrollable">
-                <div class="items">
-                  <ul>
-                    <li>
-                      <img src="images/notability1.jpg">
-                      <p class="notability_name">Мюррей Гелл-Манн<span>нобелевский лауреат</span></p>
-                    </li>
-                    <li>
-                      <img src="images/notability2.jpg">
-                      <p class="notability_name">Билл Клинтон<span>бывший президент США</span></p>
-                    </li>
-                    <li>
-                      <img src="images/notability3.jpg">
-                      <p class="notability_name">Джимми Уэлс<span>основатель Wikipedia</span></p>
-                    </li>
-                    <li>
-                      <img src="images/notability4.jpg">
-                      <p class="notability_name">Ларри Пэйдж<span>основатель Google</span></p>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <img src="images/notability1.jpg">
-                      <p class="notability_name">Мюррей Гелл-Манн<span>нобелевский лауреат</span></p>
-                    </li>
-                    <li>
-                      <img src="images/notability2.jpg">
-                      <p class="notability_name">Билл Клинтон<span>бывший президент США</span></p>
-                    </li>
-                    <li>
-                      <img src="images/notability3.jpg">
-                      <p class="notability_name">Джимми Уэлс<span>основатель Wikipedia</span></p>
-                    </li>
-                    <li>
-                      <img src="images/notability4.jpg">
-                      <p class="notability_name">Ларри Пэйдж<span>основатель Google</span></p>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <img src="images/notability1.jpg">
-                      <p class="notability_name">Мюррей Гелл-Манн<span>нобелевский лауреат</span></p>
-                    </li>
-                    <li>
-                      <img src="images/notability2.jpg">
-                      <p class="notability_name">Билл Клинтон<span>бывший президент США</span></p>
-                    </li>
-                    <li>
-                      <img src="images/notability3.jpg">
-                      <p class="notability_name">Джимми Уэлс<span>основатель Wikipedia</span></p>
-                    </li>
-                    <li>
-                      <img src="images/notability4.jpg">
-                      <p class="notability_name">Ларри Пэйдж<span>основатель Google</span></p>
-                    </li>
-                  </ul>
-                </div>
+              <div id="slides_1">
+                <ul>
+                  <li>
+                    <img src="images/notability1.jpg">
+                    <p class="notability_name">Мюррей Гелл-Манн<span>нобелевский лауреат</span></p>
+                  </li>
+                  <li>
+                    <img src="images/notability2.jpg">
+                    <p class="notability_name">Билл Клинтон<span>бывший президент США</span></p>
+                  </li>
+                  <li>
+                    <img src="images/notability3.jpg">
+                    <p class="notability_name">Джимми Уэлс<span>основатель Wikipedia</span></p>
+                  </li>
+                  <li>
+                    <img src="images/notability4.jpg">
+                    <p class="notability_name">Ларри Пэйдж<span>основатель Google</span></p>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <img src="images/notability1.jpg">
+                    <p class="notability_name">Мюррей Гелл-Манн<span>нобелевский лауреат</span></p>
+                  </li>
+                  <li>
+                    <img src="images/notability2.jpg">
+                    <p class="notability_name">Билл Клинтон<span>бывший президент США</span></p>
+                  </li>
+                  <li>
+                    <img src="images/notability3.jpg">
+                    <p class="notability_name">Джимми Уэлс<span>основатель Wikipedia</span></p>
+                  </li>
+                  <li>
+                    <img src="images/notability4.jpg">
+                    <p class="notability_name">Ларри Пэйдж<span>основатель Google</span></p>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <img src="images/notability1.jpg">
+                    <p class="notability_name">Мюррей Гелл-Манн<span>нобелевский лауреат</span></p>
+                  </li>
+                  <li>
+                    <img src="images/notability2.jpg">
+                    <p class="notability_name">Билл Клинтон<span>бывший президент США</span></p>
+                  </li>
+                  <li>
+                    <img src="images/notability3.jpg">
+                    <p class="notability_name">Джимми Уэлс<span>основатель Wikipedia</span></p>
+                  </li>
+                  <li>
+                    <img src="images/notability4.jpg">
+                    <p class="notability_name">Ларри Пэйдж<span>основатель Google</span></p>
+                  </li>
+                </ul>
               </div>
             </div>
-            <div class="navi"></div>
           </div>
           <article class="history">
             <div class="first_ted">
@@ -152,57 +206,54 @@
             </div> 
             <div>
               <div class="chronology">
-                <a name="history"></a>
+                <a id="history_anchor"></a>
                 <h2>История <span>TED</span></h2>
-                <div class="scrollable">
-                  <div class="items">
-                    <ul>
-                      <li>
-                        <h5 class="year">1984</h5>
-                        <h6>Первая конференция <span>TED</span></h6>
-                        <p>была организована дизайнерами Ричард Сол Вурмен <i>(Richard Saul Wurman)</i> и Гарри Марксом <i>(Harry Marks)</i> в Калифорнии.</p>
-                        <p><span>TED</span> стал не просто конференцией, а популярной площадкой для обмена идеями между членами бизнес-сообщества и дизайнерами. </p>
-                      </li>
-                      <li>
-                        <h5 class="year">1990</h5>
-                        <h6>Начало ежегодного проведения конференции</h6>
-                      </li>
-                      <li>
-                        <h5 class="year">2001</h5>
-                        <h6>The Sapling Foundation приобрел права на <span>TED</span></h6>
-                        <p>The Sapling Foundation, принадлежащий журналисту и издателю <i>Крису Андерсон</i>у, приобрел права на TED.</p>
-                        <img src="images/Chris.jpg">
-                        <p class="about_smb"><i>И с тех пор лицом конференции и ее ведущим остается Крис.</i></p>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        <h5 class="year">1984</h5>
-                        <h6>Первая конференция <span>TED</span></h6>
-                        <p>была организована дизайнерами Ричард Сол Вурмен <i>(Richard Saul Wurman)</i> и Гарри Марксом <i>(Harry Marks)</i> в Калифорнии.</p>
-                        <p><span>TED</span> стал не просто конференцией, а популярной площадкой для обмена идеями между членами бизнес-сообщества и дизайнерами. </p>
-                      </li>
-                      <li>
-                        <h5 class="year">1990</h5>
-                        <h6>Начало ежегодного проведения конференции</h6>
-                      </li>
-                      <li>
-                        <h5 class="year">2001</h5>
-                        <h6>The Sapling Foundation приобрел права на <span>TED</span></h6>
-                        <p>The Sapling Foundation, принадлежащий журналисту и издателю <i>Крису Андерсону</i>, приобрел права на TED.</p>
-                        <img src="images/Chris.jpg">
-                        <p class="about_smb"><i>И с тех пор лицом конференции и ее ведущим остается Крис.</i></p>
-                      </li>
-                    </ul>
-                  </div>
+                <div id="slides_2">
+                  <ul>
+                    <li>
+                      <h5 class="year">1984</h5>
+                      <h6>Первая конференция <span>TED</span></h6>
+                      <p>была организована дизайнерами Ричард Сол Вурмен <i>(Richard Saul Wurman)</i> и Гарри Марксом <i>(Harry Marks)</i> в Калифорнии.</p>
+                      <p><span>TED</span> стал не просто конференцией, а популярной площадкой для обмена идеями между членами бизнес-сообщества и дизайнерами. </p>
+                    </li>
+                    <li>
+                      <h5 class="year">1990</h5>
+                      <h6>Начало ежегодного проведения конференции</h6>
+                    </li>
+                    <li>
+                      <h5 class="year">2001</h5>
+                      <h6>The Sapling Foundation приобрел права на <span>TED</span></h6>
+                      <p>The Sapling Foundation, принадлежащий журналисту и издателю <i>Крису Андерсон</i>у, приобрел права на TED.</p>
+                      <img src="images/Chris.jpg">
+                      <p class="about_smb"><i>И с тех пор лицом конференции и ее ведущим остается Крис.</i></p>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <h5 class="year">1984</h5>
+                      <h6>Первая конференция <span>TED</span></h6>
+                      <p>была организована дизайнерами Ричард Сол Вурмен <i>(Richard Saul Wurman)</i> и Гарри Марксом <i>(Harry Marks)</i> в Калифорнии.</p>
+                      <p><span>TED</span> стал не просто конференцией, а популярной площадкой для обмена идеями между членами бизнес-сообщества и дизайнерами. </p>
+                    </li>
+                    <li>
+                      <h5 class="year">1990</h5>
+                      <h6>Начало ежегодного проведения конференции</h6>
+                    </li>
+                    <li>
+                      <h5 class="year">2001</h5>
+                      <h6>The Sapling Foundation приобрел права на <span>TED</span></h6>
+                      <p>The Sapling Foundation, принадлежащий журналисту и издателю <i>Крису Андерсону</i>, приобрел права на TED.</p>
+                      <img src="images/Chris.jpg">
+                      <p class="about_smb"><i>И с тех пор лицом конференции и ее ведущим остается Крис.</i></p>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="navi"></div>
             </div>
           </article>
           <article>
             <div class="inner">
-              <a name="features"></a>
+              <a id="features_anchor"></a>
               <h2>Особенности <span>TED</span></h2>
               <p><span><strong>TED</strong></span>, как событие неординарное и, в своем роде, уникальное, имеет собственные правила и свой стиль.</p>
               <p>Выступление на конференции TED называется TED Talk. Все видеозаписи выступлений публикуются на официальном сайте <span><a href="ted.com">TED.com</a></span>. Сегодня библиотека TED Talks насчитывает более чем 1000 лучших выступлений с конференций.</p>
@@ -222,93 +273,90 @@
             <p>Все видео выступлений на <span><strong>TED</strong></span> являются свободно распространяемыми и любой желающий может увидеть прямую трансляцию конференции через Internet. Подобные правила отнюдь не ограничивают свободу конференции, а позволяют ей оставаться независимой, некоммерческой и сохранять свой уникальный контент.</p>
             <div>
               <div class="speakers">
-                <div class="scrollable" id="scrollable">
-                  <div class="items">
-                    <ul>
-                      <li>
-                        <img src="images/speaker_1.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Свiтлана Голубкiна</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_2.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Петро Васильєв</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_3.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Федір Борщ</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_4.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Олександр Іць</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_5.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Олексій Сироткін</p>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        <img src="images/speaker_1.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Свiтлана Голубкiна</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_2.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Петро Васильєв</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_3.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Федір Борщ</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_4.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Олександр Іць</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_5.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Олексій Сироткін</p>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        <img src="images/speaker_1.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Свiтлана Голубкiна</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_2.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Петро Васильєв</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_3.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Федір Борщ</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_4.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Олександр Іць</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_5.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Олексій Сироткін</p>
-                      </li>
-                    </ul>
-                  </div>
+                <div id="slides_3">
+                  <ul>
+                    <li>
+                      <img src="images/speaker_1.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Свiтлана Голубкiна</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_2.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Петро Васильєв</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_3.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Федір Борщ</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_4.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Олександр Іць</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_5.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Олексій Сироткін</p>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <img src="images/speaker_1.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Свiтлана Голубкiна</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_2.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Петро Васильєв</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_3.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Федір Борщ</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_4.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Олександр Іць</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_5.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Олексій Сироткін</p>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <img src="images/speaker_1.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Свiтлана Голубкiна</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_2.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Петро Васильєв</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_3.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Федір Борщ</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_4.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Олександр Іць</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_5.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Олексій Сироткін</p>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="navi"></div>
             </div>
             <div class="inner">
               <p>
@@ -319,7 +367,7 @@
           </article>
           <article>
             <div class="inner">
-              <a name="interest"></a>
+              <a id="interest_anchor"></a>
               <h2>Чем интересен <span>TED</span></h2>
               <p><span><strong>TED</strong></span> – это больше, чем конференция. Сегодня это уже полномасштабный проект, создатели которого верят в силу идей, способных пробудить лучшее в человеке  и направить его действия на изменения общества вокруг себя. По сути, TED перерос в мировое сообщество увлеченных людей, которые обмениваются накопленным опытом, вдохновением, приобретенными знаниями и новыми идеями.</p>
               <p>Проект <span>TED</span> включает в себя такие ежегодные соб ытия, как конференция TED в Лон Бич и Палм Спрингс, конференция TEDGlobal в Оксфорде (Великобритания), конференции TEDx.</p>
@@ -332,7 +380,7 @@
             </div>
           </article>
           <article class="what_is">
-            <a name="intro"></a>
+            <a id="intro_anchor"></a>
             <h1 class="underline">Что такое <span><strong>TEDx</strong></span>?</h1>
             <p><strong><span>TEDx</span> дают возможность городам, университетам, сообществам приобщиться к мировому движению TED и внести свою лепту в развитие идей совершествования мира и общества.</strong></p>
             <p><span><strong>TEDx</strong></span> –  это независимые локальные конференции, проводимые под эгидой TED в различных городах и странах. По сути, это самоорганизующееся событие, которое соблюдает правила TED и готовится инициативной группой в каком-то городе.</p>
@@ -341,17 +389,17 @@
           </article>
         </div>
         <aside class="about_nav">
-          <div>
+          <div id="sidemenu">
             <dl>
               <dt>Что такое <span>TED</span>?</dt>
-              <dd><a href="#term">Определение</a></dd>
-              <dd><a href="#history">История</a></dd>
-              <dd><a href="#features">Особенности</a></dd>
-              <dd><a href="#interest">Чем интересен <span>TED</span>?</a></dd>
+              <dd><a id="#term_link">Определение</a></dd>
+              <dd><a id="#history_link">История</a></dd>
+              <dd><a id="#features_link">Особенности</a></dd>
+              <dd><a id="#interest_link">Чем интересен <span>TED</span>?</a></dd>
             </dl>
             <dl>
               <dt>Что такое <span>TEDx</span>?</dt>
-              <dd><a href="#intro">Introduction</a></dd>
+              <dd><a id="#intro_link">Introduction</a></dd>
             </dl>
           </div>
         </aside>
@@ -361,14 +409,14 @@
     <footer id="footer">
       <div class="inner">
         <div class="rights">
-          <p>Copyright ©2012 TEDxKyiv</p>
-          <p>Ця незалежна подія TEDx працює за ліцензією TED.<br/>Всі права захищені. <a href="">Права та конфіденційність.</a></p>
+          <p>Copyright ©2013 TEDxKyiv</p>
+          <p>Ця незалежна подія TEDx працює за ліцензією TED.<br/>Всі права захищені. Права та конфіденційність.</p>
         </div>
         <div class="links">
           <ul>
             <li><a href="http://tedxvinnytsia.com/">TEDxVinnytsia</a></li>
             <li><a href="http://tedxodessa.com/">TEDxOdessa</a></li>
-            <li><a href="http://tedxkharkov.expoua.com/page/4474/">TEDxKharkiv</a></li>
+            <li><a href="http://tedxkharkov.com/">TEDxKharkiv</a></li>
             <li><a href="http://tedxdonetsk.com/">TEDxDonetsk</a></li>
             <!-- <li><a href="" class="lang ua active"></a></li>
             <li><a href="" class="lang uk"></a></li> -->
@@ -377,9 +425,9 @@
         <div class="social">
           <p>Шукайте нас:</p>
           <ul>
-            <li><a href="mailto:olga.romanyuk@gmail.com" class="ml"></a></li>
-            <li><a href="" class="fl"></a></li>
-            <li><a href="" class="tw"></a></li>
+            <li><a href="mailto:info@tedxkyiv.com" class="ml"></a></li>
+            <li><a href="http://flickr.com/groups/tedxkyiv/" class="fl"></a></li>
+            <li><a href="https://twitter.com/TEDxKyiv#" class="tw"></a></li>
             <li><a href="" class="fb"></a></li>
             <li><a href="http://www.youtube.com/user/TEDxTalks" class="yt"></a></li>
             <li><a href="" class="rc"></a></li>
