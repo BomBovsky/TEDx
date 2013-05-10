@@ -2,15 +2,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>TEDxKiyv</title>
+    <title>TEDxKyiv - конференція про унікальні ідеї та інновації</title>
     <link href="stylesheets/application.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="javascripts/jquery-1.7.min.js"></script>
-    <script type="text/javascript" src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.slides.min.js"></script>
+    <script src="javascripts/jquery.slides.min.js"></script>
     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script src="_xprecise/xprecise.min.js"></script>
+    <!--<script src="_xprecise/xprecise.min.js"></script>-->
     <script type="text/javascript">
       $(function(){
-        $('.scrollable').scrollable().navigator();
+        $('#slides_1').slidesjs({
+          width: 750,
+          height: 170,
+          pagination: {
+            active: true
+          }
+        });
+        $('#slides_2').slidesjs({
+          width: 750,
+          height: 170,
+          pagination: {
+            active: true
+          }
+        });
       });
     </script>
   </head>
@@ -81,39 +95,36 @@
             <p class="time">12:00 &mdash; 13:40</p>
             <div>
               <div class="speakers">
-                <div class="scrollable">
-                  <div class="items">
-                    <ul>
-                      <li>
-                        <img src="images/speaker_1.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Свiтлана Голубкiна</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_2.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Петро Васильєв</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_3.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Федір Борщ</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_4.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Олександр Іць</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_5.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Олексій Сироткін</p>
-                      </li>
-                    </ul>
-                  </div>
+                <div id="slides_1">
+                  <ul>
+                    <li>
+                      <img src="images/speaker_1.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Свiтлана Голубкiна</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_2.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Петро Васильєв</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_3.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Федір Борщ</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_4.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Олександр Іць</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_5.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Олексій Сироткін</p>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <!-- <div class="navi"></div> -->
             </div>
             <ul class="speech_description">
               <li class="show">
@@ -164,34 +175,31 @@
             <p class="time">16:00 &mdash; 18:00</p>
             <div>
               <div class="speakers">
-                <div class="scrollable">
-                  <div class="items">
-                    <ul>
-                      <li>
-                        <img src="images/speaker_7.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Андрiй Худо</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_8.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Сергiй Шиндяпiн</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_9.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">явно не денiс</p>
-                      </li>
-                      <li>
-                        <img src="images/speaker_10.jpg">
-                        <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                        <p class="speaker_name">Блicc Браун</p>
-                      </li>
-                    </ul>
-                  </div>
+                <div id="slides_2">
+                  <ul>
+                    <li>
+                      <img src="images/speaker_7.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Андрiй Худо</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_8.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Сергiй Шиндяпiн</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_9.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">явно не денiс</p>
+                    </li>
+                    <li>
+                      <img src="images/speaker_10.jpg" width="140">
+                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
+                      <p class="speaker_name">Блicc Браун</p>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <!-- <div class="navi"></div> -->
             </div>
             <ul class="speech_description">
               <li>
