@@ -82,6 +82,10 @@
       width: 100%;
       p {
         font-size: 10.5pt;
+
+        span {
+          color: red;
+        }
       }
 
       .text_list {
@@ -91,6 +95,17 @@
           margin: 0 0 10px 20px;
           font-size: 10.5pt;
           line-height: 18pt;
+
+          span {
+            color: rgba($gray, 0.5);
+            font-style: italic;
+          }
+          strong {
+            span {
+              font-style: normal;
+              color: red;
+            }
+          }
         }
       }
       h4 {

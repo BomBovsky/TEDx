@@ -12,8 +12,81 @@
       background: url(../images/banner_geton_p.jpg) 50% 50% !important;
     }
   }
-  .inner {
-    margin-right: 20px !important;
+  article {
+    .inner {
+      margin-right: 20px !important;
+    }
+    p.intro {
+      font-size: 14pt !important;
+      line-height: 20pt;
+
+      span {
+        color: red;
+      }
+    }
+    .registation {
+      color: white;
+      font-size: 13.5pt;
+      background: red;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 12px 0;
+      display: block;
+      width: 190px;
+      height: 24px;
+      text-align: center;
+      margin: 15px auto;
+      text-indent: 0;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    .quote {
+      width: 390px !important;
+      height: 140px;
+      left: 130px;
+      padding: 30px !important;
+      margin-top: 10px !important;
+
+      img {
+        float: left;
+        margin-right: 15px;
+      }
+
+      p {
+        text-align: left !important;
+
+        &.name {
+          text-transform: uppercase;
+          line-height: 15pt;
+          margin: 0 !important;
+        }
+        &.quote_text {
+          clear: both;
+          font-style: italic;
+          margin-top: 10px !important;
+        }
+
+        span {
+          color: rgba($gray, 0.5) !important;
+          font-style: italic;
+          text-transform: none;
+          font-size: 10pt;
+          font-weight: normal !important;
+          display: block !important;
+
+          &:first-letter {
+            color: rgba($gray, 0.5) !important;
+          }
+        }
+      }
+
+      li  {
+        background: none !important;
+        padding: 0 !important;
+      }
+    }
   }
   .required {
     h5 {

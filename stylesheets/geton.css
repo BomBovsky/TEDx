@@ -1,16 +1,40 @@
 /*
 Syntax error: Undefined variable: "$gray".
-        on line 21 of C:/Users/Insano/Projects/TEDx/sass/geton.scss
+        on line 72 of C:/Users/Insano/Projects/TEDx/sass/geton.scss
 
 Backtrace:
-C:/Users/Insano/Projects/TEDx/sass/geton.scss:21
+C:/Users/Insano/Projects/TEDx/sass/geton.scss:72
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/variable.rb:49:in `_perform'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/node.rb:40:in `perform'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/funcall.rb:99:in `block in _perform'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/funcall.rb:99:in `map'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/funcall.rb:99:in `_perform'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/node.rb:40:in `perform'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/list.rb:70:in `block in _perform'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/list.rb:70:in `map'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/list.rb:70:in `_perform'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/script/node.rb:40:in `perform'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `map'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `map'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:37:in `visit'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/perform.rb:100:in `visit'
 c:/ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.8/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -98,4 +122,4 @@ c:/Ruby200/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 21 of C:/Users/Insano/Projects/TEDx/sass/geton.scss"; }
+  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 72 of C:/Users/Insano/Projects/TEDx/sass/geton.scss"; }
