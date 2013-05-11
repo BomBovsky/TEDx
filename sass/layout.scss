@@ -81,7 +81,7 @@ html {
             position: absolute;
             cursor: default;
             top: 52px;
-            margin-left: 120px;
+            margin-left: 57px;
 
             a.active, a.active:hover {
               color: white;
@@ -92,7 +92,7 @@ html {
             }
             ul {
               li {
-                margin: 0 19px;
+                margin: 0 27px;
                 display: inline-block;
                 vertical-align: top;
                 z-index: 100;
@@ -107,6 +107,7 @@ html {
 
                   a, a:hover {
                     background-image: none;
+                    cursor: pointer;
                   }
                 }
                 a {
@@ -115,6 +116,7 @@ html {
                   text-transform: uppercase;
                   padding: 14px 15px;
                   background: url(../images/dropdown_arrow_g.png) no-repeat 100% 50%;
+                  cursor: pointer;
                 }
                 &:hover {
                   position: relative;

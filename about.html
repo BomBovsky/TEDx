@@ -5,34 +5,11 @@
     <title>TEDxKyiv - конференція про унікальні ідеї та інновації</title>
     <link href="stylesheets/application.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="javascripts/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="javascripts/jquery.slides.min.js"></script>
     <script type="text/javascript" src="javascripts/jquery.scrollTo-min.js"></script>
     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!--<script src="_xprecise/xprecise.min.js"></script>-->
     <script type="text/javascript">
       $(document).ready(function(){
-        $('#slides_1').slidesjs({
-          width: 760,
-          height: 210,
-          pagination: {
-            active: true
-          }
-        });
-        $('#slides_2').slidesjs({
-          width: 750,
-          height: 360,
-          pagination: {
-            active: true
-          }
-        });
-        $('#slides_3').slidesjs({
-          width: 750,
-          height: 170,
-          pagination: {
-            active: true
-          }
-        });
-
         var sidemenuTop = $('#sidemenu').offset().top;
 
         $(window).scroll(function(){
@@ -78,31 +55,31 @@
           <a href="index.html" class="logo"></a>
           <nav>
             <ul>
-              <li><a href="about.html">Про TED</a>
+              <li><a>Про TED</a>
                 <ul>
-                  <li><a href="">Що таке TED?</a></li>
-                  <li><a href="">Про нас говорять</a></li>
+                  <li><a href="about.html">Що таке TED?</a></li>
+                  <li><a href="">TED у ЗМI</a></li>
                 </ul>
               </li>
-              <li><a href="events.html">Події</a>
+              <li><a>Події</a>
                 <ul>
-                  <li><a href="">Конференції</a></li>
+                  <li><a href="events.html">TEDxKYIV</a></li>
                   <li><a href="">Спікери</a></li>
                   <li><a href="">Фото</a></li>
                   <li><a href="">Відео</a></li>
                 </ul>
               </li>
-              <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dEd3Ql93eUhMSDJ4bmw2eVdTdUNaRXc6MQ" target="_blank">Приєднуйся!</a>
+              <li><a>Приєднуйся!</a>
                 <ul>
                   <li><a href="">Для спікерів</a></li>
                   <li><a href="">Для партнерів</a></li>
-                  <li><a href="">Для преси</a></li>
-                  <li><a href="">Для волонтерів</a></li>
+                  <li><a href="get_on_4volunteers.html">Для волонтерів</a></li>
+                  <li><a href="">Для преси</a></li>  
                 </ul>
               </li>
-              <li><a href="">Ми</a>
+              <li><a>Ми</a>
                 <ul>
-                  <li><a href="">Організатори</a></li>
+                  <li><a href="team.html">Команда</a></li>
                   <li><a href="">Партнери</a></li>
                 </ul>
               </li>
@@ -113,7 +90,7 @@
       </header><!-- #header-->
       <div id="container" class="a">
         <p class="address"><a href="index.html">Головна</a>&nbsp;&nbsp;/&nbsp;&nbsp;Про TED</p>
-        <h1>Что такое <span><strong>TED</strong></span>?</h1>
+        <h1>Що таке <span><strong>TED</strong></span>?</h1>
         <div class="banner">
         </div>
         <div class="content">
@@ -121,269 +98,148 @@
             <div class="inner">
               <a id="term_anchor"></a>
               <h2>Определение <span>TED</span></h2>
-              <p><span><strong>TED</strong></span> - это ежегодная конференция, проводимая в США, об уникальных проектах и инновациях, которые несут в себе идеи изменения и развитие общества.</p>
-              <p>Девиз конференции «<strong>Ideas worth spreading</strong>» (дословно, «<strong>Идеи, достойные распространения</strong>») отражает миссию конференции – нести в массы идеи, способные изменить мир к лучшему.</p>
-              <p>Cегодня TED охватывает намного больше областей нашей жизни – образование, искусство, наука, спорт, социология, медицина, предпринимательство, энергосбережение и пр. Со сцены TED о своих идеях рассказывают ведущие ученые мира, политологи и социологи, художники и дизайнеры, программисты и профессора университетов.</p>
-              <p>Среди самых известных личностей, когда либо выступавших на конференции можно отметить нобелевских лауреатов Джеймса Уотсона и Мюррея Гелл-Манна, бывшего президента США – Билла Клинтона, основателя Wikipedia  Джимми Уэйлса, основателей Google Ларри Пэйджа и Сергея Брина, основателя Microsoft Билла Гейтса,  известного дизайнера Филиппа Старка,  певца Боно, премьер-министра Великобритании Гордона Брауна.</p>
+              <p><span><strong>TED</strong></span> - це щорічна конференція, що проводиться в США, про унікальні проекти та інновації, які несуть в собі ідеї зміни і розвитку суспільства. Девіз конференції <strong>«Ideas worth spreading»</strong> (дослівно, «Ідеї, гідні розповсюдження») відображає місію конференції - нести ідеї, які здатні змінити світ на краще.</p>
+              <p><span><strong>TED</strong></span> охоплює багато  сфер нашого життя - освіту, мистецтво, науку, спорт, соціологію, медицину, підприємництво, енергозбереження та інше. Зі сцени <span><strong>TED</strong></span> про свої ідеї розповідають провідні вчені світу, політологи та соціологи, художники і дизайнери, програмісти і професори університетів.</p>
+              <p>Серед найвідоміших особистостей, що виступали на конференції, можна відзначити нобелівських лауреатів Джеймса Уотсона і Мюррея Гелл-Манна, колишнього президента США - Білла Клінтона, засновника Wikipedia Джиммі Вейлза, засновників Google Ларрі Пейджа і Сергія Бріна, засновника Microsoft Білла Гейтса, відомого дизайнера Філіпа Старка, співака Боно, прем'єр-міністра Великобританії Гордона Брауна.</p>
+              <p></p>
             </div>
             <div class="frame">
-              <p>Название конференции происходит от заглавных букв слов</p>
+              <p>Назва конференції походить від заголовних літер слів</p>
               <span>Technology</span>
               <span>Entertainment</span>
               <span>Design</span>
-              <p>Изначально фокус внимания конференции был сосредоточен именно на этих областях деятельности человека – <strong>Технологии, Развлечения, Дизайн.</strong></p>
+              <p>Фокус уваги першої конференції був зосереджений саме на цих областях діяльності людини – <strong>Технології, Розваги, Дизайн.</strong></p>
+            </div>      
+            <div class="notability">
+              <ul>
+                <li>
+                  <img src="images/notability1.jpg">
+                  <p class="notability_name">Мюррей Гелл-Манн<span>нобелівський лауреат</span></p>
+                </li>
+                <li>
+                  <img src="images/notability2.jpg">
+                  <p class="notability_name">Білл Клінтон<span>колишній президент США</span></p>
+                </li>
+                <li>
+                  <img src="images/notability3.jpg">
+                  <p class="notability_name">Джиммі Уелс<span>засновник Wikipedia</span></p>
+                </li>
+                <li>
+                  <img src="images/notability4.jpg">
+                  <p class="notability_name">Ларрі Пейдж<span>засновник Google</span></p>
+                </li>
+              </ul>
             </div>
           </article>
-          <div>
-            <div class="notability">
-              <div id="slides_1">
-                <ul>
-                  <li>
-                    <img src="images/notability1.jpg">
-                    <p class="notability_name">Мюррей Гелл-Манн<span>нобелевский лауреат</span></p>
-                  </li>
-                  <li>
-                    <img src="images/notability2.jpg">
-                    <p class="notability_name">Билл Клинтон<span>бывший президент США</span></p>
-                  </li>
-                  <li>
-                    <img src="images/notability3.jpg">
-                    <p class="notability_name">Джимми Уэлс<span>основатель Wikipedia</span></p>
-                  </li>
-                  <li>
-                    <img src="images/notability4.jpg">
-                    <p class="notability_name">Ларри Пэйдж<span>основатель Google</span></p>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <img src="images/notability1.jpg">
-                    <p class="notability_name">Мюррей Гелл-Манн<span>нобелевский лауреат</span></p>
-                  </li>
-                  <li>
-                    <img src="images/notability2.jpg">
-                    <p class="notability_name">Билл Клинтон<span>бывший президент США</span></p>
-                  </li>
-                  <li>
-                    <img src="images/notability3.jpg">
-                    <p class="notability_name">Джимми Уэлс<span>основатель Wikipedia</span></p>
-                  </li>
-                  <li>
-                    <img src="images/notability4.jpg">
-                    <p class="notability_name">Ларри Пэйдж<span>основатель Google</span></p>
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <img src="images/notability1.jpg">
-                    <p class="notability_name">Мюррей Гелл-Манн<span>нобелевский лауреат</span></p>
-                  </li>
-                  <li>
-                    <img src="images/notability2.jpg">
-                    <p class="notability_name">Билл Клинтон<span>бывший президент США</span></p>
-                  </li>
-                  <li>
-                    <img src="images/notability3.jpg">
-                    <p class="notability_name">Джимми Уэлс<span>основатель Wikipedia</span></p>
-                  </li>
-                  <li>
-                    <img src="images/notability4.jpg">
-                    <p class="notability_name">Ларри Пэйдж<span>основатель Google</span></p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
           <article class="history">
             <div class="first_ted">
               <div class="cd">
-                <p>Компакт-диск был разработан в 1979 компанией Sony</p>
+                <p>Компакт-диск був розроблений в 1979 компанією Sony</p>
               </div>
-              <p class="about_first_ted">Так на первой конференции TED, которая состоялась  в 1984 году в Монтереее, были представлены достижения в сфере развития искусственного интеллекта – новая модель разума Марвина Минского, а в компьютерной сфере – только что выпущенный ПК Macintosh, первый компакт-диск Sony. </p>
+              <p class="about_first_ted">Так на першій конференції TED, яка відбулася в 1984 році в Монтереє, були представлені досягнення в сфері розвитку штучного інтелекту - нова модель розуму Марвіна Мінського, а в комп'ютерній сфері - тільки що випущений ПК Macintosh, перший компакт-диск Sony.</p>
               <div class="mac">
-                <p>Macintosh 128K — первый персональный компьютер компании Apple</p>
+                <p>Macintosh 128K - перший персональний комп'ютер компанії Apple</p>
               </div>
             </div> 
-            <div>
-              <div class="chronology">
-                <a id="history_anchor"></a>
-                <h2>История <span>TED</span></h2>
-                <div id="slides_2">
-                  <ul>
-                    <li>
-                      <h5 class="year">1984</h5>
-                      <h6>Первая конференция <span>TED</span></h6>
-                      <p>была организована дизайнерами Ричард Сол Вурмен <i>(Richard Saul Wurman)</i> и Гарри Марксом <i>(Harry Marks)</i> в Калифорнии.</p>
-                      <p><span>TED</span> стал не просто конференцией, а популярной площадкой для обмена идеями между членами бизнес-сообщества и дизайнерами. </p>
-                    </li>
-                    <li>
-                      <h5 class="year">1990</h5>
-                      <h6>Начало ежегодного проведения конференции</h6>
-                    </li>
-                    <li>
-                      <h5 class="year">2001</h5>
-                      <h6>The Sapling Foundation приобрел права на <span>TED</span></h6>
-                      <p>The Sapling Foundation, принадлежащий журналисту и издателю <i>Крису Андерсон</i>у, приобрел права на TED.</p>
-                      <img src="images/Chris.jpg">
-                      <p class="about_smb"><i>И с тех пор лицом конференции и ее ведущим остается Крис.</i></p>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <h5 class="year">1984</h5>
-                      <h6>Первая конференция <span>TED</span></h6>
-                      <p>была организована дизайнерами Ричард Сол Вурмен <i>(Richard Saul Wurman)</i> и Гарри Марксом <i>(Harry Marks)</i> в Калифорнии.</p>
-                      <p><span>TED</span> стал не просто конференцией, а популярной площадкой для обмена идеями между членами бизнес-сообщества и дизайнерами. </p>
-                    </li>
-                    <li>
-                      <h5 class="year">1990</h5>
-                      <h6>Начало ежегодного проведения конференции</h6>
-                    </li>
-                    <li>
-                      <h5 class="year">2001</h5>
-                      <h6>The Sapling Foundation приобрел права на <span>TED</span></h6>
-                      <p>The Sapling Foundation, принадлежащий журналисту и издателю <i>Крису Андерсону</i>, приобрел права на TED.</p>
-                      <img src="images/Chris.jpg">
-                      <p class="about_smb"><i>И с тех пор лицом конференции и ее ведущим остается Крис.</i></p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+            <div class="chronology">
+              <a id="history_anchor"></a>
+              <h2>История <span>TED</span></h2>
+              <ul>
+                <li>
+                  <h5 class="year">1984</h5>
+                  <h6>Перша конференція <span>TED</span></h6>
+                  <p>була організована дизайнерами Річард Сол Вурма <i>(Richard Saul Wurman)</i> і Гаррі Марксом <i>(Harry Marks)</i> в Каліфорнії.</p>
+                  <p><span>TED</span> став не просто конференцією, а популярним майданчиком для обміну ідеями між членами бізнес-спільноти та дизайнерами. </p>
+                </li>
+                <li>
+                  <h5 class="year">1990</h5>
+                  <h6>Початок щорічного проведення конференції</h6>
+                </li>
+                <li>
+                  <h5 class="year">2001</h5>
+                  <h6>The Sapling Foundation придбав права на <span>TED</span></h6>
+                  <p>The Sapling Foundation, що належить журналістові і видавцеві <i>Крису Андерсону</i>, придбав права на <span>TED</span>.</p>
+                  <img src="images/Chris.jpg">
+                  <p class="about_smb"><i>І з того часу особою конференції та її ведучим залишається Кріс.</i></p>
+                </li>
+              </ul>
             </div>
           </article>
           <article>
             <div class="inner">
               <a id="features_anchor"></a>
-              <h2>Особенности <span>TED</span></h2>
-              <p><span><strong>TED</strong></span>, как событие неординарное и, в своем роде, уникальное, имеет собственные правила и свой стиль.</p>
-              <p>Выступление на конференции TED называется TED Talk. Все видеозаписи выступлений публикуются на официальном сайте <span><a href="ted.com">TED.com</a></span>. Сегодня библиотека TED Talks насчитывает более чем 1000 лучших выступлений с конференций.</p>
-              <p>Каждую неделю на сайте появляются новые выступления. Все они сопровождены субтитрами на английском языке, многие переведены более чем на 20 языков мира. Их можно бесплатно просмотреть на сайте, скачать на свой компьютер в HD-качестве или подписаться на видео-подкаст. Также видеозаписи доступны и через <span><a href="http://www.youtube.com/user/TEDxTalks">YouTube</a></span>.</p>
+              <h2>Особливості <span>TED</span></h2>
+              <p><span><strong>TED</strong></span>, як подія неординарна і, у своєму роді, явище унікальне, має власні правила і свій стиль.</p>
+              <p>Виступ на конференції TED називається TED Talk. Всі відеозаписи виступів публікуються на офіційному сайті <span><a href="ted.com">TED.com</a></span>. Сьогодні бібліотека TED Talks налічує більш ніж 1000 кращих виступів з конференцій.</p>
+              <p>Щотижня на сайті з'являються нові виступи. Всі вони супроводжуються субтитрами англійською мовою, багато з них перекладені більш ніж на 20 мов світу. Їх можна безкоштовно переглянути на сайті, завантажити на свій комп'ютер в HD-якості або підписатися на відео-подкаст. Також відеозаписи доступні і через <span><a href="http://www.youtube.com/user/TEDxTalks">YouTube</a></span>.</p>
               <img src="images/speech.jpg">
             </div>
             <div class="frame">
               <ul>
-                <li>Цвет логотипа <span><strong>TED</strong></span> неизменно красный.</li>
-                <li>Выступление спикера строго ограничивается<br/><span><strong>18</strong></span>-ю минутами.</li>
-                <li>Со сцены <span><strong>не разрешается</strong></span> что-либо продавать, рекламировать или пиарить кого-либо.</li>
-                <li>Спонсорами конференции <span><strong>не могут</strong></span> быть алкогольные и табачные компании.</li>
+                <li>Колір логотипу <span><strong>TED</strong></span> незмінно червоний.</li>
+                <li>Виступ спікера суворо обмежується<br/><span><strong>18</strong></span>-ма хвилинами.</li>
+                <li>Зі сцени <span><strong>заборонено</strong></span> будь-що продавати, рекламувати або когось піарити.</li>
+                <li>Спонсорами конференції <span><strong>не можуть</strong></span> бути алкогольні і тютюнові компанії.</li>
               </ul>
             </div>
           </article>
           <article>
-            <p>Все видео выступлений на <span><strong>TED</strong></span> являются свободно распространяемыми и любой желающий может увидеть прямую трансляцию конференции через Internet. Подобные правила отнюдь не ограничивают свободу конференции, а позволяют ей оставаться независимой, некоммерческой и сохранять свой уникальный контент.</p>
-            <div>
-              <div class="speakers">
-                <div id="slides_3">
-                  <ul>
-                    <li>
-                      <img src="images/speaker_1.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Свiтлана Голубкiна</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_2.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Петро Васильєв</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_3.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Федір Борщ</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_4.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Олександр Іць</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_5.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Олексій Сироткін</p>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <img src="images/speaker_1.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Свiтлана Голубкiна</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_2.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Петро Васильєв</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_3.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Федір Борщ</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_4.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Олександр Іць</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_5.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Олексій Сироткін</p>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <img src="images/speaker_1.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Свiтлана Голубкiна</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_2.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Петро Васильєв</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_3.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Федір Борщ</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_4.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Олександр Іць</p>
-                    </li>
-                    <li>
-                      <img src="images/speaker_5.jpg" width="140">
-                      <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                      <p class="speaker_name">Олексій Сироткін</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+            <p>Усi відео виступів на <span><strong>TED</strong></span> вільно розповсюджуються і будь-хто може побачити пряму трансляцію конференції через Internet. Цi правила аж ніяк не обмежують свободу конференції й дозволяють їй залишатися незалежною, некомерційною і зберігати свій унікальний контент.</p>
+            <div class="speakers">
+              <ul>
+                <li>
+                  <img src="images/1.jpg" width="140">
+                  <a href="http://www.ted.com/talks/ken_robinson_says_schools_kill_creativity.html" class="theme"><span>Тема</span>How to escape education's death valley</a>
+                  <p class="speaker_name">Ken Robinson</p>
+                </li>
+                <li>
+                  <img src="images/2.jpg" width="140">
+                  <a href="http://www.ted.com/talks/pranav_mistry_the_thrilling_potential_of_sixthsense_technology.html" class="theme"><span>Тема</span>The thrilling potential of SixthSense technology</a>
+                  <p class="speaker_name">Pranav Mistry</p>
+                </li>
+                <li>
+                  <img src="images/3.jpg" width="140">
+                  <a href="http://www.ted.com/talks/david_gallo_shows_underwater_astonishments.html" class="theme"><span>Тема</span>Underwater astonishments</a>
+                  <p class="speaker_name">David Gallo</p>
+                </li>
+                <li>
+                  <img src="images/4.jpg" width="140">
+                  <a href="http://www.ted.com/talks/hans_rosling_reveals_new_insights_on_poverty.html" class="theme"><span>Тема</span>New insights on poverty</a>
+                  <p class="speaker_name">Hans Rosling</p>
+                </li>
+                <li>
+                  <img src="images/5.jpg" width="140">
+                  <a href=" http://www.ted.com/talks/seth_godin_on_the_tribes_we_lead.html" class="theme"><span>Тема</span>The tribes we lead</a>
+                  <p class="speaker_name">Seth Godin</p>
+                </li>
+              </ul>
             </div>
             <div class="inner">
               <p>
-                Конференции <span><strong>TED</strong></span> проходят каждую весну в Лонг Бич и Палм Спрингс. Конференции затрагивают и раскрывают через своих спикеров те глобальные темы, которые являются на данный момент самыми актуальными в т.ч. темы науки, бизнеса, искусства. Конференция проходит 4 дня, в течении которого со сцены произносится 50 презентаций.  Кроме этого, <span><strong>TED</strong></span> всегда оставляет место перфомансам в виде танцевальных или музыкальных выступлений. Интерес к <span><strong>TED</strong></span> остается всегда повышенный и билеты раскупаются заранее.
+                Конференції <span><strong>TED</strong></span> проходять щовесни у Лонг Біч і Палм Спрінгс. Конференції  розкривають через своїх спікерів ті глобальні теми, які є на даний момент найбільш актуальними в т.ч. теми науки, бізнесу, мистецтва. Конференція проходить 4 дні, на протязi яких зі сцени вимовляється бiля 50 презентацій. Крім цього, <span><strong>TED</strong></span> завжди залишає місце перфомансам у вигляді танцювальних або музичних виступів. Інтерес до <span><strong>TED</strong></span> залишається завжди підвищений і квитки розкуповуються заздалегідь.
               </p>
             </div>
-            <p class="side">Стоимость входного билеты на конференцию составляет около 6000$ при<br/>неизменно полном зале и количестве людей более 1000 человек.</p>
+            <p class="side"> Вартість вхідного квитка на конференцію становить близько 6000 $ при незмінно повному залі і кількості людей понад 1000 людин.</p>
           </article>
           <article>
             <div class="inner">
               <a id="interest_anchor"></a>
-              <h2>Чем интересен <span>TED</span></h2>
-              <p><span><strong>TED</strong></span> – это больше, чем конференция. Сегодня это уже полномасштабный проект, создатели которого верят в силу идей, способных пробудить лучшее в человеке  и направить его действия на изменения общества вокруг себя. По сути, TED перерос в мировое сообщество увлеченных людей, которые обмениваются накопленным опытом, вдохновением, приобретенными знаниями и новыми идеями.</p>
-              <p>Проект <span>TED</span> включает в себя такие ежегодные соб ытия, как конференция TED в Лон Бич и Палм Спрингс, конференция TEDGlobal в Оксфорде (Великобритания), конференции TEDx.</p>
-              <p>Кроме этого существуют такие сопровождающие TED проекты, как открытый проект “Переводы”, открытый проект “TV”, TED Fellows, ежегодный TED Prize.</p>
-              <p>Сейчас в проекте <strong>The TED Open Translation Project</strong> участвуют более 100 человек в год и выступления переводятся на 50 языков мира. На настоящий момент переведено более 7000 выступлений.</p>
+              <h2>Чим цікавий <span>TED</span></h2>
+              <p><span><strong>TED</strong></span> - це більше, ніж конференція. Сьогодні це вже повномасштабний проект, творці якого вірять у силу ідей, здатних пробудити найкраще в людині і направити його дії на зміни суспільства навколо себе. По суті, TED переріс у світове співтовариство захоплених людей, які обмінюються накопиченим досвідом, натхненням, набутими знаннями і новими ідеями.</p>
+              <p>Проект <span>TED</span> включає в себе такі щорічні події, як конференція TED у Лон Біч і Палм Спрінгс, конференція TEDGlobal в Оксфорді (Велика Британія), конференції TEDx.</p>
+              <p>Крім цього існують такі супроводжуючі TED проекти, як відкритий проект "Переклади", відкритий проект "TV", TED Fellows, щорічний TED Prize.</p>
+              <p>Зараз у проекті <strong>The TED Open Translation Project</strong> беруть участь більше 100 людин у рік і виступи переводяться на 50 мов світу. На даний момент переведено понад 7000 виступів.</p>
             </div>
             <div class="frame left">
-              <p>Самым доступным для любого поклонника <span>TED</span> является открытый проект The TED Open Translation Project , задача которого – сделать выступления TED доступными и понятными каждому на Земле.</p>
-              <p>«Открытый» потому, что он свободно распространяется и позволяет включиться волонтерам со всего мира.</p>
+              <p>Найдоступнішим для будь-якого шанувальника <span>TED</span> є відкритий проект The TED Open Translation Project, завдання якого - зробити виступи TED доступними і зрозумілими кожному на Землі.</p>
+              <p>«Відкритий» тому, що він вільно поширюється і дозволяє включитися волонтерам з усього світу.</p>
             </div>
           </article>
           <article class="what_is">
             <a id="intro_anchor"></a>
-            <h1 class="underline">Что такое <span><strong>TEDx</strong></span>?</h1>
-            <p><strong><span>TEDx</span> дают возможность городам, университетам, сообществам приобщиться к мировому движению TED и внести свою лепту в развитие идей совершествования мира и общества.</strong></p>
-            <p><span><strong>TEDx</strong></span> –  это независимые локальные конференции, проводимые под эгидой TED в различных городах и странах. По сути, это самоорганизующееся событие, которое соблюдает правила TED и готовится инициативной группой в каком-то городе.</p>
+            <h1 class="underline">Що таке <span><strong>TEDx</strong></span>?</h1>
+            <p><strong><span>TEDx</span> дають можливість містам, університетам, спільнотам долучитися до світового руху TED і зробити свій внесок у розвиток ідей совершествованія світу і суспільства.</strong></p>
+            <p><strong>TEDx</strong> - це незалежні локальні конференції, що проводяться під егідою TED в різних містах і країнах. По суті, це самостійна подія, яка дотримується правил TED і готується ініціативною групою в якомусь місті.</p>
             <h2 class="no_underline"><span>TEDx</span> Introduction</h2>
             <iframe width="760" height="315" src="http://www.youtube.com/embed/othM2dwi2bE" frameborder="0" allowfullscreen></iframe>
           </article>
@@ -391,14 +247,14 @@
         <aside class="about_nav">
           <div id="sidemenu">
             <dl>
-              <dt>Что такое <span>TED</span>?</dt>
-              <dd><a id="#term_link">Определение</a></dd>
-              <dd><a id="#history_link">История</a></dd>
-              <dd><a id="#features_link">Особенности</a></dd>
-              <dd><a id="#interest_link">Чем интересен <span>TED</span>?</a></dd>
+              <dt>Що таке <span>TED</span>?</dt>
+              <dd><a id="#term_link">Визначення</a></dd>
+              <dd><a id="#history_link">Історія</a></dd>
+              <dd><a id="#features_link">Особливості</a></dd>
+              <dd><a id="#interest_link">Чим цікавий <span>TED</span>?</a></dd>
             </dl>
             <dl>
-              <dt>Что такое <span>TEDx</span>?</dt>
+              <dt>Що таке <span>TEDx</span>?</dt>
               <dd><a id="#intro_link">Introduction</a></dd>
             </dl>
           </div>

@@ -26,11 +26,9 @@
         width: 495px;
         margin-right: 28px;
         
-
         span {
           color: red;
-        }
-        
+        } 
       }
       .frame {
         border: 4px solid $gray;
@@ -122,107 +120,90 @@
         h2 {
           margin-bottom: 27px;
         }
-        #slides_2 {
-          width: 100%;
-          height: 390px;
 
-          .slidesjs-container {
-            ul {
-              position:     relative;
-              float:         left;
-              margin-right: 40px;
+        ul {
+          li {
+            padding: 0;
+            width: 230px;
+            margin: 0 15px;
+            vertical-align: top;
+            display: inline-block;
+            height: 100%  !important;
 
-              li {
-                padding: 0;
-                width: 230px;
-                margin: 0 15px;
-                vertical-align: top;
-                height: 100%  !important;
+            &:first-child {
+              margin-left: 0;
+            }
+            &:last-child {
+              margin-right: 0;
+            }
 
-                &:first-child {
-                  margin: 0 15px 0 0;
-                }
-                &:last-child {
-                  margin: 0 0 0 15px;
-                }
-
-                .year {
-                  font-family: Bebas_Neue_Cyrillic;
-                  color: $gray;
-                  opacity: 0.4;
-                  font-size: 57pt;
-                  margin-bottom: 25px;
-                }
-                h6 {
-                  font-size: 13pt;
-                  font-weight: bold;
-                  margin-bottom: 19px;
-                }
-                p {
-                  line-height: 17pt;
-                }
-                span {
-                  color: red;
-                }
-                .about_smb {
-                  color: $gray !important;
-                  font-size: 10.5pt !important;
-                  line-height: 14pt;
-                }
-                img {
-                  position: relative;
-                  float: left;
-                  margin-right: 10px;
-                }
-              }
+            .year {
+              font-family: Bebas_Neue_Cyrillic;
+              color: $gray;
+              opacity: 0.4;
+              font-size: 57pt;
+              margin-bottom: 25px;
+            }
+            h6 {
+              font-size: 13pt;
+              font-weight: bold;
+              margin-bottom: 19px;
+            }
+            p {
+              line-height: 17pt;
+            }
+            span {
+              color: red;
+            }
+            .about_smb {
+              color: $gray !important;
+              font-size: 10.5pt !important;
+              line-height: 14pt;
+            }
+            img {
+              position: relative;
+              float: left;
+              margin-right: 10px;
             }
           }
-        } 
+        }
       }
     }
     .notability {
-      margin-bottom: 20px;
+      margin-bottom: 50px;
 
-      #slides_1 {
-        width: 100%;
-        height: 240px;
+      ul {
+        li {
+          padding: 0;
+          width: 160px;
+          height: 180px;
+          margin: 0 16px;
+          vertical-align: top;
+          display: inline-block;
 
-        .slidesjs-container {
-          ul {
-            position:     relative;
-            float:         left;
-            margin-right: 30px;
+          &:first-child {
+            margin-left: 0;
+          }
+          &:last-child {
+            margin-right: 0;
 
-            li {
-              padding: 0;
-              width: 160px;
-              height: 180px;
-              margin: 0 16px;
-              vertical-align: top;
+          }
+          img {
+            position: relative;
+          }
+          p {
+            display: block;
+            position: relative;
+            text-transform: uppercase;
+            font-size: 11pt;
+            padding: 10px 0;
+            line-height: 10pt;
 
-              &:first-child {
-                margin: 0 16px 0 0;
-              }
-              &:last-child {
-                margin: 0 0 0 16px;
-              }
-              img {
-                position: relative;
-              }
-              p {
-                display: block;
-                position: relative;
-                text-transform: uppercase;
-                font-size: 11pt;
-                padding: 10px 0;
-
-                span {
-                  font-size: 9pt;
-                  display: block;
-                  text-transform: none;
-                  margin-top: 5px;
-                }
-              }
+            span {
+              font-size: 9pt;
+              display: block;
+              text-transform: none;
+              margin-top: 5px;
             }
           }
         }
@@ -230,29 +211,65 @@
     }
     .speakers {
       margin-bottom: 20px;
-      #slides_3 {
-        width: 100%;
-        height: 200px;
 
-        .slidesjs-container {
-          ul {
-            margin-right: 12px;
+      ul {
+        li {
+          display: inline-block;
+          padding: 10px;
+          width: 120px;
+          height: 156px;
+          margin: 0 5px;
+          vertical-align: top;
 
-            li {
-              margin: 0 5px;
+          &:first-child {
+            margin-left: 0;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
 
-              &:first-child {
-                margin-left: 0;
-              }
-              &:last-child {
-                margin-right: 0;
-              }
-
-              p {
-                margin-bottom: 0;
-                white-space: nowrap;
-              }
+          &:hover {
+            a {
+              visibility: visible;
             }
+          }
+
+          img {
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+
+          p {
+            margin-bottom: 0;
+            white-space: nowrap;
+          }
+          .theme {
+            color: white;
+            text-decoration: none;
+            visibility: hidden;
+            background-color: rgba(red,0.8);
+            text-align: center;
+            height: 100px;
+            display: block;
+            font-size: 10pt;
+            font-weight: bold;
+            padding: 10px;
+            line-height: 11pt;
+
+             span {
+              text-transform: uppercase;
+              font-size: 7.5pt;
+              display: block;
+              margin-bottom: 10px;
+            }
+          }
+          .speaker_name {
+            font-size: 10pt;
+            text-transform: uppercase;
+            position: absolute;
+            top: 146px;
+            left: 0;
           }
         }
       }

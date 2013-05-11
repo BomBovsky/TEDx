@@ -1,0 +1,147 @@
+#container.g {
+  .banner{
+    height: 272px !important;
+
+    &.v {
+      background: url(../images/banner_geton_v.jpg) 50% 50% !important;
+    }
+    &.s {
+      background: url(../images/banner_geton_s.jpg) 50% 50% !important;
+    }
+    &.p {
+      background: url(../images/banner_geton_p.jpg) 50% 50% !important;
+    }
+  }
+  .inner {
+    margin-right: 20px !important;
+  }
+  .required {
+    h5 {
+      font-size: 13.5pt;
+      color: rgba($gray, 0.5);
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 20px;
+
+      span {
+        border-bottom: 2px dotted rgba($gray, 0.5);
+
+        &:hover {
+          border-bottom: none;
+        }
+      }
+    }
+    p {
+      margin-left: 25px;
+    }
+    a {
+      color: white;
+      font-size: 13.5pt;
+      background: red;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 12px 0;
+      display: block;
+      width: 230px;
+      text-align: center;
+      margin: 0 auto;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    div {
+      margin-bottom: 40px;
+      display: none;
+    }
+  }
+  .frame {
+    p {
+      margin-bottom: 15px !important;
+    }
+    .feature {
+      margin-bottom: 25px;
+      li {
+        background: none !important;
+        padding: 10px 0 !important;
+        font-size: 13.5pt !important;
+
+        span {
+          display: block !important;
+          text-align: center;
+          font-size: 10pt !important;
+          font-style: italic;
+          font-weight: normal;
+          color: $gray !important;
+
+          &:first-letter {
+            color: $gray;
+          }
+        }
+      }
+    }
+  }
+  .appeal {
+    p:first-child {
+      text-transform: uppercase;
+      font-size: 18pt !important;
+      text-align: center;
+      line-height: 28pt;
+      margin-bottom: 15px !important;
+    }
+    p:last-child {
+      font-size: 13pt !important;
+      text-align: center;
+      margin-bottom: 0 !important;
+
+      a {
+        color: red;
+      }
+    }
+  }
+  aside.geton_menu {
+    position: absolute;
+    left: 40px !important;
+    top: 355px;
+    width: 170px;
+
+    ul {
+      font-size: 12pt;
+
+      li {
+        padding: 10px 20px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+
+        &.active {
+          padding: 0;
+          margin: 5px 0;
+
+          a {
+            color: white;
+            padding: 18px 20px;
+            background: rgba($gray, 0.8) !important;
+            display: inline-block;
+            width: auto;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+        a {
+          color: $gray;
+          text-decoration: none;
+          display: inline;
+          padding: 0;
+          background: none !important;
+
+          &:hover {
+            text-decoration: underline;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
