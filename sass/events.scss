@@ -2,6 +2,14 @@
   margin-bottom: 80px !important;
   .banner{
     background: url(../images/banner_events.jpg) 50% 50%;
+
+    a {
+      position: absolute;
+      display: block;
+      top: 0;
+      height: 100%;
+      width: 100%;
+    }
   }
   article {
 
@@ -57,7 +65,7 @@
       width: 100%;
       li {
         display: inline-block;
-        width: 122px;
+        width: 120px;
         height: 72px;
         margin: 0 8px 13px 0;
       }

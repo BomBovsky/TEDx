@@ -24,6 +24,17 @@
         color: red;
       }
     }
+    .text_list {
+      li:last-child {
+        ol {
+          margin-top: 10px;
+          
+          li {
+            text-indent: 0;
+          }
+        }
+      }
+    }
     .registation {
       color: white;
       font-size: 13.5pt;
@@ -37,6 +48,10 @@
       text-align: center;
       margin: 15px auto;
       text-indent: 0;
+
+      &.form {
+        width: 310px;
+      }
 
       &:hover {
         opacity: 0.5;
