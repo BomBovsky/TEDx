@@ -15,7 +15,7 @@
       &.what_is {
         p {
           font-size: 12pt !important;
-        }        
+        }
       }
 
       p {
@@ -25,10 +25,10 @@
         display: inline-block;
         width: 495px;
         margin-right: 28px;
-        
+
         span {
           color: red;
-        } 
+        }
       }
       .frame {
         border: 4px solid rgba($gray, 0.5);
@@ -276,7 +276,7 @@
     }
     .side {
       text-align: center;
-      width: 230px;
+      width: 232px;
       display: inline-block;
       vertical-align: top;
       font-size: 13.5pt !important;
@@ -309,7 +309,7 @@
           text-decoration: none;
           font-size: 11pt;
           cursor: pointer;
-          
+
           &:hover {
             text-decoration: underline;
           }
