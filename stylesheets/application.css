@@ -1060,7 +1060,7 @@ html body #footer .inner .social .pieoneers {
   margin: 0 15px;
   vertical-align: top;
   display: inline-block;
-  height: 100% !important;
+  height: 100%  !important;
 }
 /* line 133, ../sass/about.scss */
 #container.a .content .history .chronology ul li:first-child {
@@ -1769,28 +1769,32 @@ html body #footer .inner .social .pieoneers {
   color: red;
 }
 /* line 190, ../sass/geton.scss */
+#container.g .banner_2013 {
+  margin-bottom: 10px;
+}
+/* line 193, ../sass/geton.scss */
 #container.g aside.geton_menu {
   position: absolute;
   left: 40px !important;
   top: 355px;
   width: 170px;
 }
-/* line 196, ../sass/geton.scss */
+/* line 199, ../sass/geton.scss */
 #container.g aside.geton_menu ul {
   font-size: 12pt;
 }
-/* line 199, ../sass/geton.scss */
+/* line 202, ../sass/geton.scss */
 #container.g aside.geton_menu ul li {
   padding: 10px 20px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
-/* line 204, ../sass/geton.scss */
+/* line 207, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active {
   padding: 0;
   margin: 5px 0;
 }
-/* line 208, ../sass/geton.scss */
+/* line 211, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active a {
   color: white;
   padding: 18px 20px;
@@ -1798,11 +1802,11 @@ html body #footer .inner .social .pieoneers {
   display: inline-block;
   width: auto;
 }
-/* line 215, ../sass/geton.scss */
+/* line 218, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active a:hover {
   text-decoration: none;
 }
-/* line 220, ../sass/geton.scss */
+/* line 223, ../sass/geton.scss */
 #container.g aside.geton_menu ul li a {
   color: #666666;
   text-decoration: none;
@@ -1810,7 +1814,7 @@ html body #footer .inner .social .pieoneers {
   padding: 0;
   background: none !important;
 }
-/* line 227, ../sass/geton.scss */
+/* line 230, ../sass/geton.scss */
 #container.g aside.geton_menu ul li a:hover {
   text-decoration: underline;
   opacity: 1;
