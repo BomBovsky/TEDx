@@ -1060,7 +1060,7 @@ html body #footer .inner .social .pieoneers {
   margin: 0 15px;
   vertical-align: top;
   display: inline-block;
-  height: 100%  !important;
+  height: 100% !important;
 }
 /* line 133, ../sass/about.scss */
 #container.a .content .history .chronology ul li:first-child {
@@ -1773,28 +1773,34 @@ html body #footer .inner .social .pieoneers {
   margin-bottom: 10px;
 }
 /* line 193, ../sass/geton.scss */
+#container.g .ideas {
+  border: 4px solid rgba(102, 102, 102, 0.5);
+  padding: 20px 35px;
+  margin-bottom: 20px;
+}
+/* line 198, ../sass/geton.scss */
 #container.g aside.geton_menu {
   position: absolute;
   left: 40px !important;
   top: 355px;
   width: 170px;
 }
-/* line 199, ../sass/geton.scss */
+/* line 204, ../sass/geton.scss */
 #container.g aside.geton_menu ul {
   font-size: 12pt;
 }
-/* line 202, ../sass/geton.scss */
+/* line 207, ../sass/geton.scss */
 #container.g aside.geton_menu ul li {
   padding: 10px 20px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
-/* line 207, ../sass/geton.scss */
+/* line 212, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active {
   padding: 0;
   margin: 5px 0;
 }
-/* line 211, ../sass/geton.scss */
+/* line 216, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active a {
   color: white;
   padding: 18px 20px;
@@ -1802,11 +1808,11 @@ html body #footer .inner .social .pieoneers {
   display: inline-block;
   width: auto;
 }
-/* line 218, ../sass/geton.scss */
+/* line 223, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active a:hover {
   text-decoration: none;
 }
-/* line 223, ../sass/geton.scss */
+/* line 228, ../sass/geton.scss */
 #container.g aside.geton_menu ul li a {
   color: #666666;
   text-decoration: none;
@@ -1814,7 +1820,7 @@ html body #footer .inner .social .pieoneers {
   padding: 0;
   background: none !important;
 }
-/* line 230, ../sass/geton.scss */
+/* line 235, ../sass/geton.scss */
 #container.g aside.geton_menu ul li a:hover {
   text-decoration: underline;
   opacity: 1;
