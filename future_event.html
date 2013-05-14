@@ -316,8 +316,10 @@
     <script type="text/javascript">
       $(function () {
         $('.speakers .theme').click(function () {
-          $('.speech_description li').hide();
-          $('.speech_description li:nth-child(' + ($(this).parents('li').index() + 1) + ')').show();
+          var theme_index = $(this).parents('li').index() + 1;
+          var description_container = $(this).parents('.speakers').next('.speech_description');
+          description_container.find('li').hide();
+          description_container.find('li:nth-child(' + theme_index + ')').show();
           return false;
         });
 
