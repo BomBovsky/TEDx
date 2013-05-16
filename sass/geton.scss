@@ -24,6 +24,11 @@
         color: red;
       }
     }
+    h2 {
+      span {
+        color: red !important;
+      }
+    }
     .text_list {
       li:last-child {
         ol {
@@ -190,10 +195,61 @@
   .banner_2013 {
     margin-bottom: 10px;
   }
+  .footnote {
+    font-style: italic;
+    display: block;
+    color: rgba($gray, 0.5);
+    font-size: 10pt !important;
+    margin-bottom: 0;
+    text-indent: 20px;
+  }
   .ideas {
     border: 4px solid rgba($gray, 0.5);
     padding: 20px 35px;
     margin-bottom: 20px;
+
+    dl {
+
+      dt, p {
+        text-transform: uppercase;
+        font-size: 10.5pt;
+        font-weight: bold;
+        white-space: nowrap;  
+
+        span {
+          text-transform: none;
+          font-style: italic;
+          font-weight: normal;
+          display: block;
+          color: rgba($gray, 0.5);
+          font-size: 10pt;
+          white-space: normal;
+          padding-left: 38px;
+        }
+      }
+      dt {
+        margin-bottom: 20px;
+      }
+
+      dd {
+        display: inline-block;
+        width: 220px;
+        margin-bottom: 30px;
+        vertical-align: top;
+
+        img {
+          float: left;
+          margin-right: 10px;
+          display: block;
+        }
+        &:last-child {
+          margin-bottom: 0;
+          p {
+            top: 5px;
+          }
+        }
+      }
+    }
   }
   aside.geton_menu {
     position: absolute;
