@@ -1383,17 +1383,21 @@ html body #footer .inner .social .pieoneers {
   font-style: normal;
   color: red;
 }
-/* line 111, ../sass/future_event.scss */
+/* line 109, ../sass/future_event.scss */
+#container.f .content article .text_list li a {
+  color: red;
+}
+/* line 114, ../sass/future_event.scss */
 #container.f .content article h4 {
   font-size: 11pt;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-/* line 116, ../sass/future_event.scss */
+/* line 119, ../sass/future_event.scss */
 #container.f .content article h4 span {
   color: red;
 }
-/* line 120, ../sass/future_event.scss */
+/* line 123, ../sass/future_event.scss */
 #container.f .content article .time {
   padding-left: 20px;
   background: url(../images/clock.png) no-repeat 0 50%;
@@ -1401,47 +1405,47 @@ html body #footer .inner .social .pieoneers {
   font-size: 10.5pt;
   margin-bottom: 10px;
 }
-/* line 127, ../sass/future_event.scss */
+/* line 130, ../sass/future_event.scss */
 #container.f .content article .speakers {
   margin-bottom: 20px;
 }
-/* line 129, ../sass/future_event.scss */
+/* line 132, ../sass/future_event.scss */
 #container.f .content article .speakers #slides_1, #container.f .content article .speakers #slides_2 {
   width: 100%;
   height: 170px;
 }
-/* line 133, ../sass/future_event.scss */
+/* line 136, ../sass/future_event.scss */
 #container.f .content article .speakers #slides_1 ul, #container.f .content article .speakers #slides_2 ul {
   margin-right: 12px;
 }
-/* line 136, ../sass/future_event.scss */
+/* line 139, ../sass/future_event.scss */
 #container.f .content article .speakers #slides_1 ul li, #container.f .content article .speakers #slides_2 ul li {
   margin: 0 5px;
 }
-/* line 139, ../sass/future_event.scss */
+/* line 142, ../sass/future_event.scss */
 #container.f .content article .speakers #slides_1 ul li:first-child, #container.f .content article .speakers #slides_2 ul li:first-child {
   margin: 0 5px 0 0;
 }
-/* line 142, ../sass/future_event.scss */
+/* line 145, ../sass/future_event.scss */
 #container.f .content article .speakers #slides_1 ul li:last-child, #container.f .content article .speakers #slides_2 ul li:last-child {
   margin: 0 0 0 5px;
 }
-/* line 146, ../sass/future_event.scss */
+/* line 149, ../sass/future_event.scss */
 #container.f .content article .speakers #slides_1 ul li p, #container.f .content article .speakers #slides_2 ul li p {
   margin-bottom: 0;
   white-space: nowrap;
 }
-/* line 154, ../sass/future_event.scss */
+/* line 157, ../sass/future_event.scss */
 #container.f .content article:last-child {
   margin-bottom: 100px;
 }
-/* line 160, ../sass/future_event.scss */
+/* line 163, ../sass/future_event.scss */
 #container.f .events li {
   display: inline-block;
   width: 240px;
   vertical-align: top;
 }
-/* line 165, ../sass/future_event.scss */
+/* line 168, ../sass/future_event.scss */
 #container.f .events li .year {
   font-family: Bebas_Neue_Cyrillic;
   color: #666666;
@@ -1449,14 +1453,14 @@ html body #footer .inner .social .pieoneers {
   font-size: 34pt;
   margin-bottom: 10px;
 }
-/* line 172, ../sass/future_event.scss */
+/* line 175, ../sass/future_event.scss */
 #container.f .events li .year span {
   display: block;
   text-align: center;
   width: 68px;
   top: -10px;
 }
-/* line 179, ../sass/future_event.scss */
+/* line 182, ../sass/future_event.scss */
 #container.f .events li .event_name {
   font-weight: bold;
   font-size: 11pt;
@@ -1466,15 +1470,15 @@ html body #footer .inner .social .pieoneers {
   color: #454545;
   line-height: 15pt;
 }
-/* line 188, ../sass/future_event.scss */
+/* line 191, ../sass/future_event.scss */
 #container.f .events li .event_name span {
   color: red;
 }
-/* line 192, ../sass/future_event.scss */
+/* line 195, ../sass/future_event.scss */
 #container.f .events li .event_name:hover {
   text-decoration: underline;
 }
-/* line 196, ../sass/future_event.scss */
+/* line 199, ../sass/future_event.scss */
 #container.f .events li .date {
   background: rgba(102, 102, 102, 0.5);
   display: inline-block;
@@ -1483,27 +1487,27 @@ html body #footer .inner .social .pieoneers {
   padding: 8px 12px;
   margin-bottom: 40px;
 }
-/* line 205, ../sass/future_event.scss */
+/* line 208, ../sass/future_event.scss */
 #container.f .events li.active .year {
   color: red;
   opacity: 1;
 }
-/* line 212, ../sass/future_event.scss */
+/* line 215, ../sass/future_event.scss */
 #container.f aside.event_nav {
   position: absolute;
   left: 40px !important;
   top: 365px;
 }
-/* line 217, ../sass/future_event.scss */
+/* line 220, ../sass/future_event.scss */
 #container.f aside.event_nav span {
   color: red;
   text-transform: none;
 }
-/* line 222, ../sass/future_event.scss */
+/* line 225, ../sass/future_event.scss */
 #container.f aside.event_nav dl {
   font-size: 13.5pt;
 }
-/* line 225, ../sass/future_event.scss */
+/* line 228, ../sass/future_event.scss */
 #container.f aside.event_nav dl dt {
   color: #454545;
   text-transform: uppercase;
@@ -1513,18 +1517,18 @@ html body #footer .inner .social .pieoneers {
   color: white;
   display: inline-block;
 }
-/* line 234, ../sass/future_event.scss */
+/* line 237, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd {
   padding-left: 25px;
   line-height: 26pt;
   text-transform: uppercase;
 }
-/* line 238, ../sass/future_event.scss */
+/* line 241, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a {
   color: #666666;
   text-decoration: none;
 }
-/* line 241, ../sass/future_event.scss */
+/* line 244, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a:hover {
   text-decoration: underline;
 }
@@ -1600,28 +1604,36 @@ html body #footer .inner .social .pieoneers {
   margin-right: 20px !important;
 }
 /* line 19, ../sass/geton.scss */
+#container.g article .inner .quote {
+  left: 18px !important;
+}
+/* line 22, ../sass/geton.scss */
+#container.g article .inner .text_list {
+  margin-top: 0 !important;
+}
+/* line 26, ../sass/geton.scss */
 #container.g article p.intro {
   font-size: 14pt !important;
   line-height: 20pt;
 }
-/* line 23, ../sass/geton.scss */
+/* line 30, ../sass/geton.scss */
 #container.g article p.intro span {
   color: red;
 }
-/* line 28, ../sass/geton.scss */
+/* line 35, ../sass/geton.scss */
 #container.g article h2 span {
   color: red !important;
 }
-/* line 34, ../sass/geton.scss */
+/* line 41, ../sass/geton.scss */
 #container.g article .text_list li:last-child ol {
   margin-top: 10px;
 }
-/* line 37, ../sass/geton.scss */
+/* line 44, ../sass/geton.scss */
 #container.g article .text_list li:last-child ol li {
   text-indent: 0;
 }
-/* line 43, ../sass/geton.scss */
-#container.g article .registation {
+/* line 50, ../sass/geton.scss */
+#container.g article .registration {
   color: white;
   font-size: 13.5pt;
   background: red;
@@ -1634,16 +1646,17 @@ html body #footer .inner .social .pieoneers {
   text-align: center;
   margin: 15px auto;
   text-indent: 0;
-}
-/* line 57, ../sass/geton.scss */
-#container.g article .registation.form {
-  width: 330px;
-}
-/* line 61, ../sass/geton.scss */
-#container.g article .registation:hover {
-  opacity: 0.5;
+  line-height: 24px;
 }
 /* line 65, ../sass/geton.scss */
+#container.g article .registration.form {
+  width: 330px;
+}
+/* line 69, ../sass/geton.scss */
+#container.g article .registration:hover {
+  opacity: 0.5;
+}
+/* line 73, ../sass/geton.scss */
 #container.g article .quote {
   width: 390px !important;
   height: 140px;
@@ -1651,28 +1664,28 @@ html body #footer .inner .social .pieoneers {
   padding: 30px !important;
   margin-top: 10px !important;
 }
-/* line 72, ../sass/geton.scss */
+/* line 80, ../sass/geton.scss */
 #container.g article .quote img {
   float: left;
   margin-right: 15px;
 }
-/* line 77, ../sass/geton.scss */
+/* line 85, ../sass/geton.scss */
 #container.g article .quote p {
   text-align: left !important;
 }
-/* line 80, ../sass/geton.scss */
+/* line 88, ../sass/geton.scss */
 #container.g article .quote p.name {
   text-transform: uppercase;
   line-height: 15pt;
   margin: 0 !important;
 }
-/* line 85, ../sass/geton.scss */
+/* line 93, ../sass/geton.scss */
 #container.g article .quote p.quote_text {
   clear: both;
   font-style: italic;
   margin-top: 10px !important;
 }
-/* line 91, ../sass/geton.scss */
+/* line 99, ../sass/geton.scss */
 #container.g article .quote p span {
   color: rgba(102, 102, 102, 0.5) !important;
   font-style: italic;
@@ -1681,16 +1694,16 @@ html body #footer .inner .social .pieoneers {
   font-weight: normal !important;
   display: block !important;
 }
-/* line 99, ../sass/geton.scss */
+/* line 107, ../sass/geton.scss */
 #container.g article .quote p span:first-letter {
   color: rgba(102, 102, 102, 0.5) !important;
 }
-/* line 105, ../sass/geton.scss */
+/* line 113, ../sass/geton.scss */
 #container.g article .quote li {
   background: none !important;
   padding: 0 !important;
 }
-/* line 112, ../sass/geton.scss */
+/* line 120, ../sass/geton.scss */
 #container.g .required h5 {
   font-size: 13.5pt;
   color: rgba(102, 102, 102, 0.5);
@@ -1698,19 +1711,19 @@ html body #footer .inner .social .pieoneers {
   cursor: pointer;
   margin-bottom: 20px;
 }
-/* line 119, ../sass/geton.scss */
+/* line 127, ../sass/geton.scss */
 #container.g .required h5 span {
   border-bottom: 2px dotted rgba(102, 102, 102, 0.5);
 }
-/* line 122, ../sass/geton.scss */
+/* line 130, ../sass/geton.scss */
 #container.g .required h5 span:hover {
   border-bottom: none;
 }
-/* line 127, ../sass/geton.scss */
+/* line 135, ../sass/geton.scss */
 #container.g .required p {
   margin-left: 25px;
 }
-/* line 130, ../sass/geton.scss */
+/* line 138, ../sass/geton.scss */
 #container.g .required a {
   color: white;
   font-size: 13.5pt;
@@ -1723,30 +1736,30 @@ html body #footer .inner .social .pieoneers {
   text-align: center;
   margin: 0 auto;
 }
-/* line 142, ../sass/geton.scss */
+/* line 150, ../sass/geton.scss */
 #container.g .required a:hover {
   opacity: 0.5;
 }
-/* line 146, ../sass/geton.scss */
+/* line 154, ../sass/geton.scss */
 #container.g .required div {
   margin-bottom: 40px;
   display: none;
 }
-/* line 152, ../sass/geton.scss */
+/* line 160, ../sass/geton.scss */
 #container.g .frame p {
   margin-bottom: 15px !important;
 }
-/* line 155, ../sass/geton.scss */
+/* line 163, ../sass/geton.scss */
 #container.g .frame .feature {
   margin-bottom: 25px;
 }
-/* line 157, ../sass/geton.scss */
+/* line 165, ../sass/geton.scss */
 #container.g .frame .feature li {
   background: none !important;
   padding: 10px 0 !important;
   font-size: 13.5pt !important;
 }
-/* line 162, ../sass/geton.scss */
+/* line 170, ../sass/geton.scss */
 #container.g .frame .feature li span {
   display: block !important;
   text-align: center;
@@ -1755,33 +1768,83 @@ html body #footer .inner .social .pieoneers {
   font-weight: normal;
   color: #666666 !important;
 }
-/* line 170, ../sass/geton.scss */
+/* line 178, ../sass/geton.scss */
 #container.g .frame .feature li span:first-letter {
   color: #666666;
 }
-/* line 178, ../sass/geton.scss */
+/* line 185, ../sass/geton.scss */
+#container.g .format, #container.g .benefits {
+  margin-top: 60px;
+}
+/* line 187, ../sass/geton.scss */
+#container.g .format .frame, #container.g .benefits .frame {
+  margin: 0 0 20px !important;
+}
+/* line 189, ../sass/geton.scss */
+#container.g .format .frame label, #container.g .benefits .frame label {
+  margin-top: 15px;
+  display: block;
+  font-weight: bold;
+}
+/* line 194, ../sass/geton.scss */
+#container.g .format .frame label span, #container.g .benefits .frame label span {
+  color: red;
+  margin-left: 0;
+  display: inline;
+}
+/* line 200, ../sass/geton.scss */
+#container.g .format .frame li, #container.g .benefits .frame li {
+  padding: 15px 0 !important;
+}
+/* line 203, ../sass/geton.scss */
+#container.g .format .frame li span, #container.g .benefits .frame li span {
+  color: rgba(102, 102, 102, 0.5) !important;
+  display: block !important;
+  text-align: center !important;
+  font-size: 9pt;
+}
+/* line 208, ../sass/geton.scss */
+#container.g .format .frame li span:first-letter, #container.g .benefits .frame li span:first-letter {
+  color: rgba(102, 102, 102, 0.5) !important;
+}
+/* line 211, ../sass/geton.scss */
+#container.g .format .frame li span span, #container.g .benefits .frame li span span {
+  color: red !important;
+  display: inline !important;
+}
+/* line 219, ../sass/geton.scss */
+#container.g .format .quote li, #container.g .benefits .quote li {
+  padding: 0 !important;
+}
+/* line 225, ../sass/geton.scss */
 #container.g .appeal p:first-child {
   text-transform: uppercase;
   font-size: 18pt !important;
-  text-align: center;
   line-height: 28pt;
-  margin-bottom: 15px !important;
+  margin-bottom: 5px !important;
 }
-/* line 185, ../sass/geton.scss */
+/* line 231, ../sass/geton.scss */
+#container.g .appeal p {
+  text-align: center;
+}
+/* line 234, ../sass/geton.scss */
 #container.g .appeal p:last-child {
   font-size: 13pt !important;
-  text-align: center;
   margin-bottom: 0 !important;
 }
-/* line 190, ../sass/geton.scss */
+/* line 238, ../sass/geton.scss */
 #container.g .appeal p:last-child a {
   color: red;
 }
-/* line 195, ../sass/geton.scss */
+/* line 242, ../sass/geton.scss */
+#container.g .appeal .registration {
+  width: 300px !important;
+}
+/* line 246, ../sass/geton.scss */
 #container.g .banner_2013 {
   margin-bottom: 10px;
 }
-/* line 198, ../sass/geton.scss */
+/* line 249, ../sass/geton.scss */
 #container.g .footnote {
   font-style: italic;
   display: block;
@@ -1790,20 +1853,24 @@ html body #footer .inner .social .pieoneers {
   margin-bottom: 0;
   text-indent: 20px;
 }
-/* line 206, ../sass/geton.scss */
+/* line 257, ../sass/geton.scss */
+#container.g .footnote:last-child {
+  margin-bottom: 40px;
+}
+/* line 261, ../sass/geton.scss */
 #container.g .ideas {
   border: 4px solid rgba(102, 102, 102, 0.5);
   padding: 20px 35px;
   margin-bottom: 20px;
 }
-/* line 213, ../sass/geton.scss */
+/* line 268, ../sass/geton.scss */
 #container.g .ideas dl dt, #container.g .ideas dl p {
   text-transform: uppercase;
   font-size: 10.5pt;
   font-weight: bold;
   white-space: nowrap;
 }
-/* line 219, ../sass/geton.scss */
+/* line 274, ../sass/geton.scss */
 #container.g .ideas dl dt span, #container.g .ideas dl p span {
   text-transform: none;
   font-style: italic;
@@ -1814,54 +1881,65 @@ html body #footer .inner .social .pieoneers {
   white-space: normal;
   padding-left: 38px;
 }
-/* line 230, ../sass/geton.scss */
+/* line 285, ../sass/geton.scss */
 #container.g .ideas dl dt {
   margin-bottom: 20px;
 }
-/* line 234, ../sass/geton.scss */
+/* line 289, ../sass/geton.scss */
 #container.g .ideas dl dd {
   display: inline-block;
   width: 220px;
   margin-bottom: 30px;
   vertical-align: top;
 }
-/* line 240, ../sass/geton.scss */
+/* line 295, ../sass/geton.scss */
 #container.g .ideas dl dd img {
   float: left;
   margin-right: 10px;
   display: block;
 }
-/* line 245, ../sass/geton.scss */
+/* line 300, ../sass/geton.scss */
 #container.g .ideas dl dd:last-child {
   margin-bottom: 0;
 }
-/* line 247, ../sass/geton.scss */
+/* line 302, ../sass/geton.scss */
 #container.g .ideas dl dd:last-child p {
   top: 5px;
 }
-/* line 254, ../sass/geton.scss */
+/* line 309, ../sass/geton.scss */
+#container.g h6 {
+  text-transform: uppercase;
+  font-size: 10.5pt;
+  font-weight: bold;
+  margin: 40px 0 20px;
+}
+/* line 315, ../sass/geton.scss */
+#container.g .no_margin-top {
+  margin-top: 0 !important;
+}
+/* line 318, ../sass/geton.scss */
 #container.g aside.geton_menu {
   position: absolute;
   left: 40px !important;
   top: 355px;
   width: 170px;
 }
-/* line 260, ../sass/geton.scss */
+/* line 324, ../sass/geton.scss */
 #container.g aside.geton_menu ul {
   font-size: 12pt;
 }
-/* line 263, ../sass/geton.scss */
+/* line 327, ../sass/geton.scss */
 #container.g aside.geton_menu ul li {
   padding: 10px 20px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
-/* line 268, ../sass/geton.scss */
+/* line 332, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active {
   padding: 0;
   margin: 5px 0;
 }
-/* line 272, ../sass/geton.scss */
+/* line 336, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active a {
   color: white;
   padding: 18px 20px;
@@ -1869,11 +1947,11 @@ html body #footer .inner .social .pieoneers {
   display: inline-block;
   width: auto;
 }
-/* line 279, ../sass/geton.scss */
+/* line 343, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active a:hover {
   text-decoration: none;
 }
-/* line 284, ../sass/geton.scss */
+/* line 348, ../sass/geton.scss */
 #container.g aside.geton_menu ul li a {
   color: #666666;
   text-decoration: none;
@@ -1881,7 +1959,7 @@ html body #footer .inner .social .pieoneers {
   padding: 0;
   background: none !important;
 }
-/* line 291, ../sass/geton.scss */
+/* line 355, ../sass/geton.scss */
 #container.g aside.geton_menu ul li a:hover {
   text-decoration: underline;
   opacity: 1;
