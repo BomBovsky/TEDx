@@ -48,7 +48,7 @@
       }
     }
     .registration {
-      color: white;
+      color: white !important;
       font-size: 13.5pt;
       background: red;
       text-decoration: none;
@@ -314,7 +314,14 @@
   }
   .no_margin-top {
     margin-top: 0 !important;
-  } 
+  }
+  .partners {
+    li {
+      display: inline-block;
+      text-align: center;
+      width: 145px;
+    }
+  }
   aside.geton_menu {
     position: absolute;
     left: 40px !important;

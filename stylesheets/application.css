@@ -812,15 +812,16 @@ html body #footer .inner .social .pieoneers {
   font-weight: bold;
   padding: 10px;
   line-height: 11pt;
+  cursor: pointer;
 }
-/* line 85, ../sass/slides.scss */
+/* line 86, ../sass/slides.scss */
 #slides .slidesjs-container ul li .theme span, #slides_1 .slidesjs-container ul li .theme span, #slides_2 .slidesjs-container ul li .theme span, #slides_3 .slidesjs-container ul li .theme span, #slides_4 .slidesjs-container ul li .theme span {
   text-transform: uppercase;
   font-size: 7.5pt;
   display: block;
   margin-bottom: 10px;
 }
-/* line 92, ../sass/slides.scss */
+/* line 93, ../sass/slides.scss */
 #slides .slidesjs-container ul li .speaker_name, #slides_1 .slidesjs-container ul li .speaker_name, #slides_2 .slidesjs-container ul li .speaker_name, #slides_3 .slidesjs-container ul li .speaker_name, #slides_4 .slidesjs-container ul li .speaker_name {
   font-size: 10pt;
   text-transform: uppercase;
@@ -1634,7 +1635,7 @@ html body #footer .inner .social .pieoneers {
 }
 /* line 50, ../sass/geton.scss */
 #container.g article .registration {
-  color: white;
+  color: white !important;
   font-size: 13.5pt;
   background: red;
   text-decoration: none;
@@ -1917,29 +1918,35 @@ html body #footer .inner .social .pieoneers {
 #container.g .no_margin-top {
   margin-top: 0 !important;
 }
-/* line 318, ../sass/geton.scss */
+/* line 319, ../sass/geton.scss */
+#container.g .partners li {
+  display: inline-block;
+  text-align: center;
+  width: 145px;
+}
+/* line 325, ../sass/geton.scss */
 #container.g aside.geton_menu {
   position: absolute;
   left: 40px !important;
   top: 355px;
   width: 170px;
 }
-/* line 324, ../sass/geton.scss */
+/* line 331, ../sass/geton.scss */
 #container.g aside.geton_menu ul {
   font-size: 12pt;
 }
-/* line 327, ../sass/geton.scss */
+/* line 334, ../sass/geton.scss */
 #container.g aside.geton_menu ul li {
   padding: 10px 20px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
-/* line 332, ../sass/geton.scss */
+/* line 339, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active {
   padding: 0;
   margin: 5px 0;
 }
-/* line 336, ../sass/geton.scss */
+/* line 343, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active a {
   color: white;
   padding: 18px 20px;
@@ -1947,11 +1954,11 @@ html body #footer .inner .social .pieoneers {
   display: inline-block;
   width: auto;
 }
-/* line 343, ../sass/geton.scss */
+/* line 350, ../sass/geton.scss */
 #container.g aside.geton_menu ul li.active a:hover {
   text-decoration: none;
 }
-/* line 348, ../sass/geton.scss */
+/* line 355, ../sass/geton.scss */
 #container.g aside.geton_menu ul li a {
   color: #666666;
   text-decoration: none;
@@ -1959,7 +1966,7 @@ html body #footer .inner .social .pieoneers {
   padding: 0;
   background: none !important;
 }
-/* line 355, ../sass/geton.scss */
+/* line 362, ../sass/geton.scss */
 #container.g aside.geton_menu ul li a:hover {
   text-decoration: underline;
   opacity: 1;
