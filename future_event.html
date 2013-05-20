@@ -11,14 +11,17 @@
     <!--<script src="_xprecise/xprecise.min.js"></script>-->
     <script type="text/javascript">
       $(function(){
-        $('#slides_1').slidesjs({
-          width: 750,
-          height: 170,
-          pagination: {
-            active: true
-          }
-        });
-        $('#slides_2').slidesjs({
+        // var sidemenuTop = $('#sidemenu').offset().top;
+
+        // $(window).scroll(function(){
+        //   if( $(window).scrollTop() > sidemenuTop ) {
+        //     $('#sidemenu').css({position: 'fixed', top: '20px'});
+        //   } else {
+        //     $('#sidemenu').css({position: 'static', top: '20px'});
+        //   }
+        // });
+
+        $('#slides').slidesjs({
           width: 750,
           height: 170,
           pagination: {
@@ -79,43 +82,70 @@
           <article>
             <p>П’ята конференція TEDxKyiv, або український Давос для оптимістів, відбудеться 15 червня в Українському домі. Цьогорічна тема «Інстинкт майбутнього» об’єднає візіонерів і творців: науковці, бізнесмени, культурні діячі разом шукатимуть можливості започаткувати нові прагнення у  суспільстві.</p>
             <p>Серед тем виступів – взаємодія у соціумі, краща якість життя та освіти, технології та економічні підходи, що творять майбутнє. TEDxKyiv – це створення власного шляху на десятиліття вперед замість лише реакцій на подразники, це пошук нових горизонтів замість безпеки і тепла в печерах сьогодення. Цього року мета конференції також пробудити в учасників інстинкт розмноження цінностей і помноження прогресу.</p>
-            <p>Спікерів буде оголошено наприкінці квітня, з відео-записами 2009-2012 можна ознайомитися <a href="http://www.youtube.com/user/TEDxTalks/videos?query=tedxkyiv">на сторінці</a> конференції. Про початок прийняття заявок на квитки можна дізнатися першими з <a href="http://eepurl.com/ej3Mg">розсилки</a>.</p>
           </article>
           <article>
             <h2>Программа Події</h2>
-            <p>***Предисловие к программе***</p>
-          </article>
-          <article>
-            <h4>Сесiя#1</h4>
-            <h4><span><strong>Трансформаційне Підприємництво</strong></span></h4>
-            <p class="time">12:00 &mdash; 13:40</p>
             <div class="speakers">
-              <div id="slides_1">
+              <div id="slides">
                 <ul>
                   <li>
-                    <img src="images/speaker_1.jpg" width="140">
-                    <a class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                    <p class="speaker_name">Свiтлана Голубкiна</p>
+                    <img src="images/zablodsky.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name small">Ярослав Заблоцкий</p>
                   </li>
                   <li>
-                    <img src="images/speaker_2.jpg" width="140">
-                    <a class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                    <p class="speaker_name">Петро Васильєв</p>
+                    <img src="images/stoetska.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name">Оксана Стоєцька</p>
                   </li>
                   <li>
-                    <img src="images/speaker_3.jpg" width="140">
-                    <a class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                    <p class="speaker_name">Федір Борщ</p>
+                    <img src="images/kolynko.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name small">Володимир Колинько</p>
                   </li>
                   <li>
-                    <img src="images/speaker_4.jpg" width="140">
-                    <a class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                    <p class="speaker_name">Олександр Іць</p>
+                    <img src="images/prasolov.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name">Максим Прасолов</p>
                   </li>
                   <li>
-                    <img src="images/speaker_5.jpg" width="140">
-                    <a class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                    <p class="speaker_name">Олексій Сироткін</p>
+                    <img src="images/lototska.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name">Юнона Лотоцька</p>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <img src="images/plakida.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name">Альона Плакіда</p>
+                  </li>
+                  <li>
+                    <img src="images/ivaschenko.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name">Юрій Іващенко</p>
+                  </li>
+                  <li>
+                    <img src="images/tern.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name">Олег Терн</p>
+                  </li>
+                  <li>
+                    <img src="images/karamshuk.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name">Дмитро Карамшук </p>
+                  </li>
+                  <li>
+                    <img src="images/shabanov.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name">Дмитро Шабанов</p>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <img src="images/kostik.jpg" width="140">
+                    <a class="theme"><span>Тема</span></a>
+                    <p class="speaker_name">Дмитро Костiк</p>
                   </li>
                 </ul>
               </div>
@@ -123,126 +153,120 @@
             <ul class="speech_description">
               <li>
                 <a href="" class="close"></a>
-                <h3>Світлана Голуб 1<span>підприємець, бізнес-вумен</span></h3>
-                <p>I live at the crossroads of industrial issues (with job linked to steel markets) and social connectivity issues (various events organization). With TEDx, I combine the two passions - for the third one - social change. Restoration of trust, as well as genuine curiosity in each other, and ultimately stronger social fabric in the country are the goals in order to bring the best for the community.</p>
-                <span class="theme">Тема спіча</span>
-                <h2>Попробуйте что-то новое в течение 30 дней</h2>
-                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p>
+                <h3>Ярослав Заблоцкий<!-- <span></span> --></h3>
+                <p>Cоціальний інноватор в медицині. Стоматолог з 25-річним досвідом Ярослав Заблоцький дійшов несподіваних висновків щодо професійної мотивації під час ініційованих ним міжнародних акцій турботи про здоров'я батьків. <a href="http://zablotskyy.kiev.ua/">zablotskyy.kiev.ua</a></p>
+                <p>Innovator in medicine. A dentist for 25 years, Yaroslav Zablotskyy came to surprising conclusions on professional movitation during the annual charity program for parents' care that he initiated.</p>
+                <!-- <span class="theme">Тема спіча</span>
+                <h2></h2>
+                <p class="contact_info"></p> -->
               </li>
               <li>
                 <a href="" class="close"></a>
-                <h3>Світлана Голуб 2<span>підприємець, бізнес-вумен</span></h3>
-                <p>I live at the crossroads of industrial issues (with job linked to steel markets) and social connectivity issues (various events organization). With TEDx, I combine the two passions - for the third one - social change. Restoration of trust, as well as genuine curiosity in each other, and ultimately stronger social fabric in the country are the goals in order to bring the best for the community.</p>
-                <span class="theme">Тема спіча</span>
+                <h3>Оксана Стоєцька<!-- <span>підприємець, бізнес-вумен</span> --></h3>
+                <p>Популяризатор робототехніки для дітей. Мережа освітніх центрів з робототехніки, яку будує в Україні економіст Оксана Стоєцька, створює можливості для дітей самим інтегрувати майбутнє у власний світ. <a href="http://vynahidnyk.org/">vynahidnyk.org</a></p>
+                <p>Robotics-for-kids educator      Economist Oksana Stoyetska is expanding her network of robotics educational centers, which help children bring the future into their lives now - and with their own hands.</p>
+                <!-- <span class="theme">Тема спіча</span>
                 <h2>Попробуйте что-то новое в течение 30 дней</h2>
-                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p>
+                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p> -->
               </li>
               <li>
                 <a href="" class="close"></a>
-                <h3>Світлана Голуб 3<span>підприємець, бізнес-вумен</span></h3>
-                <p>I live at the crossroads of industrial issues (with job linked to steel markets) and social connectivity issues (various events organization). With TEDx, I combine the two passions - for the third one - social change. Restoration of trust, as well as genuine curiosity in each other, and ultimately stronger social fabric in the country are the goals in order to bring the best for the community.</p>
-                <span class="theme">Тема спіча</span>
+                <h3>Володимир Колинько<!-- <span>підприємець, бізнес-вумен</span> --></h3>
+                <p>Піонер змін в місті. Кібернетик Володимир Колінько відтворює простір для світового і локального розвитку: від бізнесу цифрових карт до ландшафтних ініціатив Києва (в т.ч. Дитяча алея на Пейзажці). <a href="http://www.lik-kiev.org.ua/">www.lik-kiev.org.ua</a></p>
+                <p>Urban change pioneer. Cyberneticist Volodymyr Kolin'k recreates space for global and local development: from a digital maps business to landscape initiatives in Kyiv (incl. famous Children's Art Park at Peizazh Alley).</p>
+                <!-- <span class="theme">Тема спіча</span>
                 <h2>Попробуйте что-то новое в течение 30 дней</h2>
-                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p>
+                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p> -->
               </li>
               <li>
                 <a href="" class="close"></a>
-                <h3>Світлана Голуб 4<span>підприємець, бізнес-вумен</span></h3>
-                <p>I live at the crossroads of industrial issues (with job linked to steel markets) and social connectivity issues (various events organization). With TEDx, I combine the two passions - for the third one - social change. Restoration of trust, as well as genuine curiosity in each other, and ultimately stronger social fabric in the country are the goals in order to bring the best for the community.</p>
-                <span class="theme">Тема спіча</span>
+                <h3>Максим Прасолов<!-- <span>підприємець, бізнес-вумен</span> --></h3>
+                <p>Творець сучасних міфів. Один з авторів роману "Даогопак" Максим Прасолов голосно вписав козака в сучасну систему координат як ролеву модель для покоління та продовжує бурити ноосферу далі.</p>
+                <p>Modern myths creator. Co-author of the blockbuster novel Daogopak, Maxim Prasolov made a grand entrance for a Ukrainian cosack into a contemporary system of role models and keeps drilling noosphere even further.</p>
+                <!-- <span class="theme">Тема спіча</span>
                 <h2>Попробуйте что-то новое в течение 30 дней</h2>
-                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p>
+                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p> -->
               </li>
               <li>
                 <a href="" class="close"></a>
-                <h3>Світлана Голуб 5<span>підприємець, бізнес-вумен</span></h3>
-                <p>I live at the crossroads of industrial issues (with job linked to steel markets) and social connectivity issues (various events organization). With TEDx, I combine the two passions - for the third one - social change. Restoration of trust, as well as genuine curiosity in each other, and ultimately stronger social fabric in the country are the goals in order to bring the best for the community.</p>
-                <span class="theme">Тема спіча</span>
+                <h3>Юнона Лотоцька<!-- <span>підприємець, бізнес-вумен</span> --></h3>
+                <p> Дослідниця психології успіху. В рамках дослідницього проекту науковець-експериментатор Юнона Лотоцька розробила теорію щодо поведінки для життєвої успішності та апробувала її на полярно різних верствах. <a href="http://www.pocherk.com.ua/">www.pocherk.com.ua</a></p>
+                <p>Success psychology researcher. As part of her research project, scientist-experimentalist Yunona Lotot'ska came up with a theory of behaviour for success in life and tested it across the full social spectrum.</p>
+                <!-- <span class="theme">Тема спіча</span>
                 <h2>Попробуйте что-то новое в течение 30 дней</h2>
-                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p>
-              </li>
-            </ul>
-          </article>
-          <article>
-            <h4>Сесiя#2</h4>
-            <h4><span><strong>Бiзнес Бiльш, Нiж Задля Прибутку</strong></span></h4>
-            <p class="time">16:00 &mdash; 18:00</p>
-            <div class="speakers">
-              <div id="slides_2">
-                <ul>
-                  <li>
-                    <img src="images/speaker_7.jpg" width="140">
-                    <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                    <p class="speaker_name">Андрiй Худо</p>
-                  </li>
-                  <li>
-                    <img src="images/speaker_8.jpg" width="140">
-                    <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                    <p class="speaker_name">Сергiй Шиндяпiн</p>
-                  </li>
-                  <li>
-                    <img src="images/speaker_9.jpg" width="140">
-                    <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                    <p class="speaker_name">явно не денiс</p>
-                  </li>
-                  <li>
-                    <img src="images/speaker_10.jpg" width="140">
-                    <a href="" class="theme"><span>Тема</span>Попробуйте что-нибудь новое в течение 30 дней</a>
-                    <p class="speaker_name">Блicc Браун</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <ul class="speech_description">
-              <li>
-                <a href="" class="close"></a>
-                <h3>Світлана Голуб 1<span>підприємець, бізнес-вумен</span></h3>
-                <p>I live at the crossroads of industrial issues (with job linked to steel markets) and social connectivity issues (various events organization). With TEDx, I combine the two passions - for the third one - social change. Restoration of trust, as well as genuine curiosity in each other, and ultimately stronger social fabric in the country are the goals in order to bring the best for the community.</p>
-                <span class="theme">Тема спіча</span>
-                <h2>Попробуйте что-то новое в течение 30 дней</h2>
-                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p>
+                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p> -->
               </li>
               <li>
                 <a href="" class="close"></a>
-                <h3>Світлана Голуб 2<span>підприємець, бізнес-вумен</span></h3>
-                <p>I live at the crossroads of industrial issues (with job linked to steel markets) and social connectivity issues (various events organization). With TEDx, I combine the two passions - for the third one - social change. Restoration of trust, as well as genuine curiosity in each other, and ultimately stronger social fabric in the country are the goals in order to bring the best for the community.</p>
-                <span class="theme">Тема спіча</span>
+                <h3>Альона Плакіда<!-- <span>підприємець, бізнес-вумен</span> --></h3>
+                <p>Міністр культури АР Крим. Олена Плакіда спрямовує творчі ініціативи на переусвідомлення Криму - від сільської місцевості для відпочинку до культурної мозаїки, інтегрованої в сучасну систему знань. <a href="http://mincult-crimea.gov.ua/">mincult-crimea.gov.ua</a></p>
+                <p>Minister of culture of AR Crimea. Aliona Plakida brings together creative initiatives to reimagine Crimea: from a largely summer vacation countryside to a cultural puzzle integrated into the modern knowledge system.</p>
+                <!-- <span class="theme">Тема спіча</span>
                 <h2>Попробуйте что-то новое в течение 30 дней</h2>
-                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p>
+                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p> -->
               </li>
               <li>
                 <a href="" class="close"></a>
-                <h3>Світлана Голуб 3<span>підприємець, бізнес-вумен</span></h3>
-                <p>I live at the crossroads of industrial issues (with job linked to steel markets) and social connectivity issues (various events organization). With TEDx, I combine the two passions - for the third one - social change. Restoration of trust, as well as genuine curiosity in each other, and ultimately stronger social fabric in the country are the goals in order to bring the best for the community.</p>
-                <span class="theme">Тема спіча</span>
+                <h3>Юрій Іващенко<!-- <span>підприємець, бізнес-вумен</span> --></h3>
+                <p>Спостерігач зірок. Створюючи першу приватну обсерваторію в Україні, фізик-астроном Юрій Іващенко зробив декілька висновків про важливість зірок в житті пересічного громадянина.</p>
+                <p>Space watcher. Astrophysicist Yuriy Ivaschenko set up the first private space observatory in Ukraine, through which he is also observing the importance of stars in the lives of average citizens.</p>
+                <!-- <span class="theme">Тема спіча</span>
                 <h2>Попробуйте что-то новое в течение 30 дней</h2>
-                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p>
+                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p> -->
               </li>
               <li>
                 <a href="" class="close"></a>
-                <h3>Світлана Голуб 4<span>підприємець, бізнес-вумен</span></h3>
-                <p>I live at the crossroads of industrial issues (with job linked to steel markets) and social connectivity issues (various events organization). With TEDx, I combine the two passions - for the third one - social change. Restoration of trust, as well as genuine curiosity in each other, and ultimately stronger social fabric in the country are the goals in order to bring the best for the community.</p>
-                <span class="theme">Тема спіча</span>
+                <h3>Олег Терн<!-- <span>підприємець, бізнес-вумен</span> --></h3>
+                <p>Будівельник здорового способу життя. Лікар та журналіст Олег Терн доводить, що наука про здоров'я - це легко та сучасно, а планування (та реалізація) здорового способу життя - це захоплююча пригода на все життя. <a href="http://olegtern.livejournal.com/">olegtern.livejournal.com</a></p>
+                <p>Healthy lifestyle builder. Doctor and journalist Oleg Tern promotes the concept that health science is exciting and to pursue a healthy lifestyle may be the adventure of a lifetime.</p>
+                <!-- <span class="theme">Тема спіча</span>
                 <h2>Попробуйте что-то новое в течение 30 дней</h2>
-                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p>
+                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p> -->
+              </li>
+              <li>
+                <a href="" class="close"></a>
+                <h3>Дмитро Карамшук<!-- <span>підприємець, бізнес-вумен</span> --></h3>
+                <p>Дослідник великих даних. Інженер-комп'ютерщик Дмитро Карамшук вивчає взаємодію технологій та людей в такому явищі як "великі дані" (big data) і що ці масиви здатні змінити в майбутньому суспільства та його поведінці. <a href="https://twitter.com/@karamshuk">@karamshuk</a></p>
+                <p>Big data expert. Computer scientist Dmytro Karamshuk studies the interaction of humans and technology in "big data" and how this data is changing the behavior of society for a better future.</p>
+                <!-- <span class="theme">Тема спіча</span>
+                <h2>Попробуйте что-то новое в течение 30 дней</h2>
+                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p> -->
+              </li>
+              <li>
+                <a href="" class="close"></a>
+                <h3>Дмитро Шабанов<!-- <span>підприємець, бізнес-вумен</span> --></h3>
+                <p>Популяризатор еволюційної біології. До сфери інтересів Дмитра Шабанова належать дослідження екології амфібій та популяризація нових зв'язків в еволюційній біології, в т.ч. в людській природі. <a href="http://batrachos.com">batrachos.com</a></p>
+                <p>Big data expert. Computer scientist Dmytro Karamshuk studies the interaction of humans and technology in "big data" and how this data is changing the behavior of society for a better future.</p>
+                <!-- <span class="theme">Тема спіча</span>
+                <h2>Попробуйте что-то новое в течение 30 дней</h2>
+                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p> -->
+              </li>
+              <li>
+                <a href="" class="close"></a>
+                <h3>Дмитро Костiк<!-- <span>підприємець, бізнес-вумен</span> --></h3>
+                <p>Винахідник-патріот / звичайний вундеркінд. Створивши свою першу компанію в 14 років, підприємець Дмитро Костик виводить на світовий ринок українські ІТ-розробки та доводить творчу складову інженерної діяльності. <a href="http://www.kodisoft.com/">www.kodisoft.com</a></p>
+                <p>Inventor wunderkind. Having created his first company at 14, entrepreneneur Dmytro Kostik takes Ukrainian-made IT products to the global market and demonstrates creativity in engineering.</p>
+                <!-- <span class="theme">Тема спіча</span>
+                <h2>Попробуйте что-то новое в течение 30 дней</h2>
+                <p class="contact_info">olga@tedex.com<br>+38 (976) 866-877-972</p> -->
               </li>
             </ul>
           </article>
           <article>
             <h2 class="no_underline">Вiдеозвернення учасникiв</h2>
-            <iframe width="750" height="315" src="http://www.youtube.com/embed/othM2dwi2bE" frameborder="0" allowfullscreen></iframe>
+            <iframe width="750" height="315" src="http://www.youtube.com/embed/2Y2noVW1A9I" frameborder="0" allowfullscreen></iframe>
           </article>
         </div>
         <h1 class="underline">Iншi подiї</h1>
         <ul class="events">
           <li>
             <h5 class="year">2009<span>.</span></h5>
-            <a href="" class="event_name"><span>TEDxKyiv 2009</span></a>
+            <a href="" class="event_name"><span>TEDxKyiv 2009</span><br>ПЕРША ПОДIЯ</a>
             <p class="date">22 квiтня 2012</p>
           </li>
           <li>
             <h5 class="year">2010<span>.</span></h5>
-            <a href="" class="event_name"><span>TEDxKyiv 2010.</span> WOMAN</a>
+            <a href="" class="event_name"><span>TEDxKyiv 2010.</span><br>WOMAN</a>
             <p class="date">22 квiтня 2012</p>
             <a href="" class="event_name"><span>TEDxKyiv 2010.</span> ПРО МИСТЕЦТВО</a>
             <p class="date">22 квiтня 2012</p>
@@ -253,28 +277,28 @@
             <p class="date">22 квiтня 2012</p>
           </li>
           <li class="active">
-            <h5 class="year">2013<span>.</span></h5>
+            <h5 class="year">2012<span>.</span></h5>
             <a href="" class="event_name"><span>TEDxKyiv 2013.</span> ТАЛАНТИ. ОСВІТА. РОЗВИТОК.</a>
             <p class="date">22 квiтня 2012</p>
           </li>
         </ul>
         <aside class="head_aside">
-          <div class="place"><p><span class="date">22 квітня 2012</span>Український Дім</p></div>
+          <div class="place"><p><span class="date">15 червня 2013</span>Український Дім</p></div>
           <div>
             <ul>
-              <li><a href="">Придбати квиток</a></li>
-              <li><a href="">Акредитацiя</a></li>
+              <li><a href="https://tedxkyiv2013.ticketforevent.com/uk/">Придбати квиток</a></li>
+              <li><a href="https://docs.google.com/a/tedxkyiv.com/spreadsheet/viewform?fromEmail=true&formkey=dDdRTkZlX1VJSWJoa1dKZjVqMS14Rnc6MQ" target="_blank">Акредитацiя</a></li>
             </ul>
           </div>
         </aside>
         <aside class="event_nav">
-          <div>
+          <div id="sidemenu">
             <dl>
               <dt>Про подiю</dt>
-              <dd><a href="#term">Спiкери</a></dd>
-              <dd><a href="#history">Фото</a></dd>
-              <dd><a href="#features">Вiдео</a></dd>
-              <dd><a href="#interest">Партнери</a></dd>
+              <dd><a href="">Спiкери</a></dd>
+              <dd><a class="disabled">Фото</a></dd>
+              <dd><a class="disabled">Вiдео</a></dd>
+              <dd><a href="">Партнери</a></dd>
             </dl>
           </div>
         </aside>
