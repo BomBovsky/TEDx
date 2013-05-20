@@ -1983,3 +1983,33 @@ html body #footer .inner .social .pieoneers {
   text-decoration: underline;
   opacity: 1;
 }
+
+/* line 2, ../sass/media.scss */
+#container.m .media {
+  top: 20px;
+}
+/* line 4, ../sass/media.scss */
+#container.m .media li {
+  padding-left: 160px;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+}
+/* line 10, ../sass/media.scss */
+#container.m .media li p {
+  margin-bottom: 20px;
+}
+/* line 14, ../sass/media.scss */
+#container.m .media li a {
+  color: red;
+}
+/* line 18, ../sass/media.scss */
+#container.m .media li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 25, ../sass/media.scss */
+#container.m aside {
+  top: 100px !important;
+}

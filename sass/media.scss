@@ -1,0 +1,28 @@
+#container.m {
+  .media {
+    top: 20px;
+    li {
+      padding-left: 160px;
+      background-position: 0px 0px;
+      background-repeat: no-repeat;
+      margin-bottom: 60px;
+
+      p {
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: red;
+      }
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+  aside {
+  	top: 100px !important;
+  }
+}
