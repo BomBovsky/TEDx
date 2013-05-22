@@ -11,15 +11,33 @@
     <!--<script src="_xprecise/xprecise.min.js"></script>-->
     <script type="text/javascript">
       $(function(){
-        // var sidemenuTop = $('#sidemenu').offset().top;
+        var $window = $(window);
+        var $sidemenu = $('#sidemenu');
 
-        // $(window).scroll(function(){
-        //   if( $(window).scrollTop() > sidemenuTop ) {
-        //     $('#sidemenu').css({position: 'fixed', top: '20px'});
-        //   } else {
-        //     $('#sidemenu').css({position: 'static', top: '20px'});
-        //   }
-        // });
+        $window.scroll(function(){
+          var scroll_top = $window.scrollTop();
+
+          if (scroll_top < 450) {
+            $sidemenu.css({
+              position: 'relative',
+              top: 0
+            });
+          }
+
+          if (scroll_top > 450 && scroll_top < 1200) {
+            $sidemenu.css({
+              position: 'fixed',
+              top: 40
+            });
+          }
+
+          if (scroll_top > 1200) {
+            $sidemenu.css({
+              position: 'absolute',
+              top: 700
+            });
+          }
+        });
 
         $('#slides').slidesjs({
           width: 750,
