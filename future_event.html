@@ -11,31 +11,15 @@
     <!--<script src="_xprecise/xprecise.min.js"></script>-->
     <script type="text/javascript">
       $(function(){
-        var $window = $(window);
-        var $sidemenu = $('#sidemenu');
+        var sidemenuTop = $('#sidemenu').offset().top;
 
-        $window.scroll(function(){
-          var scroll_top = $window.scrollTop();
-
-          if (scroll_top < 450) {
-            $sidemenu.css({
-              position: 'relative',
-              top: 0
-            });
-          }
-
-          if (scroll_top > 450 && scroll_top < 1200) {
-            $sidemenu.css({
-              position: 'fixed',
-              top: 40
-            });
-          }
-
-          if (scroll_top > 1200) {
-            $sidemenu.css({
-              position: 'absolute',
-              top: 700
-            });
+        $(window).scroll(function(){
+          if( $(window).scrollTop() > sidemenuTop ) {
+            $('#sidemenu').css({position: 'fixed', top: '22px'});
+          } else {
+            $('#sidemenu').css({position: 'static', top: '22px'});
+          } if( $(window).scrollTop() > 1135) {
+            $('#sidemenu').css({position: 'absolute',top: '665px'});
           }
         });
 
@@ -47,6 +31,9 @@
           }
         });
       });
+      // if( $(window).scrollTop() > 1200) {
+      //   $('#sidemenu').css({position: 'absolute',top: '700px'});
+      // }
     </script>
   </head>
   <body>

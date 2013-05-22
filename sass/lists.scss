@@ -1,0 +1,19 @@
+#container.l {
+  dl.partners {
+
+    dt {
+      text-transform: uppercase;
+      color: $gray_d;
+      line-height: 21pt;
+      margin-bottom: 20px;
+      display: block;
+    }
+    dd {
+      display: inline-block;
+      width: 170px;
+      text-align: center;
+      margin: 0 10px 40px;
+      vertical-align: middle;
+    }
+  }
+}

@@ -1,32 +1,14 @@
 /*
-Syntax error: Undefined variable: "$gray".
-        on line 42 of c:/Users/deepinsideofnowhere/projects/tedx/sass/future_event.scss
+Syntax error: Undefined variable: "$gray_d".
+        on line 6 of c:/Users/deepinsideofnowhere/projects/tedx/sass/lists.scss
+
+1: c:/Users/deepinsideofnowhere/projects/tedx/sass/lists.scss
 
 Backtrace:
-c:/Users/deepinsideofnowhere/projects/tedx/sass/future_event.scss:42
+c:/Users/deepinsideofnowhere/projects/tedx/sass/lists.scss:6
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/script/variable.rb:49:in `_perform'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/script/node.rb:40:in `perform'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `map'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `map'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -114,4 +96,4 @@ c:/Ruby200-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray\".\A         on line 42 of c:/Users/deepinsideofnowhere/projects/tedx/sass/future_event.scss"; }
+  content: "Syntax error: Undefined variable: \"$gray_d\".\A         on line 6 of c:/Users/deepinsideofnowhere/projects/tedx/sass/lists.scss\A \A 1: c:/Users/deepinsideofnowhere/projects/tedx/sass/lists.scss"; }
