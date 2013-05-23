@@ -1,19 +1,125 @@
 #container.l {
-  dl.partners {
+  ul.partners {
 
-    dt {
-      text-transform: uppercase;
-      color: $gray_d;
-      line-height: 21pt;
-      margin-bottom: 20px;
-      display: block;
-    }
-    dd {
+    li {
       display: inline-block;
       width: 170px;
+      height: 100px;
       text-align: center;
-      margin: 0 10px 40px;
-      vertical-align: middle;
+      margin: 20px 10px 40px;
+      vertical-align: top;
+      background-repeat: no-repeat;
+      background-position:  50% 50%;
+      background-size: contain;
+
+
+      &:nth-child(1) {
+        background-image: url(../images/fedoriv_logo.jpg);
+      }
+      &:nth-child(2) {
+        background-image: url(../images/plusone.png);
+      }
+      &:nth-child(3) {
+        background-image: url(../images/dbabych.png);
+      }
+      &:nth-child(4) {
+        background-image: url(../images/tenpoint-logo.jpg);
+      }
+      &:nth-child(5) {
+        background-image: url(../images/the_letter_factory.png);
+      }
+      &:nth-child(6) {
+        background-image: url(../images/newsfront.png);
+      }
+      &:nth-child(7) {
+        background-image: url(../images/focus.png);
+      }
+      &:nth-child(8) {
+        background-image: url(../images/pieoneers.png);
+      }
+      &:nth-child(9) {
+        background-image: url(../images/KitApps_Logo.png);
+      }
+      &:nth-child(10) {
+        background-image: url(../images/kmbs.png);
+      }
+      &:nth-child(11) {
+        background-image: url(../images/startup_ukraine_one.png);
+      }
+      &:nth-child(12) {
+        background-image: url(../images/platforma.png);
+      }
+
+      p {
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 8pt;
+        top: -15px;
+        text-align: center;
+      }
     }
   }
+}
+#container.p {
+  .banner {
+    background: url(../images/banner_photos.jpg) 50% 50%;
+    height: 291px !important;
+  }
+  article {
+    width: 100%;
+    h2 {
+      border: none;
+      margin-bottom: 0;
+      ul {
+        li {
+          font-family: Bebas_Neue_Cyrillic;
+          color: $gray;
+          opacity: 0.5;
+          font-size: 26pt;
+          margin: 0 40px 10px;
+          display: inline-block;
+
+          span {
+            display: block;
+            text-align: center;
+            width: 56px;
+            top: -10px;
+            color: $gray;
+          }
+
+          &.active {
+            color: red;
+            opacity: 1;
+
+            span {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+    h3 {
+      text-align: center;
+      span:nth-child(1) {
+        background: rgba($gray,0.5);
+        color: white;
+        font-weight: normal;
+        font-size: 10pt;
+        padding: 7px 15px;
+        top: -2px;
+      }
+      span:nth-child(2) {
+        color: red;
+      }
+    }
+    img {
+      width: 150px;
+    }
+  }
+}
+.center {
+  margin: 0 auto;
+  background: black;
+  width: 1px;
+  height: 100px;
 }
