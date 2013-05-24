@@ -2205,3 +2205,9 @@ html body #footer .inner .social .pieoneers {
   top: 146px;
   left: 0;
 }
+/* line 182, ../sass/lists.scss */
+#container.s .speakers ul li .speaker_name.small {
+  font-size: 9pt;
+  margin-top: 1px;
+  white-space: nowrap;
+}
