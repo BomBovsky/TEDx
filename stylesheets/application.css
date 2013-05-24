@@ -2093,7 +2093,11 @@ html body #footer .inner .social .pieoneers {
   border: none;
   margin-bottom: 0;
 }
-/* line 74, ../sass/lists.scss */
+/* line 73, ../sass/lists.scss */
+#container.p article h2 ul {
+  left: -4px;
+}
+/* line 75, ../sass/lists.scss */
 #container.p article h2 ul li {
   font-family: Bebas_Neue_Cyrillic;
   color: #666666;
@@ -2102,7 +2106,7 @@ html body #footer .inner .social .pieoneers {
   margin: 0 40px 10px;
   display: inline-block;
 }
-/* line 82, ../sass/lists.scss */
+/* line 83, ../sass/lists.scss */
 #container.p article h2 ul li span {
   display: block;
   text-align: center;
@@ -2110,20 +2114,20 @@ html body #footer .inner .social .pieoneers {
   top: -10px;
   color: #666666;
 }
-/* line 90, ../sass/lists.scss */
+/* line 91, ../sass/lists.scss */
 #container.p article h2 ul li.active {
   color: red;
   opacity: 1;
 }
-/* line 94, ../sass/lists.scss */
+/* line 95, ../sass/lists.scss */
 #container.p article h2 ul li.active span {
   color: red;
 }
-/* line 101, ../sass/lists.scss */
+/* line 102, ../sass/lists.scss */
 #container.p article h3 {
   text-align: center;
 }
-/* line 103, ../sass/lists.scss */
+/* line 104, ../sass/lists.scss */
 #container.p article h3 span:nth-child(1) {
   background: rgba(102, 102, 102, 0.5);
   color: white;
@@ -2132,19 +2136,72 @@ html body #footer .inner .social .pieoneers {
   padding: 7px 15px;
   top: -2px;
 }
-/* line 111, ../sass/lists.scss */
+/* line 112, ../sass/lists.scss */
 #container.p article h3 span:nth-child(2) {
   color: red;
 }
-/* line 115, ../sass/lists.scss */
-#container.p article img {
+/* line 117, ../sass/lists.scss */
+#container.p article .gallery a {
+  display: inline-block;
   width: 150px;
+  height: 150px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  margin: 6px 4px;
 }
 
-/* line 120, ../sass/lists.scss */
-.center {
+/* line 131, ../sass/lists.scss */
+#container.s .speakers ul {
   margin: 0 auto;
-  background: black;
-  width: 1px;
+  width: 958px;
+}
+/* line 135, ../sass/lists.scss */
+#container.s .speakers ul li {
+  display: inline-block;
+  padding: 10px;
+  width: 120px;
+  height: 156px;
+  margin: 0 8px;
+  vertical-align: top;
+}
+/* line 144, ../sass/lists.scss */
+#container.s .speakers ul li:hover a {
+  visibility: visible;
+}
+/* line 149, ../sass/lists.scss */
+#container.s .speakers ul li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 154, ../sass/lists.scss */
+#container.s .speakers ul li .theme {
+  color: white;
+  text-decoration: none;
+  visibility: hidden;
+  background-color: rgba(255, 0, 0, 0.8);
+  text-align: center;
   height: 100px;
+  display: block;
+  font-size: 10pt;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 11pt;
+  cursor: pointer;
+}
+/* line 168, ../sass/lists.scss */
+#container.s .speakers ul li .theme span {
+  text-transform: uppercase;
+  font-size: 7.5pt;
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 175, ../sass/lists.scss */
+#container.s .speakers ul li .speaker_name {
+  font-size: 10pt;
+  text-transform: uppercase;
+  position: absolute;
+  top: 146px;
+  left: 0;
 }

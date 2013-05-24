@@ -71,6 +71,7 @@
       border: none;
       margin-bottom: 0;
       ul {
+        left: -4px;
         li {
           font-family: Bebas_Neue_Cyrillic;
           color: $gray;
@@ -112,14 +113,73 @@
         color: red;
       }
     }
-    img {
-      width: 150px;
+    .gallery {
+      a {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        vertical-align: top;
+        margin: 6px 4px;
+      }
     }
   }
 }
-.center {
-  margin: 0 auto;
-  background: black;
-  width: 1px;
-  height: 100px;
+#container.s {
+  .speakers {
+    ul {
+      margin: 0 auto;
+      width: 958px;
+
+      li {
+        display: inline-block;
+        padding: 10px;
+        width: 120px;
+        height: 156px;
+        margin: 0 8px;
+        vertical-align: top;
+
+        &:hover {
+          a {
+            visibility: visible;
+          }
+        }
+
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        .theme {
+          color: white;
+          text-decoration: none;
+          visibility: hidden;
+          background-color: rgba(red,0.8);
+          text-align: center;
+          height: 100px;
+          display: block;
+          font-size: 10pt;
+          font-weight: bold;
+          padding: 10px;
+          line-height: 11pt;
+          cursor: pointer;
+
+           span {
+            text-transform: uppercase;
+            font-size: 7.5pt;
+            display: block;
+            margin-bottom: 10px;
+          }
+        }
+        .speaker_name {
+          font-size: 10pt;
+          text-transform: uppercase;
+          position: absolute;
+          top: 146px;
+          left: 0;
+        }
+      }
+    }
+  }
 }
