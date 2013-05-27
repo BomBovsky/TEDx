@@ -89,7 +89,7 @@ html {
 
             a.active, a.active:hover {
               color: white;
-              background: url(../images/dropdown_arrow_w.png) no-repeat 100% 50% !important; 
+              background: url(../images/dropdown_arrow_w.png) no-repeat 100% 50% !important;
             }
             ul.active, ul.active li a, a.active, a.active:hover {
               background-color: $gray_d !important;
@@ -263,7 +263,7 @@ html {
           margin: 0;
           .date {
             padding: 5px 10px;
-            background: red;       
+            background: red;
             color: white;
             display: block;
             margin: 0 auto 20px;
@@ -604,6 +604,10 @@ html {
             width: 100px;
             height: 32px;
             background: url(../images/logo_pieoneers.png) no-repeat;
+
+            &:hover {
+              background-position: 0 -32px;
+            }
           }
         }
       }

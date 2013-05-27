@@ -5,6 +5,7 @@
     li {
       display: inline-block;
       width: 170px;
+      height: 247px;
       margin: 0 13px;
 
       &:first-child {
@@ -13,7 +14,7 @@
       &:last-child {
         margin-right: 0;
       }
-      
+
 
       img {
         display: block;
@@ -31,6 +32,8 @@
         color: $gray_d;
         font-size: 12pt;
         line-height: 15pt;
+        position: absolute;
+        width: 100%;
 
 
         span {
@@ -39,6 +42,15 @@
           text-transform: none;
           font-size: 10pt;
         }
+      }
+    }
+  }
+  .members_description {
+    margin: 20px 0;
+
+    li {
+      p {
+        margin-bottom: 20px !important;
       }
     }
   }

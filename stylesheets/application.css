@@ -727,6 +727,10 @@ html body #footer .inner .social .pieoneers {
   height: 32px;
   background: url(../images/logo_pieoneers.png) no-repeat;
 }
+/* line 608, ../sass/layout.scss */
+html body #footer .inner .social .pieoneers:hover {
+  background-position: 0 -32px;
+}
 
 /* line 3, ../sass/slides.scss */
 #slides .slidesjs-pagination, #slides_1 .slidesjs-pagination, #slides_2 .slidesjs-pagination, #slides_3 .slidesjs-pagination, #slides_4 .slidesjs-pagination {
@@ -1340,63 +1344,68 @@ html body #footer .inner .social .pieoneers {
   line-height: 15pt;
 }
 /* line 71, ../sass/future_event.scss */
-#container.f ul.speech_description li .contact_info, #container.f .members_description li .contact_info {
+#container.f ul.speech_description li .contact_info a, #container.f .members_description li .contact_info a {
   font-weight: bold;
   color: #454545;
+  text-decoration: none;
 }
-/* line 77, ../sass/future_event.scss */
+/* line 76, ../sass/future_event.scss */
+#container.f ul.speech_description li .contact_info a:hover, #container.f .members_description li .contact_info a:hover {
+  text-decoration: underline;
+}
+/* line 82, ../sass/future_event.scss */
 #container.f .content {
   width: 750px;
   left: 214px;
 }
-/* line 81, ../sass/future_event.scss */
+/* line 86, ../sass/future_event.scss */
 #container.f .content article {
   width: 100%;
 }
-/* line 83, ../sass/future_event.scss */
+/* line 88, ../sass/future_event.scss */
 #container.f .content article p {
   font-size: 10.5pt;
 }
-/* line 86, ../sass/future_event.scss */
+/* line 91, ../sass/future_event.scss */
 #container.f .content article p span {
   color: red;
 }
-/* line 91, ../sass/future_event.scss */
+/* line 96, ../sass/future_event.scss */
 #container.f .content article .text_list {
   margin: -14px 0 24px;
 }
-/* line 93, ../sass/future_event.scss */
+/* line 98, ../sass/future_event.scss */
 #container.f .content article .text_list li {
   text-indent: -20px;
   margin: 0 0 10px 20px;
   font-size: 10.5pt;
   line-height: 18pt;
 }
-/* line 99, ../sass/future_event.scss */
+/* line 104, ../sass/future_event.scss */
 #container.f .content article .text_list li span {
   color: rgba(102, 102, 102, 0.5);
   font-style: italic;
 }
-/* line 104, ../sass/future_event.scss */
+/* line 109, ../sass/future_event.scss */
 #container.f .content article .text_list li strong span {
   font-style: normal;
   color: red;
 }
-/* line 109, ../sass/future_event.scss */
+/* line 114, ../sass/future_event.scss */
 #container.f .content article .text_list li a {
   color: red;
 }
-/* line 114, ../sass/future_event.scss */
+/* line 119, ../sass/future_event.scss */
 #container.f .content article h4 {
   font-size: 11pt;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-/* line 119, ../sass/future_event.scss */
+/* line 124, ../sass/future_event.scss */
 #container.f .content article h4 span {
   color: red;
 }
-/* line 123, ../sass/future_event.scss */
+/* line 128, ../sass/future_event.scss */
 #container.f .content article .time {
   padding-left: 20px;
   background: url(../images/clock.png) no-repeat 0 50%;
@@ -1404,48 +1413,48 @@ html body #footer .inner .social .pieoneers {
   font-size: 10.5pt;
   margin-bottom: 10px;
 }
-/* line 130, ../sass/future_event.scss */
+/* line 135, ../sass/future_event.scss */
 #container.f .content article .speakers {
   margin-bottom: 20px;
 }
-/* line 132, ../sass/future_event.scss */
+/* line 137, ../sass/future_event.scss */
 #container.f .content article .speakers #slides, #container.f .content article .speakers #slides_1, #container.f .content article .speakers #slides_2 {
   width: 100%;
   height: 200px;
 }
-/* line 138, ../sass/future_event.scss */
+/* line 143, ../sass/future_event.scss */
 #container.f .content article .speakers #slides ul li, #container.f .content article .speakers #slides_1 ul li, #container.f .content article .speakers #slides_2 ul li {
   margin: 0 4px;
 }
-/* line 141, ../sass/future_event.scss */
+/* line 146, ../sass/future_event.scss */
 #container.f .content article .speakers #slides ul li:first-child, #container.f .content article .speakers #slides_1 ul li:first-child, #container.f .content article .speakers #slides_2 ul li:first-child {
   margin-left: 0;
 }
-/* line 144, ../sass/future_event.scss */
+/* line 149, ../sass/future_event.scss */
 #container.f .content article .speakers #slides ul li:last-child, #container.f .content article .speakers #slides_1 ul li:last-child, #container.f .content article .speakers #slides_2 ul li:last-child {
   margin-right: 0;
 }
-/* line 148, ../sass/future_event.scss */
+/* line 153, ../sass/future_event.scss */
 #container.f .content article .speakers #slides ul li p, #container.f .content article .speakers #slides_1 ul li p, #container.f .content article .speakers #slides_2 ul li p {
   margin-bottom: 0;
   white-space: nowrap;
 }
-/* line 152, ../sass/future_event.scss */
+/* line 157, ../sass/future_event.scss */
 #container.f .content article .speakers #slides ul li p.small, #container.f .content article .speakers #slides_1 ul li p.small, #container.f .content article .speakers #slides_2 ul li p.small {
   font-size: 9pt;
   margin-top: 1px;
 }
-/* line 161, ../sass/future_event.scss */
+/* line 166, ../sass/future_event.scss */
 #container.f .content article:last-child {
   margin-bottom: 100px;
 }
-/* line 167, ../sass/future_event.scss */
+/* line 172, ../sass/future_event.scss */
 #container.f .events li {
   display: inline-block;
   width: 240px;
   vertical-align: top;
 }
-/* line 172, ../sass/future_event.scss */
+/* line 177, ../sass/future_event.scss */
 #container.f .events li .year {
   font-family: Bebas_Neue_Cyrillic;
   color: #666666;
@@ -1453,14 +1462,14 @@ html body #footer .inner .social .pieoneers {
   font-size: 34pt;
   margin-bottom: 10px;
 }
-/* line 179, ../sass/future_event.scss */
+/* line 184, ../sass/future_event.scss */
 #container.f .events li .year span {
   display: block;
   text-align: center;
   width: 68px;
   top: -10px;
 }
-/* line 186, ../sass/future_event.scss */
+/* line 191, ../sass/future_event.scss */
 #container.f .events li .event_name {
   font-weight: bold;
   font-size: 11pt;
@@ -1470,15 +1479,15 @@ html body #footer .inner .social .pieoneers {
   color: #454545;
   line-height: 15pt;
 }
-/* line 195, ../sass/future_event.scss */
+/* line 200, ../sass/future_event.scss */
 #container.f .events li .event_name span {
   color: red;
 }
-/* line 199, ../sass/future_event.scss */
+/* line 204, ../sass/future_event.scss */
 #container.f .events li .event_name:hover {
   text-decoration: underline;
 }
-/* line 203, ../sass/future_event.scss */
+/* line 208, ../sass/future_event.scss */
 #container.f .events li .date {
   background: rgba(102, 102, 102, 0.5);
   display: inline-block;
@@ -1487,27 +1496,27 @@ html body #footer .inner .social .pieoneers {
   padding: 8px 12px;
   margin-bottom: 40px;
 }
-/* line 212, ../sass/future_event.scss */
+/* line 217, ../sass/future_event.scss */
 #container.f .events li.active .year {
   color: red;
   opacity: 1;
 }
-/* line 219, ../sass/future_event.scss */
+/* line 224, ../sass/future_event.scss */
 #container.f aside.event_nav {
   position: absolute;
   left: 40px !important;
   top: 365px;
 }
-/* line 224, ../sass/future_event.scss */
+/* line 229, ../sass/future_event.scss */
 #container.f aside.event_nav span {
   color: red;
   text-transform: none;
 }
-/* line 229, ../sass/future_event.scss */
+/* line 234, ../sass/future_event.scss */
 #container.f aside.event_nav dl {
   font-size: 13.5pt;
 }
-/* line 232, ../sass/future_event.scss */
+/* line 237, ../sass/future_event.scss */
 #container.f aside.event_nav dl dt {
   color: #454545;
   text-transform: uppercase;
@@ -1517,27 +1526,27 @@ html body #footer .inner .social .pieoneers {
   color: white;
   display: inline-block;
 }
-/* line 241, ../sass/future_event.scss */
+/* line 246, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd {
   padding-left: 25px;
   line-height: 26pt;
   text-transform: uppercase;
 }
-/* line 245, ../sass/future_event.scss */
+/* line 250, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a {
   color: #666666;
   text-decoration: none;
 }
-/* line 248, ../sass/future_event.scss */
+/* line 253, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a:hover {
   text-decoration: underline;
 }
-/* line 251, ../sass/future_event.scss */
+/* line 256, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a.disabled {
   cursor: default;
   color: rgba(102, 102, 102, 0.5);
 }
-/* line 254, ../sass/future_event.scss */
+/* line 259, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a.disabled:hover {
   text-decoration: none;
 }
@@ -1556,40 +1565,51 @@ html body #footer .inner .social .pieoneers {
 #container.t ul.members li {
   display: inline-block;
   width: 170px;
+  height: 247px;
   margin: 0 13px;
 }
-/* line 10, ../sass/team.scss */
+/* line 11, ../sass/team.scss */
 #container.t ul.members li:first-child {
   margin-left: 0;
 }
-/* line 13, ../sass/team.scss */
+/* line 14, ../sass/team.scss */
 #container.t ul.members li:last-child {
   margin-right: 0;
 }
-/* line 18, ../sass/team.scss */
+/* line 19, ../sass/team.scss */
 #container.t ul.members li img {
   display: block;
   margin-bottom: 15px;
   cursor: pointer;
 }
-/* line 23, ../sass/team.scss */
+/* line 24, ../sass/team.scss */
 #container.t ul.members li img:hover {
   opacity: 0.8;
 }
-/* line 28, ../sass/team.scss */
+/* line 29, ../sass/team.scss */
 #container.t ul.members li p {
   text-align: center;
   text-transform: uppercase;
   color: #454545;
   font-size: 12pt;
   line-height: 15pt;
+  position: absolute;
+  width: 100%;
 }
-/* line 36, ../sass/team.scss */
+/* line 39, ../sass/team.scss */
 #container.t ul.members li p span {
   display: block;
   text-align: center;
   text-transform: none;
   font-size: 10pt;
+}
+/* line 48, ../sass/team.scss */
+#container.t .members_description {
+  margin: 20px 0;
+}
+/* line 52, ../sass/team.scss */
+#container.t .members_description li p {
+  margin-bottom: 20px !important;
 }
 
 /* line 2, ../sass/geton.scss */

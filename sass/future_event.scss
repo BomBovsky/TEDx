@@ -68,16 +68,21 @@
         margin: 0 auto 33px;
         line-height: 15pt;
       }
-      .contact_info {
+      .contact_info a {
         font-weight: bold;
         color: $gray_d;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
   .content {
     width: 750px;
     left: 214px;
-  
+
     article {
       width: 100%;
       p {
