@@ -431,11 +431,10 @@
     </footer><!-- #footer -->
     <script type="text/javascript">
       $(function () {
-        $('.members li img').click(function () {
-          var theme_index = 5 * $(this).parents('ul').index() + $(this).parents('li').index();
-          var description_container = $(this).parents('.members').next('.members_description');
-          description_container.find('li').hide();
-          description_container.find('li:nth-child(' + (theme_index + 1) + ')').show();
+        $('.members img').click(function () {
+          $('.members_description li').hide();
+          var team_member_index = $(this).parents('li').index();
+          $(this).parents('.members').next('.members_description').find('li:nth-child(' + (team_member_index + 1) + ')').show();
           return false;
         });
 
