@@ -823,7 +823,11 @@ html body #footer .inner .social .pieoneers:hover {
   display: block;
   margin-bottom: 10px;
 }
-/* line 91, ../sass/slides.scss */
+/* line 90, ../sass/slides.scss */
+#slides .slidesjs-container ul li .theme.theme, #slides_1 .slidesjs-container ul li .theme.theme, #slides_2 .slidesjs-container ul li .theme.theme, #slides_3 .slidesjs-container ul li .theme.theme, #slides_4 .slidesjs-container ul li .theme.theme {
+  font-size: 9pt !important;
+}
+/* line 94, ../sass/slides.scss */
 #slides .slidesjs-container ul li .speaker_name, #slides_1 .slidesjs-container ul li .speaker_name, #slides_2 .slidesjs-container ul li .speaker_name, #slides_3 .slidesjs-container ul li .speaker_name, #slides_4 .slidesjs-container ul li .speaker_name {
   font-size: 10pt;
   text-transform: uppercase;
@@ -1553,8 +1557,29 @@ html body #footer .inner .social .pieoneers:hover {
 
 /* line 2, ../sass/last_event.scss */
 #container.le .banner {
-  background: url(../images/banner_last_event.jpg) 50% 50% !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat;
   height: 271px !important;
+}
+/* line 7, ../sass/last_event.scss */
+#container.le .e2009 {
+  background-image: url(../images/event2009.jpg);
+}
+/* line 10, ../sass/last_event.scss */
+#container.le .e2010_1 {
+  background-image: url(../images/event2010_1.jpg);
+}
+/* line 13, ../sass/last_event.scss */
+#container.le .e2010_2 {
+  background-image: url(../images/event2010_2.jpg);
+}
+/* line 16, ../sass/last_event.scss */
+#container.le .e2011 {
+  background-image: url(../images/event2011.jpg);
+}
+/* line 19, ../sass/last_event.scss */
+#container.le .e2012 {
+  background-image: url(../images/event2012.jpg);
 }
 
 /* line 2, ../sass/team.scss */

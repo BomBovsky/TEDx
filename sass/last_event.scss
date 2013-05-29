@@ -1,6 +1,22 @@
 #container.le {
   .banner{
-    background: url(../images/banner_last_event.jpg) 50% 50% !important;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat;
     height: 271px !important;
+  }
+  .e2009 {
+    background-image: url(../images/event2009.jpg);
+  }
+  .e2010_1 {
+    background-image: url(../images/event2010_1.jpg);
+  }
+  .e2010_2 {
+    background-image: url(../images/event2010_2.jpg);
+  }
+  .e2011 {
+    background-image: url(../images/event2011.jpg);
+  }
+  .e2012 {
+    background-image: url(../images/event2012.jpg);
   }
 }
