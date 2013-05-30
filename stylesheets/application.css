@@ -824,7 +824,7 @@ html body #footer .inner .social .pieoneers:hover {
   margin-bottom: 10px;
 }
 /* line 90, ../sass/slides.scss */
-#slides .slidesjs-container ul li .theme.theme, #slides_1 .slidesjs-container ul li .theme.theme, #slides_2 .slidesjs-container ul li .theme.theme, #slides_3 .slidesjs-container ul li .theme.theme, #slides_4 .slidesjs-container ul li .theme.theme {
+#slides .slidesjs-container ul li .theme.small, #slides_1 .slidesjs-container ul li .theme.small, #slides_2 .slidesjs-container ul li .theme.small, #slides_3 .slidesjs-container ul li .theme.small, #slides_4 .slidesjs-container ul li .theme.small {
   font-size: 9pt !important;
 }
 /* line 94, ../sass/slides.scss */
@@ -2063,57 +2063,6 @@ html body #footer .inner .social .pieoneers:hover {
   text-align: center;
   margin: 20px 10px 40px;
   vertical-align: top;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-}
-/* line 16, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(1) {
-  background-image: url(../images/fedoriv_logo.jpg);
-}
-/* line 19, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(2) {
-  background-image: url(../images/plusone.png);
-}
-/* line 22, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(3) {
-  background-image: url(../images/dbabych.png);
-}
-/* line 25, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(4) {
-  background-image: url(../images/tenpoint-logo.jpg);
-}
-/* line 28, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(5) {
-  background-image: url(../images/the_letter_factory.png);
-}
-/* line 31, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(6) {
-  background-image: url(../images/newsfront.png);
-}
-/* line 34, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(7) {
-  background-image: url(../images/focus.png);
-}
-/* line 37, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(8) {
-  background-image: url(../images/pieoneers.png);
-}
-/* line 40, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(9) {
-  background-image: url(../images/KitApps_Logo.png);
-}
-/* line 43, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(10) {
-  background-image: url(../images/kmbs.png);
-}
-/* line 46, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(11) {
-  background-image: url(../images/startup_ukraine_one.png);
-}
-/* line 49, ../sass/lists.scss */
-#container.l ul.partners li:nth-child(12) {
-  background-image: url(../images/platforma.png);
 }
 /* line 53, ../sass/lists.scss */
 #container.l ul.partners li p {
