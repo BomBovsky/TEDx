@@ -17,10 +17,18 @@
   background-image: url(../images/event2010_2.jpg);
 }
 /* line 16, ../sass/last_event.scss */
+#container.le .e2010_3 {
+  background-image: url(../images/event2010_2.jpg);
+}
+/* line 19, ../sass/last_event.scss */
 #container.le .e2011 {
   background-image: url(../images/event2011.jpg);
 }
-/* line 19, ../sass/last_event.scss */
-#container.le .e2012 {
+/* line 22, ../sass/last_event.scss */
+#container.le .e2012_1 {
+  background-image: url(../images/event2012.jpg);
+}
+/* line 25, ../sass/last_event.scss */
+#container.le .e2012_2 {
   background-image: url(../images/event2012.jpg);
 }

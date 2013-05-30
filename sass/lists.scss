@@ -3,58 +3,20 @@
 
     li {
       display: inline-block;
-      width: 170px;
-      height: 100px;
       text-align: center;
       margin: 20px 10px 40px;
       vertical-align: top;
-      // background-repeat: no-repeat;
-      // background-position:  50% 50%;
-      // background-size: contain;
 
-
-      // &:nth-child(1) {
-      //   background-image: url(../images/fedoriv_logo.jpg);
-      // }
-      // &:nth-child(2) {
-      //   background-image: url(../images/plusone.png);
-      // }
-      // &:nth-child(3) {
-      //   background-image: url(../images/dbabych.png);
-      // }
-      // &:nth-child(4) {
-      //   background-image: url(../images/tenpoint-logo.jpg);
-      // }
-      // &:nth-child(5) {
-      //   background-image: url(../images/the_letter_factory.png);
-      // }
-      // &:nth-child(6) {
-      //   background-image: url(../images/newsfront.png);
-      // }
-      // &:nth-child(7) {
-      //   background-image: url(../images/focus.png);
-      // }
-      // &:nth-child(8) {
-      //   background-image: url(../images/pieoneers.png);
-      // }
-      // &:nth-child(9) {
-      //   background-image: url(../images/KitApps_Logo.png);
-      // }
-      // &:nth-child(10) {
-      //   background-image: url(../images/kmbs.png);
-      // }
-      // &:nth-child(11) {
-      //   background-image: url(../images/startup_ukraine_one.png);
-      // }
-      // &:nth-child(12) {
-      //   background-image: url(../images/platforma.png);
-      // }
+      a {
+        display: block;
+        width: 170px;
+        height: 110px;
+      }
 
       p {
         margin-bottom: 20px;
         text-transform: uppercase;
         font-size: 8pt;
-        top: -15px;
         text-align: center;
       }
     }
@@ -72,6 +34,10 @@
       margin-bottom: 0;
       ul {
         left: -4px;
+
+        &.e2009 {
+          left: 416px;
+        }
         li {
           font-family: Bebas_Neue_Cyrillic;
           color: $gray;
@@ -114,6 +80,8 @@
       }
     }
     .gallery {
+      margin-bottom: 40px;
+      
       a {
         display: inline-block;
         width: 150px;
