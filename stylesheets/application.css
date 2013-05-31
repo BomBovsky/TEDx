@@ -733,11 +733,11 @@ html body #footer .inner .social .pieoneers:hover {
 }
 
 /* line 3, ../sass/slides.scss */
-#slides .slidesjs-pagination, #slides_1 .slidesjs-pagination, #slides_2 .slidesjs-pagination, #slides_3 .slidesjs-pagination, #slides_4 .slidesjs-pagination {
+#slides .slidesjs-pagination, #slides_1 .slidesjs-pagination, #slides_2 .slidesjs-pagination, #slides_3 .slidesjs-pagination, #slides_4 .slidesjs-pagination, #slides_5 .slidesjs-pagination {
   text-align: center;
 }
 /* line 6, ../sass/slides.scss */
-#slides .slidesjs-pagination li, #slides_1 .slidesjs-pagination li, #slides_2 .slidesjs-pagination li, #slides_3 .slidesjs-pagination li, #slides_4 .slidesjs-pagination li {
+#slides .slidesjs-pagination li, #slides_1 .slidesjs-pagination li, #slides_2 .slidesjs-pagination li, #slides_3 .slidesjs-pagination li, #slides_4 .slidesjs-pagination li, #slides_5 .slidesjs-pagination li {
   width: 12px;
   height: 12px;
   margin: 0 5px;
@@ -745,15 +745,15 @@ html body #footer .inner .social .pieoneers:hover {
   display: inline-block;
 }
 /* line 13, ../sass/slides.scss */
-#slides .slidesjs-pagination li:first-child, #slides_1 .slidesjs-pagination li:first-child, #slides_2 .slidesjs-pagination li:first-child, #slides_3 .slidesjs-pagination li:first-child, #slides_4 .slidesjs-pagination li:first-child {
+#slides .slidesjs-pagination li:first-child, #slides_1 .slidesjs-pagination li:first-child, #slides_2 .slidesjs-pagination li:first-child, #slides_3 .slidesjs-pagination li:first-child, #slides_4 .slidesjs-pagination li:first-child, #slides_5 .slidesjs-pagination li:first-child {
   margin-left: 0;
 }
 /* line 16, ../sass/slides.scss */
-#slides .slidesjs-pagination li:last-child, #slides_1 .slidesjs-pagination li:last-child, #slides_2 .slidesjs-pagination li:last-child, #slides_3 .slidesjs-pagination li:last-child, #slides_4 .slidesjs-pagination li:last-child {
+#slides .slidesjs-pagination li:last-child, #slides_1 .slidesjs-pagination li:last-child, #slides_2 .slidesjs-pagination li:last-child, #slides_3 .slidesjs-pagination li:last-child, #slides_4 .slidesjs-pagination li:last-child, #slides_5 .slidesjs-pagination li:last-child {
   margin-right: 0;
 }
 /* line 20, ../sass/slides.scss */
-#slides .slidesjs-pagination li a, #slides_1 .slidesjs-pagination li a, #slides_2 .slidesjs-pagination li a, #slides_3 .slidesjs-pagination li a, #slides_4 .slidesjs-pagination li a {
+#slides .slidesjs-pagination li a, #slides_1 .slidesjs-pagination li a, #slides_2 .slidesjs-pagination li a, #slides_3 .slidesjs-pagination li a, #slides_4 .slidesjs-pagination li a, #slides_5 .slidesjs-pagination li a {
   width: 12px;
   height: 12px;
   float: left;
@@ -762,20 +762,20 @@ html body #footer .inner .social .pieoneers:hover {
   color: transparent;
 }
 /* line 28, ../sass/slides.scss */
-#slides .slidesjs-pagination li a.active, #slides_1 .slidesjs-pagination li a.active, #slides_2 .slidesjs-pagination li a.active, #slides_3 .slidesjs-pagination li a.active, #slides_4 .slidesjs-pagination li a.active {
+#slides .slidesjs-pagination li a.active, #slides_1 .slidesjs-pagination li a.active, #slides_2 .slidesjs-pagination li a.active, #slides_3 .slidesjs-pagination li a.active, #slides_4 .slidesjs-pagination li a.active, #slides_5 .slidesjs-pagination li a.active {
   cursor: default;
   background-color: #666666;
 }
 /* line 35, ../sass/slides.scss */
-#slides .slidesjs-navigation, #slides_1 .slidesjs-navigation, #slides_2 .slidesjs-navigation, #slides_3 .slidesjs-navigation, #slides_4 .slidesjs-navigation {
+#slides .slidesjs-navigation, #slides_1 .slidesjs-navigation, #slides_2 .slidesjs-navigation, #slides_3 .slidesjs-navigation, #slides_4 .slidesjs-navigation, #slides_5 .slidesjs-navigation {
   display: none;
 }
 /* line 39, ../sass/slides.scss */
-#slides .slidesjs-container, #slides_1 .slidesjs-container, #slides_2 .slidesjs-container, #slides_3 .slidesjs-container, #slides_4 .slidesjs-container {
+#slides .slidesjs-container, #slides_1 .slidesjs-container, #slides_2 .slidesjs-container, #slides_3 .slidesjs-container, #slides_4 .slidesjs-container, #slides_5 .slidesjs-container {
   margin-bottom: 10px;
 }
 /* line 44, ../sass/slides.scss */
-#slides .slidesjs-container ul li, #slides_1 .slidesjs-container ul li, #slides_2 .slidesjs-container ul li, #slides_3 .slidesjs-container ul li, #slides_4 .slidesjs-container ul li {
+#slides .slidesjs-container ul li, #slides_1 .slidesjs-container ul li, #slides_2 .slidesjs-container ul li, #slides_3 .slidesjs-container ul li, #slides_4 .slidesjs-container ul li, #slides_5 .slidesjs-container ul li {
   display: inline-block;
   padding: 10px;
   width: 120px;
@@ -784,25 +784,25 @@ html body #footer .inner .social .pieoneers:hover {
   vertical-align: top;
 }
 /* line 52, ../sass/slides.scss */
-#slides .slidesjs-container ul li:first-child, #slides_1 .slidesjs-container ul li:first-child, #slides_2 .slidesjs-container ul li:first-child, #slides_3 .slidesjs-container ul li:first-child, #slides_4 .slidesjs-container ul li:first-child {
+#slides .slidesjs-container ul li:first-child, #slides_1 .slidesjs-container ul li:first-child, #slides_2 .slidesjs-container ul li:first-child, #slides_3 .slidesjs-container ul li:first-child, #slides_4 .slidesjs-container ul li:first-child, #slides_5 .slidesjs-container ul li:first-child {
   margin-left: 0;
 }
 /* line 55, ../sass/slides.scss */
-#slides .slidesjs-container ul li:last-child, #slides_1 .slidesjs-container ul li:last-child, #slides_2 .slidesjs-container ul li:last-child, #slides_3 .slidesjs-container ul li:last-child, #slides_4 .slidesjs-container ul li:last-child {
+#slides .slidesjs-container ul li:last-child, #slides_1 .slidesjs-container ul li:last-child, #slides_2 .slidesjs-container ul li:last-child, #slides_3 .slidesjs-container ul li:last-child, #slides_4 .slidesjs-container ul li:last-child, #slides_5 .slidesjs-container ul li:last-child {
   margin-right: 0;
 }
 /* line 60, ../sass/slides.scss */
-#slides .slidesjs-container ul li:hover a, #slides_1 .slidesjs-container ul li:hover a, #slides_2 .slidesjs-container ul li:hover a, #slides_3 .slidesjs-container ul li:hover a, #slides_4 .slidesjs-container ul li:hover a {
+#slides .slidesjs-container ul li:hover a, #slides_1 .slidesjs-container ul li:hover a, #slides_2 .slidesjs-container ul li:hover a, #slides_3 .slidesjs-container ul li:hover a, #slides_4 .slidesjs-container ul li:hover a, #slides_5 .slidesjs-container ul li:hover a {
   visibility: visible;
 }
 /* line 65, ../sass/slides.scss */
-#slides .slidesjs-container ul li img, #slides_1 .slidesjs-container ul li img, #slides_2 .slidesjs-container ul li img, #slides_3 .slidesjs-container ul li img, #slides_4 .slidesjs-container ul li img {
+#slides .slidesjs-container ul li img, #slides_1 .slidesjs-container ul li img, #slides_2 .slidesjs-container ul li img, #slides_3 .slidesjs-container ul li img, #slides_4 .slidesjs-container ul li img, #slides_5 .slidesjs-container ul li img {
   position: absolute;
   top: 0;
   left: 0;
 }
 /* line 70, ../sass/slides.scss */
-#slides .slidesjs-container ul li .theme, #slides_1 .slidesjs-container ul li .theme, #slides_2 .slidesjs-container ul li .theme, #slides_3 .slidesjs-container ul li .theme, #slides_4 .slidesjs-container ul li .theme {
+#slides .slidesjs-container ul li .theme, #slides_1 .slidesjs-container ul li .theme, #slides_2 .slidesjs-container ul li .theme, #slides_3 .slidesjs-container ul li .theme, #slides_4 .slidesjs-container ul li .theme, #slides_5 .slidesjs-container ul li .theme {
   color: white;
   text-decoration: none;
   visibility: hidden;
@@ -817,18 +817,18 @@ html body #footer .inner .social .pieoneers:hover {
   cursor: pointer;
 }
 /* line 84, ../sass/slides.scss */
-#slides .slidesjs-container ul li .theme span, #slides_1 .slidesjs-container ul li .theme span, #slides_2 .slidesjs-container ul li .theme span, #slides_3 .slidesjs-container ul li .theme span, #slides_4 .slidesjs-container ul li .theme span {
+#slides .slidesjs-container ul li .theme span, #slides_1 .slidesjs-container ul li .theme span, #slides_2 .slidesjs-container ul li .theme span, #slides_3 .slidesjs-container ul li .theme span, #slides_4 .slidesjs-container ul li .theme span, #slides_5 .slidesjs-container ul li .theme span {
   text-transform: uppercase;
   font-size: 7.5pt;
   display: block;
   margin-bottom: 10px;
 }
 /* line 90, ../sass/slides.scss */
-#slides .slidesjs-container ul li .theme.small, #slides_1 .slidesjs-container ul li .theme.small, #slides_2 .slidesjs-container ul li .theme.small, #slides_3 .slidesjs-container ul li .theme.small, #slides_4 .slidesjs-container ul li .theme.small {
+#slides .slidesjs-container ul li .theme.small, #slides_1 .slidesjs-container ul li .theme.small, #slides_2 .slidesjs-container ul li .theme.small, #slides_3 .slidesjs-container ul li .theme.small, #slides_4 .slidesjs-container ul li .theme.small, #slides_5 .slidesjs-container ul li .theme.small {
   font-size: 9pt !important;
 }
 /* line 94, ../sass/slides.scss */
-#slides .slidesjs-container ul li .speaker_name, #slides_1 .slidesjs-container ul li .speaker_name, #slides_2 .slidesjs-container ul li .speaker_name, #slides_3 .slidesjs-container ul li .speaker_name, #slides_4 .slidesjs-container ul li .speaker_name {
+#slides .slidesjs-container ul li .speaker_name, #slides_1 .slidesjs-container ul li .speaker_name, #slides_2 .slidesjs-container ul li .speaker_name, #slides_3 .slidesjs-container ul li .speaker_name, #slides_4 .slidesjs-container ul li .speaker_name, #slides_5 .slidesjs-container ul li .speaker_name {
   font-size: 10pt;
   text-transform: uppercase;
   position: absolute;
@@ -1422,29 +1422,29 @@ html body #footer .inner .social .pieoneers:hover {
   margin-bottom: 20px;
 }
 /* line 137, ../sass/future_event.scss */
-#container.f .content article .speakers #slides, #container.f .content article .speakers #slides_1, #container.f .content article .speakers #slides_2 {
+#container.f .content article .speakers #slides, #container.f .content article .speakers #slides_1, #container.f .content article .speakers #slides_2, #container.f .content article .speakers #slides_3, #container.f .content article .speakers #slides_4, #container.f .content article .speakers #slides_5 {
   width: 100%;
   height: 200px;
 }
 /* line 143, ../sass/future_event.scss */
-#container.f .content article .speakers #slides ul li, #container.f .content article .speakers #slides_1 ul li, #container.f .content article .speakers #slides_2 ul li {
+#container.f .content article .speakers #slides ul li, #container.f .content article .speakers #slides_1 ul li, #container.f .content article .speakers #slides_2 ul li, #container.f .content article .speakers #slides_3 ul li, #container.f .content article .speakers #slides_4 ul li, #container.f .content article .speakers #slides_5 ul li {
   margin: 0 4px;
 }
 /* line 146, ../sass/future_event.scss */
-#container.f .content article .speakers #slides ul li:first-child, #container.f .content article .speakers #slides_1 ul li:first-child, #container.f .content article .speakers #slides_2 ul li:first-child {
+#container.f .content article .speakers #slides ul li:first-child, #container.f .content article .speakers #slides_1 ul li:first-child, #container.f .content article .speakers #slides_2 ul li:first-child, #container.f .content article .speakers #slides_3 ul li:first-child, #container.f .content article .speakers #slides_4 ul li:first-child, #container.f .content article .speakers #slides_5 ul li:first-child {
   margin-left: 0;
 }
 /* line 149, ../sass/future_event.scss */
-#container.f .content article .speakers #slides ul li:last-child, #container.f .content article .speakers #slides_1 ul li:last-child, #container.f .content article .speakers #slides_2 ul li:last-child {
+#container.f .content article .speakers #slides ul li:last-child, #container.f .content article .speakers #slides_1 ul li:last-child, #container.f .content article .speakers #slides_2 ul li:last-child, #container.f .content article .speakers #slides_3 ul li:last-child, #container.f .content article .speakers #slides_4 ul li:last-child, #container.f .content article .speakers #slides_5 ul li:last-child {
   margin-right: 0;
 }
 /* line 153, ../sass/future_event.scss */
-#container.f .content article .speakers #slides ul li p, #container.f .content article .speakers #slides_1 ul li p, #container.f .content article .speakers #slides_2 ul li p {
+#container.f .content article .speakers #slides ul li p, #container.f .content article .speakers #slides_1 ul li p, #container.f .content article .speakers #slides_2 ul li p, #container.f .content article .speakers #slides_3 ul li p, #container.f .content article .speakers #slides_4 ul li p, #container.f .content article .speakers #slides_5 ul li p {
   margin-bottom: 0;
   white-space: nowrap;
 }
 /* line 157, ../sass/future_event.scss */
-#container.f .content article .speakers #slides ul li p.small, #container.f .content article .speakers #slides_1 ul li p.small, #container.f .content article .speakers #slides_2 ul li p.small {
+#container.f .content article .speakers #slides ul li p.small, #container.f .content article .speakers #slides_1 ul li p.small, #container.f .content article .speakers #slides_2 ul li p.small, #container.f .content article .speakers #slides_3 ul li p.small, #container.f .content article .speakers #slides_4 ul li p.small, #container.f .content article .speakers #slides_5 ul li p.small {
   font-size: 9pt;
   margin-top: 1px;
 }
@@ -1588,6 +1588,10 @@ html body #footer .inner .social .pieoneers:hover {
 /* line 25, ../sass/last_event.scss */
 #container.le .e2012_2 {
   background-image: url(../images/event2012.jpg);
+}
+/* line 28, ../sass/last_event.scss */
+#container.le .wo_nav {
+  height: 170px !important;
 }
 
 /* line 2, ../sass/team.scss */
@@ -2107,6 +2111,10 @@ html body #footer .inner .social .pieoneers:hover {
   left: 416px;
 }
 /* line 41, ../sass/lists.scss */
+#container.p article h2 ul.e2010 {
+  left: 276px;
+}
+/* line 44, ../sass/lists.scss */
 #container.p article h2 ul li {
   font-family: Bebas_Neue_Cyrillic;
   color: #666666;
@@ -2115,7 +2123,7 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 0 40px 10px;
   display: inline-block;
 }
-/* line 49, ../sass/lists.scss */
+/* line 52, ../sass/lists.scss */
 #container.p article h2 ul li span {
   display: block;
   text-align: center;
@@ -2123,20 +2131,20 @@ html body #footer .inner .social .pieoneers:hover {
   top: -10px;
   color: #666666;
 }
-/* line 57, ../sass/lists.scss */
+/* line 60, ../sass/lists.scss */
 #container.p article h2 ul li.active {
   color: red;
   opacity: 1;
 }
-/* line 61, ../sass/lists.scss */
+/* line 64, ../sass/lists.scss */
 #container.p article h2 ul li.active span {
   color: red;
 }
-/* line 68, ../sass/lists.scss */
+/* line 71, ../sass/lists.scss */
 #container.p article h3 {
   text-align: center;
 }
-/* line 70, ../sass/lists.scss */
+/* line 73, ../sass/lists.scss */
 #container.p article h3 span:nth-child(1) {
   background: rgba(102, 102, 102, 0.5);
   color: white;
@@ -2145,15 +2153,15 @@ html body #footer .inner .social .pieoneers:hover {
   padding: 7px 15px;
   top: -2px;
 }
-/* line 78, ../sass/lists.scss */
+/* line 81, ../sass/lists.scss */
 #container.p article h3 span:nth-child(2) {
   color: red;
 }
-/* line 82, ../sass/lists.scss */
+/* line 85, ../sass/lists.scss */
 #container.p article .gallery {
   margin-bottom: 40px;
 }
-/* line 85, ../sass/lists.scss */
+/* line 88, ../sass/lists.scss */
 #container.p article .gallery a {
   display: inline-block;
   width: 150px;
@@ -2164,7 +2172,7 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 6px 4px;
 }
 
-/* line 101, ../sass/lists.scss */
+/* line 104, ../sass/lists.scss */
 #container.s .speakers ul li {
   display: inline-block;
   padding: 10px;
@@ -2173,17 +2181,17 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 0 5px 40px;
   vertical-align: top;
 }
-/* line 110, ../sass/lists.scss */
+/* line 113, ../sass/lists.scss */
 #container.s .speakers ul li:hover a {
   visibility: visible;
 }
-/* line 115, ../sass/lists.scss */
+/* line 118, ../sass/lists.scss */
 #container.s .speakers ul li img {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 120, ../sass/lists.scss */
+/* line 123, ../sass/lists.scss */
 #container.s .speakers ul li .theme {
   color: white;
   text-decoration: none;
@@ -2198,14 +2206,14 @@ html body #footer .inner .social .pieoneers:hover {
   line-height: 11pt;
   cursor: pointer;
 }
-/* line 134, ../sass/lists.scss */
+/* line 137, ../sass/lists.scss */
 #container.s .speakers ul li .theme span {
   text-transform: uppercase;
   font-size: 7.5pt;
   display: block;
   margin-bottom: 10px;
 }
-/* line 141, ../sass/lists.scss */
+/* line 144, ../sass/lists.scss */
 #container.s .speakers ul li .speaker_name {
   font-size: 10pt;
   text-transform: uppercase;

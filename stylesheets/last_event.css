@@ -32,3 +32,7 @@
 #container.le .e2012_2 {
   background-image: url(../images/event2012.jpg);
 }
+/* line 28, ../sass/last_event.scss */
+#container.le .wo_nav {
+  height: 170px !important;
+}
