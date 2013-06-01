@@ -2115,6 +2115,10 @@ html body #footer .inner .social .pieoneers:hover {
   left: 276px;
 }
 /* line 44, ../sass/lists.scss */
+#container.p article h2 ul.e2011 {
+  left: 136px;
+}
+/* line 47, ../sass/lists.scss */
 #container.p article h2 ul li {
   font-family: Bebas_Neue_Cyrillic;
   color: #666666;
@@ -2123,7 +2127,7 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 0 40px 10px;
   display: inline-block;
 }
-/* line 52, ../sass/lists.scss */
+/* line 55, ../sass/lists.scss */
 #container.p article h2 ul li span {
   display: block;
   text-align: center;
@@ -2131,20 +2135,20 @@ html body #footer .inner .social .pieoneers:hover {
   top: -10px;
   color: #666666;
 }
-/* line 60, ../sass/lists.scss */
+/* line 63, ../sass/lists.scss */
 #container.p article h2 ul li.active {
   color: red;
   opacity: 1;
 }
-/* line 64, ../sass/lists.scss */
+/* line 67, ../sass/lists.scss */
 #container.p article h2 ul li.active span {
   color: red;
 }
-/* line 71, ../sass/lists.scss */
+/* line 74, ../sass/lists.scss */
 #container.p article h3 {
   text-align: center;
 }
-/* line 73, ../sass/lists.scss */
+/* line 76, ../sass/lists.scss */
 #container.p article h3 span:nth-child(1) {
   background: rgba(102, 102, 102, 0.5);
   color: white;
@@ -2153,15 +2157,15 @@ html body #footer .inner .social .pieoneers:hover {
   padding: 7px 15px;
   top: -2px;
 }
-/* line 81, ../sass/lists.scss */
+/* line 84, ../sass/lists.scss */
 #container.p article h3 span:nth-child(2) {
   color: red;
 }
-/* line 85, ../sass/lists.scss */
+/* line 88, ../sass/lists.scss */
 #container.p article .gallery {
   margin-bottom: 40px;
 }
-/* line 88, ../sass/lists.scss */
+/* line 91, ../sass/lists.scss */
 #container.p article .gallery a {
   display: inline-block;
   width: 150px;
@@ -2172,7 +2176,7 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 6px 4px;
 }
 
-/* line 104, ../sass/lists.scss */
+/* line 107, ../sass/lists.scss */
 #container.s .speakers ul li {
   display: inline-block;
   padding: 10px;
@@ -2181,17 +2185,17 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 0 5px 40px;
   vertical-align: top;
 }
-/* line 113, ../sass/lists.scss */
+/* line 116, ../sass/lists.scss */
 #container.s .speakers ul li:hover a {
   visibility: visible;
 }
-/* line 118, ../sass/lists.scss */
+/* line 121, ../sass/lists.scss */
 #container.s .speakers ul li img {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 123, ../sass/lists.scss */
+/* line 126, ../sass/lists.scss */
 #container.s .speakers ul li .theme {
   color: white;
   text-decoration: none;
@@ -2206,14 +2210,14 @@ html body #footer .inner .social .pieoneers:hover {
   line-height: 11pt;
   cursor: pointer;
 }
-/* line 137, ../sass/lists.scss */
+/* line 140, ../sass/lists.scss */
 #container.s .speakers ul li .theme span {
   text-transform: uppercase;
   font-size: 7.5pt;
   display: block;
   margin-bottom: 10px;
 }
-/* line 144, ../sass/lists.scss */
+/* line 147, ../sass/lists.scss */
 #container.s .speakers ul li .speaker_name {
   font-size: 10pt;
   text-transform: uppercase;
