@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -16,16 +17,16 @@
             $('#sidemenu').css({position: 'fixed', top: '22px'});
           } else {
             $('#sidemenu').css({position: 'static', top: '22px'});
-          } if( $(window).scrollTop() > 1665) {
-            $('#sidemenu').css({position: 'absolute',top: '1190px'});
+          } if( $(window).scrollTop() > 710) {
+            $('#sidemenu').css({position: 'absolute',top: '240px'});
           }
         });
 
-        $('#slides_1, #slides_2, #slides_3').slidesjs({
+        $('#slides').slidesjs({
           width: 750,
           height: 170,
           pagination: {
-            active: false
+            active: true
           }
         });
       });
@@ -105,7 +106,7 @@
                     <p class="speaker_name">Саша Кольцова</p>
                   </li>
 <li>
-                    <img src="images/speakers/zotov.jpg" width="140" />
+                    <img src="images/speakers/zotovG.jpg" width="140" />
                     <a class="theme"><span>Тема</span> Modelling Crowds</a>
                     <p class="speaker_name">Grisha Zotov</p>
                   </li>
