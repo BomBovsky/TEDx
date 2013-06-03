@@ -16,16 +16,16 @@
             $('#sidemenu').css({position: 'fixed', top: '22px'});
           } else {
             $('#sidemenu').css({position: 'static', top: '22px'});
-          } if( $(window).scrollTop() > 1665) {
-            $('#sidemenu').css({position: 'absolute',top: '1190px'});
+          } if( $(window).scrollTop() > 640) {
+            $('#sidemenu').css({position: 'absolute',top: '170px'});
           }
         });
 
-        $('#slides_1, #slides_2, #slides_3').slidesjs({
+        $('#slides').slidesjs({
           width: 750,
           height: 170,
           pagination: {
-            active: false
+            active: true
           }
         });
       });
@@ -78,12 +78,13 @@
         <div class="banner e2012">
         </div>
         <div class="content">
-          <article><p> 13 жовтня, в суботу, на глобальній події TEDxCity2.0 разом з 70 містами по всьому світу – від Амстердаму до Сінгапуру – в Києві обговорювали та розпочинали проекти міста майбутнього, Міста 2.0. Проекти, що по-новому визначають міські маршрути спілкування, творчості, праці, пересування, освіти та інших видів міської діяльності. Гостинним майданчиком стала галерея АртПРИЧАЛ, що елегантно поєднує урбаністичний стиль з Дніпровськими пейзажами (вул.Набережно-Хрещатицька, причал №2, під новим Гаванським мостом). 
-</p></article>
+          <article>
+            <p> 13 жовтня, в суботу, на глобальній події TEDxCity2.0 разом з 70 містами по всьому світу – від Амстердаму до Сінгапуру – в Києві обговорювали та розпочинали проекти міста майбутнього, Міста 2.0. Проекти, що по-новому визначають міські маршрути спілкування, творчості, праці, пересування, освіти та інших видів міської діяльності. Гостинним майданчиком стала галерея АртПРИЧАЛ, що елегантно поєднує урбаністичний стиль з Дніпровськими пейзажами (вул.Набережно-Хрещатицька, причал №2, під новим Гаванським мостом).</p>
+          </article>
           <article>
             <h2>Программа Події</h2>
             <div class="speakers">
-              <div id="slides_1" class="wo_nav">
+              <div id="slides">
                 <ul>
                   <li>
                     <img src="images/speakers/zotov.jpg" width="140" />
@@ -105,29 +106,29 @@
                     <a class="theme"><span>Тема</span> Работа со страхами в городской среде</a>
                     <p class="speaker_name">Ольга Гужва</p>
                   </li>
-<li>
+                  <li>
                     <img src="images/speakers/ogorodnik.jpg" width="140" />
                     <a class="theme"><span>Тема</span> </a>
-                    <p class="speaker_name">Аврора Огородник</p>
+                    <p class="speaker_name">А.Огородник</p>
                   </li>
                    </ul>
                   <ul>
-<li>
+                  <li>
                     <img src="images/speakers/sokolovsky.jpg" width="140" />
                     <a class="theme"><span>Тема</span> </a>
-                    <p class="speaker_name">Олександр Соколовський</p>
+                    <p class="speaker_name">О.Соколовський</p>
                   </li>
-<li>
+                  <li>
                     <img src="images/speakers/simkovich.jpg" width="140" />
                     <a class="theme"><span>Тема</span> </a>
                     <p class="speaker_name">Антон Симкович</p>
                   </li>
-<li>
+                  <li>
                     <img src="images/speakers/solovey-suprunets.jpg" width="140" />
                     <a class="theme"><span>Тема</span>Спiльнокошт</a>
-                    <p class="speaker_name">Ірина Соловей, Олександр Супрунець</p>
+                    <p class="speaker_name small">І.Соловей, О.Супрунець</p>
                   </li>
-                                </ul>
+                </ul>
               </div>
             </div>
             <ul class="speech_description">
@@ -137,7 +138,7 @@
                 <p>Віктор Зотов привносить в містобудування Києва світові практики урбанізму. Його проекти (Музей Івана Марчука, паспорт Хрещатика) створюють, а не заповнюють публічний простір. Як куратор молодіжного архітектурного фестивалю CANactions, він долучає до міжнародних практик і наступну генерацію.</p>
                 <span class="theme">Тема спіча</span>
                 <h2>Дієта для здорового міста</h2>
-                <iframe src="http://youtu.be/6vX86rv81K4" frameborder="0" height="315" width="750"></iframe>
+                <iframe width="750" height="315" src="http://www.youtube.com/embed/6vX86rv81K4" frameborder="0" allowfullscreen></iframe>
               </li>
               <li>
                 <a class="close"></a>
@@ -155,33 +156,32 @@
                 <p>Серед інтересів Ольги Гужви - урбаністика та соціологія молоді в сучасному місті. Вона також заснувала та очолює міжнародне академічне он-лайн видання Studies of Changing Societies (SCS journal), що включає відомих вчених та підтримує молодих науковців з країн СНД.</p>
                 <span class="theme">Тема спіча</span>
                 <h2>Работа со страхами в городской среде</h2>
-                <iframe src="http://youtu.be/s4nk5mlyTnk" frameborder="0" height="315" width="750"></iframe>
+                <iframe width="750" height="315" src="http://www.youtube.com/embed/s4nk5mlyTnk" frameborder="0" allowfullscreen></iframe>
               </li>
-<li>
+              <li>
                 <a class="close"></a>
                 <h3>Аврора Огородник<span> Гастроентузіаст</span></h3>
                 <p>Рестораний критик та ведуча кулінарних шоу, Аврора Огородник прищеплює смак не лише до вишуканих страв. Нові традиції її власного міського кафе та погляди на їжу як соціальний інструмент дозволяють змінювати і наше оточення.</p>
               </li>
-<li>
+              <li>
                 <a class="close"></a>
                 <h3>Олександр Соколовський<span> Підприємець та ініціатор Першого парку сучасної скульптури</span></h3>
                 <p> Від легкої промисловості, в якій він досяг висот, до міського простору, в якому він творить Перший український парк сучасної скульптури Kyiv Fashion Park, Олександр Соколовський прикрашає середовище і створює можливості для розкриття таланту митців. Один із засновників Ukrainian Fashion Week, Соколовський вірить у силу творчості та ініціативи, що здатні змінити свідомість та ставлення до свого міста.</p>
               </li>
-<li>
+              <li>
                 <a class="close"></a>
                 <h3>Антон Симкович<span> Кримінолог</span></h3>
                 <p>Свого часу наймолодший кандидат в мери Ужгорода (у 18 років), Антон Симкович досліджував в Університеті Кембриджу бюрократичну та пенітенціарну системи та продовжує робити це зараз в Україні.</p>
               </li>
- <li>
+              <li>
                 <a class="close"></a>
                 <h3>Ірина Соловей, Олександр Супрунець<span> Соціальні інноватори</span></h3>
                 <p>Garage Gang Kollektiv втілює в життя інтерактивні проекти міських перетворень та випробовує на практиці новаторські моделі відносин в суспільстві. Програма "Свято генерацій" та міська скульптура "Голос вулиць" вже розбудили соціальну енергію в обласних центрах України. Нова мета - справжня економіка взаємодії.</p>
                 <span class="theme">Тема спіча</span>
                 <h2>Спiльнокошт</h2>
-                <iframe src="http://youtu.be/q1-lbme1Xq8" frameborder="0" height="315" width="750"></iframe>
+                <iframe width="750" height="315" src="http://www.youtube.com/embed/q1-lbme1Xq8" frameborder="0" allowfullscreen></iframe>
               </li>
- </ul>
-
+            </ul>
           </article>
         </div>
         <h1 class="underline">Iншi подiї</h1>
@@ -214,7 +214,7 @@
           </li>
         </ul>
         <aside class="head_aside">
-          <div class="place"><p><span class="date">18 червня 2011</span>КОЦ &laquo;Майстер Клас&raquo;</p></div>
+          <div class="place"><p><span class="date">13 жовтня 2012</span>галерея &laquo;АртПРИЧАЛ&raquo;</p></div>
         </aside>
         <aside class="event_nav">
           <div id="sidemenu">
