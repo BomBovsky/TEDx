@@ -221,7 +221,7 @@ html body #wrapper #header .inner nav ul li:hover a {
 html body #wrapper #header .inner nav ul ul {
   display: none;
   position: absolute;
-  margin-top: -31px;
+  top: -15px;
   background: red !important;
   padding-top: 46px;
   z-index: 200;
@@ -1301,19 +1301,20 @@ html body #footer .inner .social .pieoneers:hover {
   height: 26px;
   margin: 0 auto 40px;
   background: url(../images/close.png) no-repeat 50% 50%;
+  cursor: pointer;
 }
-/* line 30, ../sass/future_event.scss */
+/* line 31, ../sass/future_event.scss */
 #container.f ul.speech_description li .close:hover, #container.f .members_description li .close:hover {
   opacity: 0.5;
 }
-/* line 34, ../sass/future_event.scss */
+/* line 35, ../sass/future_event.scss */
 #container.f ul.speech_description li h3, #container.f .members_description li h3 {
   font-size: 13.5pt;
   color: red;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 40, ../sass/future_event.scss */
+/* line 41, ../sass/future_event.scss */
 #container.f ul.speech_description li h3 span, #container.f .members_description li h3 span {
   font-size: 10.5pt;
   color: #666666;
@@ -1322,7 +1323,7 @@ html body #footer .inner .social .pieoneers:hover {
   font-weight: normal;
   display: block;
 }
-/* line 49, ../sass/future_event.scss */
+/* line 50, ../sass/future_event.scss */
 #container.f ul.speech_description li .theme, #container.f .members_description li .theme {
   display: block;
   font-size: 9pt;
@@ -1331,7 +1332,7 @@ html body #footer .inner .social .pieoneers:hover {
   text-transform: uppercase;
   margin-bottom: 13px;
 }
-/* line 57, ../sass/future_event.scss */
+/* line 58, ../sass/future_event.scss */
 #container.f ul.speech_description li h2, #container.f .members_description li h2 {
   border: none;
   color: #454545;
@@ -1340,76 +1341,76 @@ html body #footer .inner .social .pieoneers:hover {
   font-size: 18pt;
   font-weight: bold;
 }
-/* line 65, ../sass/future_event.scss */
+/* line 66, ../sass/future_event.scss */
 #container.f ul.speech_description li p, #container.f .members_description li p {
   width: 620px;
   text-align: center;
   margin: 0 auto 33px;
   line-height: 15pt;
 }
-/* line 71, ../sass/future_event.scss */
+/* line 72, ../sass/future_event.scss */
 #container.f ul.speech_description li .contact_info a, #container.f .members_description li .contact_info a {
   font-weight: bold;
   color: #454545;
   text-decoration: none;
 }
-/* line 76, ../sass/future_event.scss */
+/* line 77, ../sass/future_event.scss */
 #container.f ul.speech_description li .contact_info a:hover, #container.f .members_description li .contact_info a:hover {
   text-decoration: underline;
 }
-/* line 82, ../sass/future_event.scss */
+/* line 83, ../sass/future_event.scss */
 #container.f .content {
   width: 750px;
   left: 214px;
 }
-/* line 86, ../sass/future_event.scss */
+/* line 87, ../sass/future_event.scss */
 #container.f .content article {
   width: 100%;
 }
-/* line 88, ../sass/future_event.scss */
+/* line 89, ../sass/future_event.scss */
 #container.f .content article p {
   font-size: 10.5pt;
 }
-/* line 91, ../sass/future_event.scss */
+/* line 92, ../sass/future_event.scss */
 #container.f .content article p span {
   color: red;
 }
-/* line 96, ../sass/future_event.scss */
+/* line 97, ../sass/future_event.scss */
 #container.f .content article .text_list {
   margin: -14px 0 24px;
 }
-/* line 98, ../sass/future_event.scss */
+/* line 99, ../sass/future_event.scss */
 #container.f .content article .text_list li {
   text-indent: -20px;
   margin: 0 0 10px 20px;
   font-size: 10.5pt;
   line-height: 18pt;
 }
-/* line 104, ../sass/future_event.scss */
+/* line 105, ../sass/future_event.scss */
 #container.f .content article .text_list li span {
   color: rgba(102, 102, 102, 0.5);
   font-style: italic;
 }
-/* line 109, ../sass/future_event.scss */
+/* line 110, ../sass/future_event.scss */
 #container.f .content article .text_list li strong span {
   font-style: normal;
   color: red;
 }
-/* line 114, ../sass/future_event.scss */
+/* line 115, ../sass/future_event.scss */
 #container.f .content article .text_list li a {
   color: red;
 }
-/* line 119, ../sass/future_event.scss */
+/* line 120, ../sass/future_event.scss */
 #container.f .content article h4 {
   font-size: 11pt;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-/* line 124, ../sass/future_event.scss */
+/* line 125, ../sass/future_event.scss */
 #container.f .content article h4 span {
   color: red;
 }
-/* line 128, ../sass/future_event.scss */
+/* line 129, ../sass/future_event.scss */
 #container.f .content article .time {
   padding-left: 20px;
   background: url(../images/clock.png) no-repeat 0 50%;
@@ -1417,48 +1418,48 @@ html body #footer .inner .social .pieoneers:hover {
   font-size: 10.5pt;
   margin-bottom: 10px;
 }
-/* line 135, ../sass/future_event.scss */
+/* line 136, ../sass/future_event.scss */
 #container.f .content article .speakers {
   margin-bottom: 20px;
 }
-/* line 137, ../sass/future_event.scss */
+/* line 138, ../sass/future_event.scss */
 #container.f .content article .speakers #slides, #container.f .content article .speakers #slides_1, #container.f .content article .speakers #slides_2, #container.f .content article .speakers #slides_3, #container.f .content article .speakers #slides_4, #container.f .content article .speakers #slides_5 {
   width: 100%;
   height: 200px;
 }
-/* line 143, ../sass/future_event.scss */
+/* line 144, ../sass/future_event.scss */
 #container.f .content article .speakers #slides ul li, #container.f .content article .speakers #slides_1 ul li, #container.f .content article .speakers #slides_2 ul li, #container.f .content article .speakers #slides_3 ul li, #container.f .content article .speakers #slides_4 ul li, #container.f .content article .speakers #slides_5 ul li {
   margin: 0 4px;
 }
-/* line 146, ../sass/future_event.scss */
+/* line 147, ../sass/future_event.scss */
 #container.f .content article .speakers #slides ul li:first-child, #container.f .content article .speakers #slides_1 ul li:first-child, #container.f .content article .speakers #slides_2 ul li:first-child, #container.f .content article .speakers #slides_3 ul li:first-child, #container.f .content article .speakers #slides_4 ul li:first-child, #container.f .content article .speakers #slides_5 ul li:first-child {
   margin-left: 0;
 }
-/* line 149, ../sass/future_event.scss */
+/* line 150, ../sass/future_event.scss */
 #container.f .content article .speakers #slides ul li:last-child, #container.f .content article .speakers #slides_1 ul li:last-child, #container.f .content article .speakers #slides_2 ul li:last-child, #container.f .content article .speakers #slides_3 ul li:last-child, #container.f .content article .speakers #slides_4 ul li:last-child, #container.f .content article .speakers #slides_5 ul li:last-child {
   margin-right: 0;
 }
-/* line 153, ../sass/future_event.scss */
+/* line 154, ../sass/future_event.scss */
 #container.f .content article .speakers #slides ul li p, #container.f .content article .speakers #slides_1 ul li p, #container.f .content article .speakers #slides_2 ul li p, #container.f .content article .speakers #slides_3 ul li p, #container.f .content article .speakers #slides_4 ul li p, #container.f .content article .speakers #slides_5 ul li p {
   margin-bottom: 0;
   white-space: nowrap;
 }
-/* line 157, ../sass/future_event.scss */
+/* line 158, ../sass/future_event.scss */
 #container.f .content article .speakers #slides ul li p.small, #container.f .content article .speakers #slides_1 ul li p.small, #container.f .content article .speakers #slides_2 ul li p.small, #container.f .content article .speakers #slides_3 ul li p.small, #container.f .content article .speakers #slides_4 ul li p.small, #container.f .content article .speakers #slides_5 ul li p.small {
   font-size: 9pt;
   margin-top: 1px;
 }
-/* line 166, ../sass/future_event.scss */
+/* line 167, ../sass/future_event.scss */
 #container.f .content article:last-child {
   margin-bottom: 100px;
 }
-/* line 172, ../sass/future_event.scss */
+/* line 173, ../sass/future_event.scss */
 #container.f .events li {
   display: inline-block;
   width: 240px;
   vertical-align: top;
 }
-/* line 177, ../sass/future_event.scss */
+/* line 178, ../sass/future_event.scss */
 #container.f .events li .year {
   font-family: Bebas_Neue_Cyrillic;
   color: #666666;
@@ -1466,14 +1467,14 @@ html body #footer .inner .social .pieoneers:hover {
   font-size: 34pt;
   margin-bottom: 10px;
 }
-/* line 184, ../sass/future_event.scss */
+/* line 185, ../sass/future_event.scss */
 #container.f .events li .year span {
   display: block;
   text-align: center;
   width: 68px;
   top: -10px;
 }
-/* line 191, ../sass/future_event.scss */
+/* line 192, ../sass/future_event.scss */
 #container.f .events li .event_name {
   font-weight: bold;
   font-size: 11pt;
@@ -1483,15 +1484,15 @@ html body #footer .inner .social .pieoneers:hover {
   color: #454545;
   line-height: 15pt;
 }
-/* line 200, ../sass/future_event.scss */
+/* line 201, ../sass/future_event.scss */
 #container.f .events li .event_name span {
   color: red;
 }
-/* line 204, ../sass/future_event.scss */
+/* line 205, ../sass/future_event.scss */
 #container.f .events li .event_name:hover {
   text-decoration: underline;
 }
-/* line 208, ../sass/future_event.scss */
+/* line 209, ../sass/future_event.scss */
 #container.f .events li .date {
   background: rgba(102, 102, 102, 0.5);
   display: inline-block;
@@ -1500,27 +1501,27 @@ html body #footer .inner .social .pieoneers:hover {
   padding: 8px 12px;
   margin-bottom: 40px;
 }
-/* line 217, ../sass/future_event.scss */
+/* line 218, ../sass/future_event.scss */
 #container.f .events li.active .year {
   color: red;
   opacity: 1;
 }
-/* line 224, ../sass/future_event.scss */
+/* line 225, ../sass/future_event.scss */
 #container.f aside.event_nav {
   position: absolute;
   left: 40px !important;
   top: 365px;
 }
-/* line 229, ../sass/future_event.scss */
+/* line 230, ../sass/future_event.scss */
 #container.f aside.event_nav span {
   color: red;
   text-transform: none;
 }
-/* line 234, ../sass/future_event.scss */
+/* line 235, ../sass/future_event.scss */
 #container.f aside.event_nav dl {
   font-size: 13.5pt;
 }
-/* line 237, ../sass/future_event.scss */
+/* line 238, ../sass/future_event.scss */
 #container.f aside.event_nav dl dt {
   color: #454545;
   text-transform: uppercase;
@@ -1530,27 +1531,27 @@ html body #footer .inner .social .pieoneers:hover {
   color: white;
   display: inline-block;
 }
-/* line 246, ../sass/future_event.scss */
+/* line 247, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd {
   padding-left: 25px;
   line-height: 26pt;
   text-transform: uppercase;
 }
-/* line 250, ../sass/future_event.scss */
+/* line 251, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a {
   color: #666666;
   text-decoration: none;
 }
-/* line 253, ../sass/future_event.scss */
+/* line 254, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a:hover {
   text-decoration: underline;
 }
-/* line 256, ../sass/future_event.scss */
+/* line 257, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a.disabled {
   cursor: default;
   color: rgba(102, 102, 102, 0.5);
 }
-/* line 259, ../sass/future_event.scss */
+/* line 260, ../sass/future_event.scss */
 #container.f aside.event_nav dl dd a.disabled:hover {
   text-decoration: none;
 }
@@ -2068,20 +2069,20 @@ html body #footer .inner .social .pieoneers:hover {
 }
 
 /* line 4, ../sass/lists.scss */
-#container.l ul.partners li {
+#container.l ul.partner_list li {
   display: inline-block;
   text-align: center;
   margin: 20px 10px 40px;
   vertical-align: top;
 }
 /* line 10, ../sass/lists.scss */
-#container.l ul.partners li a {
+#container.l ul.partner_list li a {
   display: block;
   width: 170px;
   height: 110px;
 }
 /* line 16, ../sass/lists.scss */
-#container.l ul.partners li p {
+#container.l ul.partner_list li p {
   margin-bottom: 20px;
   text-transform: uppercase;
   font-size: 8pt;
