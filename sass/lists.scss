@@ -104,8 +104,8 @@
   }
 }
 #container.s {
-  .speakers {
-    ul {
+   div {
+    .speakers {
 
       li {
         display: inline-block;
@@ -144,7 +144,7 @@
             text-transform: uppercase;
             font-size: 7.5pt;
             display: block;
-            margin-bottom: 10px;
+            margin-bottom: 30px;
           }
         }
         .speaker_name {
@@ -156,6 +156,18 @@
           width: 100%;
           text-align: center;
         }
+      }
+    }
+    .speech_description {
+      margin: 0 !important;
+
+      span {
+        background: none !important;
+      }
+      iframe {
+        margin: 20px 0 40px;
+        left: 50%;
+        margin-left: -375px;
       }
     }
   }

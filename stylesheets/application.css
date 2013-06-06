@@ -2182,7 +2182,7 @@ html body #footer .inner .social .pieoneers:hover {
 }
 
 /* line 110, ../sass/lists.scss */
-#container.s .speakers ul li {
+#container.s div .speakers li {
   display: inline-block;
   padding: 10px;
   width: 160px;
@@ -2191,17 +2191,17 @@ html body #footer .inner .social .pieoneers:hover {
   vertical-align: top;
 }
 /* line 119, ../sass/lists.scss */
-#container.s .speakers ul li:hover a {
+#container.s div .speakers li:hover a {
   visibility: visible;
 }
 /* line 124, ../sass/lists.scss */
-#container.s .speakers ul li img {
+#container.s div .speakers li img {
   position: absolute;
   top: 0;
   left: 0;
 }
 /* line 129, ../sass/lists.scss */
-#container.s .speakers ul li .theme {
+#container.s div .speakers li .theme {
   color: white;
   text-decoration: none;
   visibility: hidden;
@@ -2216,14 +2216,14 @@ html body #footer .inner .social .pieoneers:hover {
   cursor: pointer;
 }
 /* line 143, ../sass/lists.scss */
-#container.s .speakers ul li .theme span {
+#container.s div .speakers li .theme span {
   text-transform: uppercase;
   font-size: 7.5pt;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 /* line 150, ../sass/lists.scss */
-#container.s .speakers ul li .speaker_name {
+#container.s div .speakers li .speaker_name {
   font-size: 10pt;
   text-transform: uppercase;
   position: absolute;
@@ -2231,4 +2231,18 @@ html body #footer .inner .social .pieoneers:hover {
   left: 0;
   width: 100%;
   text-align: center;
+}
+/* line 161, ../sass/lists.scss */
+#container.s div .speech_description {
+  margin: 0 !important;
+}
+/* line 164, ../sass/lists.scss */
+#container.s div .speech_description span {
+  background: none !important;
+}
+/* line 167, ../sass/lists.scss */
+#container.s div .speech_description iframe {
+  margin: 20px 0 40px;
+  left: 50%;
+  margin-left: -375px;
 }
