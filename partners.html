@@ -4,8 +4,15 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>TEDxKiyv</title>
     <link href="stylesheets/application.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/chosen.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="javascripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/chosen.jquery.min.js"></script>
     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript"> 
+      $(function(){
+        $(".chzn-select").chosen({disable_search_threshold: 10});
+      });
+    </script>
   </head>
   <body>
     <div id="wrapper">
@@ -50,6 +57,20 @@
       <div id="container" class="l">
         <p class="address"><a href="index.html">Головна</a>&nbsp;&nbsp;/&nbsp;&nbsp;Події&nbsp;&nbsp;/&nbsp;&nbsp;Партнери</p>
         <h1 class="underline">Партнери</h1>
+        <div>
+          <select data-placeholder="Your Favorite Type of Bear" style="width:350px;" class="chzn-select-no-single" tabindex="9">
+            <option value=""></option>
+            <option>American Black Bear</option>
+            <option>Asiatic Black Bear</option>
+            <option>Brown Bear</option>
+            <option>Giant Panda</option>
+            <option selected disabled>Sloth Bear</option>
+            <option disabled>Sun Bear</option>
+            <option selected disabled>Paddington Bear</option>
+            <option selected>Polar Bear</option>
+            <option disabled>Spectacled Bear</option>
+          </select>
+        </div>
         <ul class="partner_list">
           <li class="e2013"><a href=""><img src="images/partners/fedoriv_logo.jpg"></a></li>
           <li class="e2013"><a href=""><img src="images/partners/plusone.png"></a></li>
