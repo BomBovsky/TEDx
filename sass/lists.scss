@@ -33,23 +33,26 @@
       border: none;
       margin-bottom: 0;
       ul {
-        left: -4px;
+        left: 0px;
 
         &.e2009 {
-          left: 416px;
+          left: 432px;
         }
         &.e2010 {
-          left: 276px;
+          left: 324px;
         }
         &.e2011 {
-          left: 136px;
+          left: 216px;
+        }
+        &.e2012 {
+          left: 108px;
         }
         li {
           font-family: Bebas_Neue_Cyrillic;
           color: $gray;
           opacity: 0.5;
           font-size: 26pt;
-          margin: 0 40px 10px;
+          margin: 0 24px 10px;
           display: inline-block;
 
           span {

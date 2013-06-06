@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>TEDxKiyv</title>
+    <link href="stylesheets/application.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="javascripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="javascripts/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.fancybox.css" media="screen"/>
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript">
+      $(function(){
+        $(".fancybox-video").click(function() {
+          $.fancybox({
+              'padding'   : 0,
+              'autoScale'   : false,
+              'transitionIn'  : 'none',
+              'transitionOut' : 'none',
+              'title'     : this.title,
+              'width'   : 680,
+              'height'    : 495,
+              'href'      : this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+              'type'      : 'swf',
+              'swf'     : {
+                'wmode'    : 'transparent',
+                'allowfullscreen' : 'true'
+              }
+            });
+
+          return false;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <div class="inner">
+          <a href="index.html" class="logo"></a>
+          <nav>
+            <ul>
+              <li><a>Про TED</a>
+                <ul>
+                  <li><a href="about.html">Що таке TED?</a></li>
+                  <li><a href="media.html">TED у ЗМI</a></li>
+                </ul>
+              </li>
+              <li><a>Події</a>
+                <ul>
+                  <li><a href="events.html">TEDxKYIV</a></li>
+                  <li><a href="speakers.html">Спікери</a></li>
+                  <li><a href="photos.html">Фото</a></li>
+                  <!-- <li><a href="">Відео</a></li> -->
+                </ul>
+              </li>
+              <li><a>Приєднуйся!</a>
+                <ul>
+                  <li><a href="get_on_4speakers.html">Для спікерів</a></li>
+                  <li><a href="get_on_4partners.html">Для партнерів</a></li>
+                  <li><a href="get_on_4volunteers.html">Для волонтерів</a></li>
+                  <li><a href="https://docs.google.com/a/tedxkyiv.com/spreadsheet/viewform?fromEmail=true&formkey=dDdRTkZlX1VJSWJoa1dKZjVqMS14Rnc6MQ" target="_blank">Для преси</a></li>
+                </ul>
+              </li>
+              <li><a>Ми</a>
+                <ul>
+                  <li><a href="team.html">Команда</a></li>
+                  <li><a href="partners.html">Партнери</a></li>
+                </ul>
+              </li>
+              <li><a href="http://tedxkyiv.com/blog/">Блог</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header><!-- #header-->
+      <div id="container" class="l p">
+        <p class="address"><a href="index.html">Головна</a>&nbsp;&nbsp;/&nbsp;&nbsp;Події&nbsp;&nbsp;/&nbsp;&nbsp;Фото</p>
+        <h1>Фото</h1>
+        <div class="banner">
+          <h1><span>TEDxCity2.0.</span> Iнстинкт Mайбутнього.</h1>
+          <a href="future_event.html"></a>
+        </div>
+        <article>
+          <h2>
+            <ul class="e2012">
+              <li>2009<span>.</span></li>
+              <li>2010<span>.</span></li>
+              <li>2011<span>.</span></li>
+              <li class="active">2012<span>.</span></li>
+              <li>2013<span>.</span></li>
+            </ul>
+          </h2>
+          <h3><span>20 травня 2012</span> <span>TEDxKyiv 2012.</span> ТАЛАНТИ. ОСВІТА. РОЗВИТОК.</h3>
+          <div class="gallery">
+            <a href="http://youtu.be/yuaHHgP9b6k" class="fancybox-video" style="background-image: url(images/photo/2012/7257595438_b81f94b910_b.jpg)"></a>
+          </div>
+        </article>
+      </div><!-- #container-->
+      <div id="hfooter"></div>
+    </div><!-- #wrapper -->
+    <footer id="footer">
+      <div class="inner">
+        <div class="rights">
+          <p>Copyright ©2013 TEDxKyiv</p>
+          <p>Ця незалежна подія TEDx працює за ліцензією TED.<br/>Всі права захищені. Права та конфіденційність.</p>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="http://tedxvinnytsia.com/">TEDxVinnytsia</a></li>
+            <li><a href="http://tedxodessa.com/">TEDxOdessa</a></li>
+            <li><a href="http://tedxkharkov.com/">TEDxKharkiv</a></li>
+            <li><a href="http://tedxdonetsk.com/">TEDxDonetsk</a></li>
+            <!-- <li><a href="" class="lang ua active"></a></li>
+            <li><a href="" class="lang uk"></a></li> -->
+          </ul>
+        </div>
+        <div class="social">
+          <p>Шукайте нас:</p>
+          <ul>
+            <li><a href="mailto:info@tedxkyiv.com" class="ml"></a></li>
+            <li><a href="http://flickr.com/groups/tedxkyiv/" class="fl"></a></li>
+            <li><a href="https://twitter.com/TEDxKyiv#" class="tw"></a></li>
+            <li><a href="" class="fb"></a></li>
+            <li><a href="http://www.youtube.com/user/TEDxTalks" class="yt"></a></li>
+            <li><a href="" class="rc"></a></li>
+          </ul>
+          <span>Developed by</span>
+          <a href="http://babychstudio.com/ru/" target="_blank" class="babich"></a>
+          <a href="http://pieoneers.com/" target="_blank" class="pieoneers"></a>
+        </div>
+      </div>
+    </footer><!-- #footer -->
+  </body>
+</html>
