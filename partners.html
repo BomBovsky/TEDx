@@ -11,12 +11,16 @@
     <script type="text/javascript">
       $(function(){
         $(".chzn-select-no-single").chosen({disable_search_threshold: 10}).change(function () {
-          var $option = $(this);
+          var $el = $(this);
+
           $('.partner_list li').show().each(function (index, partner) {
             var $partner = $(partner);
-            if ($partner.is(':not(.' + $option.val() + ')')) $partner.hide();
+            if ($partner.is(':not(.' + $el.val() + ')')) $partner.hide();
           });
         });
+
+        var year = window.location.search.match(/year=(\w+)/);
+        if (year) $(".chzn-select-no-single").val(year[1]).trigger("liszt:updated").trigger('change');
       });
     </script>
   </head>
