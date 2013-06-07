@@ -101,8 +101,69 @@
         margin: 6px 4px;
       }
     }
+    .video_gallery {
+      margin-bottom: 40px;
+
+      li {
+        display: inline-block;
+        margin: 0 5px 20px;
+        a {
+          display: block;
+          margin-bottom: 15px;
+
+          &:hover {
+            img {
+              opacity: 0.8;
+            }
+          }
+
+          
+          span.play {
+            width: 81px;
+            height: 61px;
+            background: url(../images/play.png) no-repeat 50% 50%;
+            position: absolute;
+            z-index: 100;
+            left: 50%;
+            margin: -30px 0 0 -40px;
+            top: 50%;
+          }
+          img {
+            width: 309px;
+
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+        }
+        .speaker_icon {
+          vertical-align: top;
+          display: inline-block;
+          margin-right: 15px;
+        }
+        p {
+          vertical-align: top;
+          display: inline-block;
+          text-transform: uppercase;
+          font-size: 10pt;
+          width: 248px;
+
+          span {
+            display: block;
+            font-size: 12pt;
+            font-weight: bold; 
+          }
+        }
+      }
+    }
   }
 }
+#container.v {
+  .banner {
+    background: url(../images/banner_events.jpg) 50% 50%;
+    height: 291px !important;
+  }
+}  
 #container.s {
    div {
     .speakers {

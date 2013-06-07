@@ -2180,8 +2180,71 @@ html body #footer .inner .social .pieoneers:hover {
   vertical-align: top;
   margin: 6px 4px;
 }
-
+/* line 104, ../sass/lists.scss */
+#container.p article .video_gallery {
+  margin-bottom: 40px;
+}
+/* line 107, ../sass/lists.scss */
+#container.p article .video_gallery li {
+  display: inline-block;
+  margin: 0 5px 20px;
+}
 /* line 110, ../sass/lists.scss */
+#container.p article .video_gallery li a {
+  display: block;
+  margin-bottom: 15px;
+}
+/* line 115, ../sass/lists.scss */
+#container.p article .video_gallery li a:hover img {
+  opacity: 0.8;
+}
+/* line 121, ../sass/lists.scss */
+#container.p article .video_gallery li a span.play {
+  width: 81px;
+  height: 61px;
+  background: url(../images/play.png) no-repeat 50% 50%;
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  margin: -30px 0 0 -40px;
+  top: 50%;
+}
+/* line 131, ../sass/lists.scss */
+#container.p article .video_gallery li a img {
+  width: 309px;
+}
+/* line 134, ../sass/lists.scss */
+#container.p article .video_gallery li a img:hover {
+  opacity: 0.8;
+}
+/* line 139, ../sass/lists.scss */
+#container.p article .video_gallery li .speaker_icon {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 15px;
+}
+/* line 144, ../sass/lists.scss */
+#container.p article .video_gallery li p {
+  vertical-align: top;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 10pt;
+  width: 248px;
+}
+/* line 151, ../sass/lists.scss */
+#container.p article .video_gallery li p span {
+  display: block;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+/* line 162, ../sass/lists.scss */
+#container.v .banner {
+  background: url(../images/banner_events.jpg) 50% 50%;
+  height: 291px !important;
+}
+
+/* line 171, ../sass/lists.scss */
 #container.s div .speakers li {
   display: inline-block;
   padding: 10px;
@@ -2190,17 +2253,17 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 0 5px 40px;
   vertical-align: top;
 }
-/* line 119, ../sass/lists.scss */
+/* line 180, ../sass/lists.scss */
 #container.s div .speakers li:hover a {
   visibility: visible;
 }
-/* line 124, ../sass/lists.scss */
+/* line 185, ../sass/lists.scss */
 #container.s div .speakers li img {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 129, ../sass/lists.scss */
+/* line 190, ../sass/lists.scss */
 #container.s div .speakers li .theme {
   color: white;
   text-decoration: none;
@@ -2215,14 +2278,14 @@ html body #footer .inner .social .pieoneers:hover {
   line-height: 11pt;
   cursor: pointer;
 }
-/* line 143, ../sass/lists.scss */
+/* line 204, ../sass/lists.scss */
 #container.s div .speakers li .theme span {
   text-transform: uppercase;
   font-size: 7.5pt;
   display: block;
   margin-bottom: 30px;
 }
-/* line 150, ../sass/lists.scss */
+/* line 211, ../sass/lists.scss */
 #container.s div .speakers li .speaker_name {
   font-size: 10pt;
   text-transform: uppercase;
@@ -2232,15 +2295,15 @@ html body #footer .inner .social .pieoneers:hover {
   width: 100%;
   text-align: center;
 }
-/* line 161, ../sass/lists.scss */
+/* line 222, ../sass/lists.scss */
 #container.s div .speech_description {
   margin: 0 !important;
 }
-/* line 164, ../sass/lists.scss */
+/* line 225, ../sass/lists.scss */
 #container.s div .speech_description span {
   background: none !important;
 }
-/* line 167, ../sass/lists.scss */
+/* line 228, ../sass/lists.scss */
 #container.s div .speech_description iframe {
   margin: 20px 0 40px;
   left: 50%;
