@@ -1,4 +1,10 @@
 #container.l {
+  .select_box {
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 35px;
+  }
   ul.partner_list {
 
     li {
