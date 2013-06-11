@@ -13,6 +13,7 @@
         $(".chzn-select-no-single").chosen({disable_search_threshold: 10}).change(function () {
           var $el = $(this);
 
+          $('.partner_list li p').show()
           $('.partner_list li').show().each(function (index, partner) {
             var $partner = $(partner);
             if ($partner.is(':not(.' + $el.val() + ')')) $partner.hide();
@@ -68,8 +69,8 @@
         <p class="address"><a href="index.html">Головна</a>&nbsp;&nbsp;/&nbsp;&nbsp;Події&nbsp;&nbsp;/&nbsp;&nbsp;Партнери</p>
         <h1 class="underline">Партнери</h1>
         <div class="select_box">
-          <select data-placeholder="Події" style="width:320px;" class="chzn-select-no-single">
-            <option></option>
+          <select style="width:320px;" class="chzn-select-no-single">
+            <option value="">Все події</option>
             <option value="2013">TEDxKyiv 2013. Інстинкт майбутнього.</option>
             <option value="city">TEDxCity2.0.</option>
             <option value="2012">TEDxKyiv 2012. Таланті. Освіта. Розвиток.</option>
@@ -80,7 +81,7 @@
           </select>
         </div>
         <ul class="partner_list">
-          <li class="2013"><a href=""><img src="images/partners/fedoriv_logo.jpg"></a></li>
+          <li class="2013"><p>Партнер</p><a href=""><img src="images/partners/fedoriv_logo.jpg"></a></li>
           <li class="2013"><a href=""><img src="images/partners/plusone.png"></a></li>
           <li class="2013 2010 2012"><a href="http://babych.com.ua/"><img src="images/partners/dbabych.png"></a></li>
           <li class="2013"><a href=""><img src="images/partners/tenpoint-logo.jpg"></a></li>
@@ -92,7 +93,6 @@
           <li class="2013 2011 2012"><a href=""><img src="images/partners/kmbs.png"></a></li>
           <li class="2013"><a href=""><img src="images/partners/startup_ukraine_one.png"></a></li>
           <li class="2013 2011 2012"><a href="http://platfor.ma"><img src="images/partners/platforma.png"></a></li>
-          <li class="2013"><a href="http://pieoneers.com"><img src="images/partners/pieoneers.png"></a></li>
           <li class="2009"><a href="http://www.i-klass.com"><img src="images/partners/iklass.png"></a></li>
           <li class="2009"><a href="http://kraft.ua/"><img src="images/partners/kraft.gif"></a></li>
           <li class="2009 2010 2011"><a href="http://svidomo.org"><img src="images/partners/svidomo.gif"></a></li>
