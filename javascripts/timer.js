@@ -1,7 +1,7 @@
 function remaining_timeIn(){
   var days=" днів "
   var now = new Date();
-  var remaining_time = new Date("jun,15,2013,12:00:00");
+  var remaining_time = new Date("jun,15,2013,10:00:00");
   var totalRemains = (remaining_time.getTime()-now.getTime());
   if (totalRemains>1){
     var RemainsSec=(parseInt(totalRemains/1000));
