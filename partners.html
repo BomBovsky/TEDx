@@ -19,6 +19,11 @@
             if ($partner.is(':not(.' + $el.val() + ')')) $partner.hide();
           });
         });
+        
+        $('.partner_list a').hover(function(e){
+            var href = $(this).attr('data-href');
+            $(this).attr('href',href);
+        });
 
         var year = window.location.search.match(/year=(\w+)/);
         if (year) $(".chzn-select-no-single").val(year[1]).trigger("liszt:updated").trigger('change');
@@ -81,72 +86,72 @@
           </select>
         </div>
         <ul class="partner_list">
-          <li class="2013"><p>Strategic partner</p><a href="http://fedoriv.com"><img src="images/partners/fedoriv_logo.jpg"></a></li>
-          <li class="2013"><p>Friend</p><a href="http://pactworld.org"><img src="images/partners/Pact_New.png"></a></li>
-          <li class="2013"><p>Digital partner</p><a href=" http://plusone.com.ua/"><img src="images/partners/plusone.png"></a></li>
-          <li class="2013 2010 2012"><p>Design partner</p><a href="http://babych.com.ua/"><img src="images/partners/dbabych.png"></a></li>
-          <li class="2013"><p>Art partner</p><a href=""><img src="images/partners/disorder.png"></a></li>
-          <li class="2013"><p>Mobile app development</p><a href="http://attendify.com/"><img src="images/partners/attendify_logo.png"></a></li>
-          <li class="2013"><p>Copywriting</p><a href="https://www.facebook.com/Theletterfactory?fref=ts"><img src="images/partners/the_letter_factory.png"></a></li>
-          <li class="2013"><p>PR support</p><a href="http://www.newsfront.com.ua"><img src="images/partners/newsfront.png"></a></li>
-          <li class="2013 2011 city"><p>Media -partner</p><a href="http://www.facebook.com/Focus.Editorial/"><img src="images/partners/focus.png"></a></li>
-          <li class="2013"><p>Web development</p><a href="http://pieoneers.com"><img src="images/partners/pieoneers.png"></a></li>
-          <li class="2013"><p>Streaming partner</p><a href=""><img src="images/partners/dekom.png"></a></li>
-          <li class="2013 2011"><p>Friend</p><a href="http://biggggidea.com"><img src="images/partners/biggggidea.png"></a></li>
-          <li class="2013 2012 2011"><p>Friend</p><a href="http://britishmba.in.ua"><img src="images/partners/EBS.png"></a></li>
-          <li class="2013"><p>Technical partner</p><a href="http://euromediacompany.com"><img src="images/partners/emc.png"></a></li>
-          <li class="2013"><p>Friend</p><a href="http://www.touchme.com.ua"><img src="images/partners/touchme.png"></a></li>
-          <li class="2013"><p>Friend</p><a href="http://www.management.com.ua"><img src="images/partners/management.png"></a></li>
-          <li class="2010 2009"><p>Info partner</p><a href="http://hh.ua"><img src="images/partners/hh.gif"></a></li>
-          <li class="2013 2011 2012"><p>Intellectual partner</p><a href="http://www.kmbs.ua/uk"><img src="images/partners/kmbs.png"></a></li>
-          <li class="2013"><p>Friends</p><a href="http://www.startupukraine.com"><img src="images/partners/startup_ukraine_one.png"></a></li>
-          <li class="2013 2011 2012"><p>Info-partner</p><a href="http://platfor.ma"><img src="images/partners/platforma.png"></a></li>
-          <li class="2009"><p>Friends</p><a href="http://www.i-klass.com"><img src="images/partners/iklass.png"></a></li>
-          <li class="2009"><a href="http://kraft.ua/"><img src="images/partners/kraft.gif"></a></li>
-          <li class="2009 2010 2011"><p>Info-partner</p><a href="http://svidomo.org"><img src="images/partners/svidomo.gif"></a></li>
-          <li class="2009 2010 2012 city"><p>Info-partner</p><a href="http://innovations.com.ua"><img src="images/partners/inn.jpg"></a></li>
-          <li class="2009"><p>Info-partner</p><a href="http://developers.org.ua"><img src="images/partners/logo-new.png"></a></li>
-          <li class="2009 2010"><a href="http://w2.com.ua"><img src="images/partners/w2.png"></a></li>
-          <li class="2013 2011 2012"><p>Friend</p><a href="http://greencubator.info"><img src="images/partners/greencubator.png"></a></li>
-          <li class="2009"><a href="http://www.chambertoastmasters.org/"><img src="images/partners/ChamberTM_Logo.gif"></a></li>
-          <li class="2009 2010 2011"><p>Friend</p><a href="http://hub.in.ua/"><img src="images/partners/hub.png"></a></li>
-          <li class="2009"><p>Friend</p><a href="http://www.c8.com.ua"><img src="images/partners/c8.jpg"></a></li>
-          <li class="2010"><p>Friend</p><a href="http://brandcom.com.ua/"><img src="images/partners/brandcom.png"></a></li>
-          <li class="2010"><p>Friend</p><a href="http://http://betv.com.ua/"><img src="images/partners/betv.png"></a></li>
-          <li class="2010"><p>Friend</p><a href="http://esg.ua/"><img src="images/partners/esg.png"></a></li>
-          <li class="2010"><p>Friend</p><a href="http://ubr.ua/"><img src="images/partners/ubr.png"></a></li>
-          <li class="2010 2012"><a href="http://tochka.net/"><img src="images/partners/tochka.png"></a></li>
-          <li class="2010"><p>Info-partner</p><a href="http://strategy.com.ua/"><img src="images/partners/strategies.png"></a></li>
-          <li class="2010"><p>Info-partner</p><a href="http://pro-mova.com/"><img src="images/partners/promova.png"></a></li>
-          <li class="2010"><p>Friend</p><a href="http://www.toastmasters.org.ua/"><img src="images/partners/toastmasters.png"></a></li>
-          <li class="2010"><p>Info-partner</p><a href="http://companion.ua/"><img src="images/partners/companion.png"></a></li>
-          <li class="2010"><p>Info-partner</p><a href="http://day.kiev.ua/"><img src="images/partners/day.png"></a></li>
-          <li class="2010 2012"><p>Strategic partner</p><a href="http://egoisty.com/"><img src="images/partners/egoisty.png"></a></li>
-          <li class="2010"><p>Friend</p><a href="http://prostoprint.com/"><img src="images/partners/prostoprint.png"></a></li>
-          <li class="2010"><p>Friend</p><a href="http://www.ManekiBook.com/"><img src="images/partners/manekibook.png"></a></li>
-          <li class="2010"><p>Info-partner</p><a href="http://medianext-ua.livejournal.com/"><img src="images/partners/medianext.png"></a></li>
-          <li class="2010"><p>Info-partner</p><a href="http://mmr.net.ua/"><img src="images/partners/mmr.png"></a></li>
-          <li class="2011 2012"><p>Strategic partner</p><a href="http://www.erstebank.ua/"><img src="images/partners/erste.png"></a></li>
-          <li class="2011"><p>Friend</p><a href="http://masterklass.org/ukr/"><img src="images/partners/master-klass.png"></a></li>
-          <li class="2011 2012"><p>Friend</p><a href="http://www.facebook.com/ProdigiDigitalAgency/"><img src="images/partners/prodigi.jpg"></a></li>
-          <li class="2011"><p>Friend</p><a href="http://territory.com.ua/"><img src="images/partners/territory.jpg"></a></li>
-          <li class="2011"><p>Friend</p><a href="http://grammarly.com/"><img src="images/partners/grammarly.png"></a></li>
-          <li class="2011"><p>Friend</p><a href="http://zakaz.ua/"><img src="images/partners/Zakaz.ua.png"></a></li>
-          <li class="2011"><p>Info partner</p><a href="http://www.gmcua.com/"><img src="images/partners/gmc.png"></a></li>
-          <li class="2011"><p>Info partner</p><a href="http://entrepreholic.com.ua/"><img src="images/partners/cisco.png"></a></li>
-          <li class="2011"><p>Info partner</p><a href="http://lb.ua/"><img src="images/partners/lb.png"></a></li>
-          <li class="2011"><p>Info partner</p><a href="http://kei.org.ua/"><img src="images/partners/kei.png"></a></li>
-          <li class="2012"><p>Friend</p><a href="http://koktebel.info/"><img src="images/partners/kokt.jpg"></a></li>
-          <li class="2012"><p>Friend</p><a href="http://cdn.ua/"><img src="images/partners/cdn.jpg"></a></li>
-          <li class="2012"><p>Friend</p><a href="http://m17.com.ua/"><img src="images/partners/m17.jpg"></a></li>
-          <li class="2012"><p>Friend</p><a href="http://helpteam.org.ua/"><img src="images/partners/helpteam.png"></a></li>
-          <li class="2012"><p>Friend</p><a href="http://oprstudio.com/"><img src="images/partners/opr.png"></a></li>
-          <li class="2012"><p>Info partner</p><a href="http://inspired.com.ua/"><img src="images/partners/inspired.jpg"></a></li>
-          <li class="2012"><p>Info partner</p><a href="http://business.ubg.ua/"><img src="images/partners/biz.png"></a></li>
-          <li class="2012"><p>Info partner</p><a href="http://www.businesslink.kiev.ua/"><img src="images/partners/bl.png"></a></li>
-          <li class="city"><p>Info partner</p><a href=""><img src="images/partners/stolicy.png"></a></li>
-          <li class="city"><p>Info partner</p><a href="http://www.2k.ua/"><img src="images/partners/Koz-Karta.jpg"></a></li>
-          <li class="city"><p>Info partner</p><a href="http://oon-rozvytok.com.ua/"><img src="images/partners/Logo_UNDP.jpg"></a></li>
+          <li class="2013"><p>Strategic partner</p><a data-href="http://fedoriv.com"><img src="images/partners/fedoriv_logo.jpg"></a></li>
+          <li class="2013"><p>Friend</p><a data-href="http://pactworld.org"><img src="images/partners/Pact_New.png"></a></li>
+          <li class="2013"><p>Digital partner</p><a data-href=" http://plusone.com.ua/"><img src="images/partners/plusone.png"></a></li>
+          <li class="2013 2010 2012"><p>Design partner</p><a data-href="http://babych.com.ua/"><img src="images/partners/dbabych.png"></a></li>
+          <li class="2013"><p>Art partner</p><a data-href=""><img src="images/partners/disorder.png"></a></li>
+          <li class="2013"><p>Mobile app development</p><a data-href="http://attendify.com/"><img src="images/partners/attendify_logo.png"></a></li>
+          <li class="2013"><p>Copywriting</p><a data-href="https://www.facebook.com/Theletterfactory?fref=ts"><img src="images/partners/the_letter_factory.png"></a></li>
+          <li class="2013"><p>PR support</p><a data-href="http://www.newsfront.com.ua"><img src="images/partners/newsfront.png"></a></li>
+          <li class="2013 2011 city"><p>Media -partner</p><a data-href="http://www.facebook.com/Focus.Editorial/"><img src="images/partners/focus.png"></a></li>
+          <li class="2013"><p>Web development</p><a data-href="http://pieoneers.com"><img src="images/partners/pieoneers.png"></a></li>
+          <li class="2013"><p>Streaming partner</p><a data-href=""><img src="images/partners/dekom.png"></a></li>
+          <li class="2013 2011"><p>Friend</p><a data-data-href="http://biggggidea.com"><img src="images/partners/biggggidea.png"></a></li>
+          <li class="2013 2012 2011"><p>Friend</p><a data-href="http://britishmba.in.ua"><img src="images/partners/EBS.png"></a></li>
+          <li class="2013"><p>Technical partner</p><a data-href="http://euromediacompany.com"><img src="images/partners/emc.png"></a></li>
+          <li class="2013"><p>Friend</p><a data-href="http://www.touchme.com.ua"><img src="images/partners/touchme.png"></a></li>
+          <li class="2013"><p>Friend</p><a data-href="http://www.management.com.ua"><img src="images/partners/management.png"></a></li>
+          <li class="2010 2009"><p>Info partner</p><a data-href="http://hh.ua"><img src="images/partners/hh.gif"></a></li>
+          <li class="2013 2011 2012"><p>Intellectual partner</p><a data-href="http://www.kmbs.ua/uk"><img src="images/partners/kmbs.png"></a></li>
+          <li class="2013"><p>Friends</p><a data-href="http://www.startupukraine.com"><img src="images/partners/startup_ukraine_one.png"></a></li>
+          <li class="2013 2011 2012"><p>Info-partner</p><a data-href="http://platfor.ma"><img src="images/partners/platforma.png"></a></li>
+          <li class="2009"><p>Friends</p><a data-href="http://www.i-klass.com"><img src="images/partners/iklass.png"></a></li>
+          <li class="2009"><a data-href="http://kraft.ua/"><img src="images/partners/kraft.gif"></a></li>
+          <li class="2009 2010 2011"><p>Info-partner</p><a data-href="http://svidomo.org"><img src="images/partners/svidomo.gif"></a></li>
+          <li class="2009 2010 2012 city"><p>Info-partner</p><a data-href="http://innovations.com.ua"><img src="images/partners/inn.jpg"></a></li>
+          <li class="2009"><p>Info-partner</p><a data-href="http://developers.org.ua"><img src="images/partners/logo-new.png"></a></li>
+          <li class="2009 2010"><a data-href="http://w2.com.ua"><img src="images/partners/w2.png"></a></li>
+          <li class="2013 2011 2012"><p>Friend</p><a data-href="http://greencubator.info"><img src="images/partners/greencubator.png"></a></li>
+          <li class="2009"><a data-href="http://www.chambertoastmasters.org/"><img src="images/partners/ChamberTM_Logo.gif"></a></li>
+          <li class="2009 2010 2011"><p>Friend</p><a data-href="http://hub.in.ua/"><img src="images/partners/hub.png"></a></li>
+          <li class="2009"><p>Friend</p><a data-href="http://www.c8.com.ua"><img src="images/partners/c8.jpg"></a></li>
+          <li class="2010"><p>Friend</p><a data-href="http://brandcom.com.ua/"><img src="images/partners/brandcom.png"></a></li>
+          <li class="2010"><p>Friend</p><a data-href="http://http://betv.com.ua/"><img src="images/partners/betv.png"></a></li>
+          <li class="2010"><p>Friend</p><a data-href="http://esg.ua/"><img src="images/partners/esg.png"></a></li>
+          <li class="2010"><p>Friend</p><a data-href="http://ubr.ua/"><img src="images/partners/ubr.png"></a></li>
+          <li class="2010 2012"><a data-data-href="http://tochka.net/"><img src="images/partners/tochka.png"></a></li>
+          <li class="2010"><p>Info-partner</p><a data-href="http://strategy.com.ua/"><img src="images/partners/strategies.png"></a></li>
+          <li class="2010"><p>Info-partner</p><a data-href="http://pro-mova.com/"><img src="images/partners/promova.png"></a></li>
+          <li class="2010"><p>Friend</p><a data-href="http://www.toastmasters.org.ua/"><img src="images/partners/toastmasters.png"></a></li>
+          <li class="2010"><p>Info-partner</p><a data-href="http://companion.ua/"><img src="images/partners/companion.png"></a></li>
+          <li class="2010"><p>Info-partner</p><a data-href="http://day.kiev.ua/"><img src="images/partners/day.png"></a></li>
+          <li class="2010 2012"><p>Strategic partner</p><a data-href="http://egoisty.com/"><img src="images/partners/egoisty.png"></a></li>
+          <li class="2010"><p>Friend</p><a data-href="http://prostoprint.com/"><img src="images/partners/prostoprint.png"></a></li>
+          <li class="2010"><p>Friend</p><a data-href="http://www.ManekiBook.com/"><img src="images/partners/manekibook.png"></a></li>
+          <li class="2010"><p>Info-partner</p><a data-href="http://medianext-ua.livejournal.com/"><img src="images/partners/medianext.png"></a></li>
+          <li class="2010"><p>Info-partner</p><a data-href="http://mmr.net.ua/"><img src="images/partners/mmr.png"></a></li>
+          <li class="2011 2012"><p>Strategic partner</p><a data-href="http://www.erstebank.ua/"><img src="images/partners/erste.png"></a></li>
+          <li class="2011"><p>Friend</p><a data-href="http://masterklass.org/ukr/"><img src="images/partners/master-klass.png"></a></li>
+          <li class="2011 2012"><p>Friend</p><a data-href="http://www.facebook.com/ProdigiDigitalAgency/"><img src="images/partners/prodigi.jpg"></a></li>
+          <li class="2011"><p>Friend</p><a data-href="http://territory.com.ua/"><img src="images/partners/territory.jpg"></a></li>
+          <li class="2011"><p>Friend</p><a data-href="http://grammarly.com/"><img src="images/partners/grammarly.png"></a></li>
+          <li class="2011"><p>Friend</p><a data-href="http://zakaz.ua/"><img src="images/partners/Zakaz.ua.png"></a></li>
+          <li class="2011"><p>Info partner</p><a data-href="http://www.gmcua.com/"><img src="images/partners/gmc.png"></a></li>
+          <li class="2011"><p>Info partner</p><a data-href="http://entrepreholic.com.ua/"><img src="images/partners/cisco.png"></a></li>
+          <li class="2011"><p>Info partner</p><a data-href="http://lb.ua/"><img src="images/partners/lb.png"></a></li>
+          <li class="2011"><p>Info partner</p><a data-href="http://kei.org.ua/"><img src="images/partners/kei.png"></a></li>
+          <li class="2012"><p>Friend</p><a data-href="http://koktebel.info/"><img src="images/partners/kokt.jpg"></a></li>
+          <li class="2012"><p>Friend</p><a data-href="http://cdn.ua/"><img src="images/partners/cdn.jpg"></a></li>
+          <li class="2012"><p>Friend</p><a data-href="http://m17.com.ua/"><img src="images/partners/m17.jpg"></a></li>
+          <li class="2012"><p>Friend</p><a data-href="http://helpteam.org.ua/"><img src="images/partners/helpteam.png"></a></li>
+          <li class="2012"><p>Friend</p><a data-href="http://oprstudio.com/"><img src="images/partners/opr.png"></a></li>
+          <li class="2012"><p>Info partner</p><a data-href="http://inspired.com.ua/"><img src="images/partners/inspired.jpg"></a></li>
+          <li class="2012"><p>Info partner</p><a data-href="http://business.ubg.ua/"><img src="images/partners/biz.png"></a></li>
+          <li class="2012"><p>Info partner</p><a data-href="http://www.businesslink.kiev.ua/"><img src="images/partners/bl.png"></a></li>
+          <li class="city"><p>Info partner</p><a data-href=""><img src="images/partners/stolicy.png"></a></li>
+          <li class="city"><p>Info partner</p><a data-href="http://www.2k.ua/"><img src="images/partners/Koz-Karta.jpg"></a></li>
+          <li class="city"><p>Info partner</p><a data-href="http://oon-rozvytok.com.ua/"><img src="images/partners/Logo_UNDP.jpg"></a></li>
         </ul>
       </div><!-- #container-->
       <div id="hfooter"></div>
