@@ -1072,7 +1072,7 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 0 15px;
   vertical-align: top;
   display: inline-block;
-  height: 100%  !important;
+  height: 100% !important;
 }
 /* line 133, ../sass/about.scss */
 #container.a .content .history .chronology ul li:first-child {
@@ -2088,11 +2088,7 @@ html body #footer .inner .social .pieoneers:hover {
   width: 170px;
   height: 110px;
 }
-/* line 21, ../sass/lists.scss */
-#container.l ul.partner_list li a img {
-  display: block !important;
-}
-/* line 26, ../sass/lists.scss */
+/* line 22, ../sass/lists.scss */
 #container.l ul.partner_list li p {
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -2101,41 +2097,41 @@ html body #footer .inner .social .pieoneers:hover {
   display: none;
 }
 
-/* line 37, ../sass/lists.scss */
+/* line 33, ../sass/lists.scss */
 #container.p .banner {
   background: url(../images/banner_photos.jpg) 50% 50%;
   height: 291px !important;
 }
-/* line 41, ../sass/lists.scss */
+/* line 37, ../sass/lists.scss */
 #container.p article {
   width: 100%;
 }
-/* line 43, ../sass/lists.scss */
+/* line 39, ../sass/lists.scss */
 #container.p article h2 {
   border: none;
   margin-bottom: 0;
 }
-/* line 46, ../sass/lists.scss */
+/* line 42, ../sass/lists.scss */
 #container.p article h2 ul {
   left: 0px;
 }
-/* line 49, ../sass/lists.scss */
+/* line 45, ../sass/lists.scss */
 #container.p article h2 ul.e2009 {
   left: 432px;
 }
-/* line 52, ../sass/lists.scss */
+/* line 48, ../sass/lists.scss */
 #container.p article h2 ul.e2010 {
   left: 324px;
 }
-/* line 55, ../sass/lists.scss */
+/* line 51, ../sass/lists.scss */
 #container.p article h2 ul.e2011 {
   left: 216px;
 }
-/* line 58, ../sass/lists.scss */
+/* line 54, ../sass/lists.scss */
 #container.p article h2 ul.e2012 {
   left: 108px;
 }
-/* line 61, ../sass/lists.scss */
+/* line 57, ../sass/lists.scss */
 #container.p article h2 ul li {
   font-family: Bebas_Neue_Cyrillic;
   color: #666666;
@@ -2144,7 +2140,7 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 0 24px 10px;
   display: inline-block;
 }
-/* line 69, ../sass/lists.scss */
+/* line 65, ../sass/lists.scss */
 #container.p article h2 ul li span {
   display: block;
   text-align: center;
@@ -2152,20 +2148,20 @@ html body #footer .inner .social .pieoneers:hover {
   top: -10px;
   color: #666666;
 }
-/* line 77, ../sass/lists.scss */
+/* line 73, ../sass/lists.scss */
 #container.p article h2 ul li.active {
   color: red;
   opacity: 1;
 }
-/* line 81, ../sass/lists.scss */
+/* line 77, ../sass/lists.scss */
 #container.p article h2 ul li.active span {
   color: red;
 }
-/* line 88, ../sass/lists.scss */
+/* line 84, ../sass/lists.scss */
 #container.p article h3 {
   text-align: center;
 }
-/* line 90, ../sass/lists.scss */
+/* line 86, ../sass/lists.scss */
 #container.p article h3 span:nth-child(1) {
   background: rgba(102, 102, 102, 0.5);
   color: white;
@@ -2174,15 +2170,15 @@ html body #footer .inner .social .pieoneers:hover {
   padding: 7px 15px;
   top: -2px;
 }
-/* line 98, ../sass/lists.scss */
+/* line 94, ../sass/lists.scss */
 #container.p article h3 span:nth-child(2) {
   color: red;
 }
-/* line 102, ../sass/lists.scss */
+/* line 98, ../sass/lists.scss */
 #container.p article .gallery {
   margin-bottom: 40px;
 }
-/* line 105, ../sass/lists.scss */
+/* line 101, ../sass/lists.scss */
 #container.p article .gallery a {
   display: inline-block;
   width: 150px;
@@ -2192,25 +2188,25 @@ html body #footer .inner .social .pieoneers:hover {
   vertical-align: top;
   margin: 6px 4px;
 }
-/* line 115, ../sass/lists.scss */
+/* line 111, ../sass/lists.scss */
 #container.p article .video_gallery {
   margin-bottom: 40px;
 }
-/* line 118, ../sass/lists.scss */
+/* line 114, ../sass/lists.scss */
 #container.p article .video_gallery li {
   display: inline-block;
   margin: 0 5px 20px;
 }
-/* line 121, ../sass/lists.scss */
+/* line 117, ../sass/lists.scss */
 #container.p article .video_gallery li a {
   display: block;
   margin-bottom: 15px;
 }
-/* line 126, ../sass/lists.scss */
+/* line 122, ../sass/lists.scss */
 #container.p article .video_gallery li a:hover img {
   opacity: 0.8;
 }
-/* line 132, ../sass/lists.scss */
+/* line 128, ../sass/lists.scss */
 #container.p article .video_gallery li a span.play {
   width: 81px;
   height: 61px;
@@ -2221,21 +2217,21 @@ html body #footer .inner .social .pieoneers:hover {
   margin: -30px 0 0 -40px;
   top: 50%;
 }
-/* line 142, ../sass/lists.scss */
+/* line 138, ../sass/lists.scss */
 #container.p article .video_gallery li a img {
   width: 309px;
 }
-/* line 145, ../sass/lists.scss */
+/* line 141, ../sass/lists.scss */
 #container.p article .video_gallery li a img:hover {
   opacity: 0.8;
 }
-/* line 150, ../sass/lists.scss */
+/* line 146, ../sass/lists.scss */
 #container.p article .video_gallery li .speaker_icon {
   vertical-align: top;
   display: inline-block;
   margin-right: 15px;
 }
-/* line 155, ../sass/lists.scss */
+/* line 151, ../sass/lists.scss */
 #container.p article .video_gallery li p {
   vertical-align: top;
   display: inline-block;
@@ -2243,20 +2239,20 @@ html body #footer .inner .social .pieoneers:hover {
   font-size: 10pt;
   width: 248px;
 }
-/* line 162, ../sass/lists.scss */
+/* line 158, ../sass/lists.scss */
 #container.p article .video_gallery li p span {
   display: block;
   font-size: 12pt;
   font-weight: bold;
 }
 
-/* line 173, ../sass/lists.scss */
+/* line 169, ../sass/lists.scss */
 #container.v .banner {
   background: url(../images/banner_events.jpg) 50% 50%;
   height: 291px !important;
 }
 
-/* line 182, ../sass/lists.scss */
+/* line 178, ../sass/lists.scss */
 #container.s div .speakers li {
   display: inline-block;
   padding: 10px;
@@ -2265,17 +2261,17 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 0 5px 40px;
   vertical-align: top;
 }
-/* line 191, ../sass/lists.scss */
+/* line 187, ../sass/lists.scss */
 #container.s div .speakers li:hover a {
   visibility: visible;
 }
-/* line 196, ../sass/lists.scss */
+/* line 192, ../sass/lists.scss */
 #container.s div .speakers li img {
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 201, ../sass/lists.scss */
+/* line 197, ../sass/lists.scss */
 #container.s div .speakers li .theme {
   color: white;
   text-decoration: none;
@@ -2290,14 +2286,14 @@ html body #footer .inner .social .pieoneers:hover {
   line-height: 11pt;
   cursor: pointer;
 }
-/* line 215, ../sass/lists.scss */
+/* line 211, ../sass/lists.scss */
 #container.s div .speakers li .theme span {
   text-transform: uppercase;
   font-size: 7.5pt;
   display: block;
   margin-bottom: 30px;
 }
-/* line 222, ../sass/lists.scss */
+/* line 218, ../sass/lists.scss */
 #container.s div .speakers li .speaker_name {
   font-size: 10pt;
   text-transform: uppercase;
@@ -2307,15 +2303,15 @@ html body #footer .inner .social .pieoneers:hover {
   width: 100%;
   text-align: center;
 }
-/* line 233, ../sass/lists.scss */
+/* line 229, ../sass/lists.scss */
 #container.s div .speech_description {
   margin: 0 !important;
 }
-/* line 236, ../sass/lists.scss */
+/* line 232, ../sass/lists.scss */
 #container.s div .speech_description span {
   background: none !important;
 }
-/* line 239, ../sass/lists.scss */
+/* line 235, ../sass/lists.scss */
 #container.s div .speech_description iframe {
   margin: 20px 0 40px;
   left: 50%;
