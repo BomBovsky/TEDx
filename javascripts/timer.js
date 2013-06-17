@@ -37,6 +37,6 @@ function remaining_timeIn(){
     document.getElementById('remaining_time').innerHTML = "<p class='remaining_time'>"+RemainsFullDays+"<span>"+days+"</span>"+RemainsFullHours+":"+RemainsMinutes+":"+lastSec+"</p><p class='subject'>До початку конференції</p>";
     setTimeout("remaining_timeIn()",10);
   }
-  else {document.getElementById('remaining_time').innerHTML = "<p class='it_has_begun'>Конференцiя розпочалася!</p>";}
+  else {document.getElementById('remaining_time').innerHTML = "<p class='it_has_begun'>Конференція відбулася!</p>";}
 }
 remaining_timeIn();
