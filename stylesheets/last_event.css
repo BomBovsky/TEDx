@@ -33,6 +33,11 @@
   background-image: url(../images/eventCity2_0.jpg);
 }
 /* line 28, ../sass/last_event.scss */
+#container.le .e2013 {
+  background-image: url(../images/TEDXKyiv2013_finish.png);
+  height: 235px !important;
+}
+/* line 32, ../sass/last_event.scss */
 #container.le .wo_nav {
   height: 170px !important;
 }

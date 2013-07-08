@@ -1,5 +1,17 @@
 #container.i{
   min-height: 1700px;
+  .banner{
+    background: url(../images/TEDXKyiv2013_finish.png) no-repeat 50% 50%;
+    height: 340px;
+
+    a {
+      position: absolute;
+      display: block;
+      top: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
 
   .about {
     margin-bottom: 60px;
@@ -14,6 +26,9 @@
     }
     ul.add {
       margin-bottom: 358px;
+    }
+    .add_box {
+      margin-top: 365px;
     }
   }
 }

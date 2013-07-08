@@ -840,22 +840,39 @@ html body #footer .inner .social .pieoneers:hover {
 #container.i {
   min-height: 1700px;
 }
-/* line 4, ../sass/index.scss */
+/* line 3, ../sass/index.scss */
+#container.i .banner {
+  background: url(../images/TEDXKyiv2013_finish.png) no-repeat 50% 50%;
+  height: 340px;
+}
+/* line 7, ../sass/index.scss */
+#container.i .banner a {
+  position: absolute;
+  display: block;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+/* line 16, ../sass/index.scss */
 #container.i .about {
   margin-bottom: 60px;
 }
-/* line 7, ../sass/index.scss */
+/* line 19, ../sass/index.scss */
 #container.i .speakers {
   z-index: 100;
   padding-bottom: 27px;
 }
-/* line 12, ../sass/index.scss */
+/* line 24, ../sass/index.scss */
 #container.i aside ul:first-child {
   margin: 59px 0 63px 52px;
 }
-/* line 15, ../sass/index.scss */
+/* line 27, ../sass/index.scss */
 #container.i aside ul.add {
   margin-bottom: 358px;
+}
+/* line 30, ../sass/index.scss */
+#container.i aside .add_box {
+  margin-top: 365px;
 }
 
 /* line 1, ../sass/events.scss */
@@ -1072,7 +1089,7 @@ html body #footer .inner .social .pieoneers:hover {
   margin: 0 15px;
   vertical-align: top;
   display: inline-block;
-  height: 100% !important;
+  height: 100%  !important;
 }
 /* line 133, ../sass/about.scss */
 #container.a .content .history .chronology ul li:first-child {
@@ -1591,6 +1608,11 @@ html body #footer .inner .social .pieoneers:hover {
   background-image: url(../images/eventCity2_0.jpg);
 }
 /* line 28, ../sass/last_event.scss */
+#container.le .e2013 {
+  background-image: url(../images/TEDXKyiv2013_finish.png);
+  height: 235px !important;
+}
+/* line 32, ../sass/last_event.scss */
 #container.le .wo_nav {
   height: 170px !important;
 }
