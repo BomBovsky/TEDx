@@ -707,8 +707,9 @@ html body #footer .inner .social span {
   display: block;
   font-size: 8pt;
   margin-bottom: 7px;
+  text-align: center;
 }
-/* line 591, ../sass/layout.scss */
+/* line 592, ../sass/layout.scss */
 html body #footer .inner .social .babich {
   display: inline-block;
   width: 97px;
@@ -716,18 +717,18 @@ html body #footer .inner .social .babich {
   background: url(../images/logo_d.babych.png) no-repeat;
   margin-right: 24px;
 }
-/* line 598, ../sass/layout.scss */
+/* line 599, ../sass/layout.scss */
 html body #footer .inner .social .babich:hover {
   background-position: 0 -32px;
 }
-/* line 602, ../sass/layout.scss */
+/* line 603, ../sass/layout.scss */
 html body #footer .inner .social .pieoneers {
   display: inline-block;
   width: 100px;
   height: 32px;
   background: url(../images/logo_pieoneers.png) no-repeat;
 }
-/* line 608, ../sass/layout.scss */
+/* line 609, ../sass/layout.scss */
 html body #footer .inner .social .pieoneers:hover {
   background-position: 0 -32px;
 }
